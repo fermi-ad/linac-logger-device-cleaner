@@ -13,7 +13,7 @@ import pathlib
 lines = []
 reg = '\s+Lina[c234]\s+'
 column_width = 37
-path = str(pathlib.Path(__file__).parent.absolute()) + '/'
+path = str(pathlib.Path(__file__).parent.absolute()) + '/data_logger_device_dump'
 
 for filepath in glob.glob(os.path.join(path, '*.bin')):
     with open(filepath) as f:
