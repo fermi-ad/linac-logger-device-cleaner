@@ -5,8 +5,8 @@ import os
 from pathlib import Path
 import re
 
-re_loggers = re.compile('\s+Lina[c234]\s+')
-re_device = re.compile('^\w[:|_]\w{1,14}\[*\d*\]*$')
+re_loggers = re.compile(r'\s+Lina[c234]\s+')
+re_device = re.compile(r'^\w[:|_]\w{1,14}\[*\d*\]*$')
 column_width = 37
 project_dir = Path('.')
 input_dir = os.path.join(project_dir, 'data_logger_device_dump')
