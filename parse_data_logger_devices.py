@@ -27,4 +27,6 @@ for filepath in glob.glob(os.path.join(path, '*.bin')):
                     column = re.split(reg, stripped_column)
                     if stripped_column != "":
                         lines.append(column)
-print(lines)
+
+for line in lines:
+    print(line[0])
