@@ -1,0 +1,3598 @@
+Bad device name (L:MTAF01) at line number 178
+Bad device name (L:MTAP01) at line number 521
+Bad device name (Z:TION) at line number 625
+Bad device name (L:MTAT02) at line number 643
+Bad device name (L:MTAT01) at line number 746
+Bad device name (L:MTAP02) at line number 788
+Bad device name (Z:TMTEMP) at line number 804
+Logger lists containing L:LDSDET = 1
+Name     Node   List        Data Event
+L:LDSDET Linac  15 Sec   15 p,15000,true
+Logger lists containing L:W6FPGM = 1
+Name     Node   List        Data Event
+L:W6FPGM Linac  15 Sec   14 p,15000,true
+Logger lists containing L:NTF1BD = 1
+Name     Node   List        Data Event
+L:NTF1BD Linac  30 Sec    4 p,30000,true
+Logger lists containing L:C4PHOF = 1
+Name     Node   List        Data Event
+L:C4PHOF Linac  2 Min     6 p,120000,true
+Logger lists containing L:V6VP1 = 1
+Name    Node   List        Data Event
+L:V6VP1 Linac  15 Sec   15 p,15000,true
+Logger lists containing L:W1DTC2 = 1
+Name     Node   List        Data Event
+L:W1DTC2 Linac  30 Sec    4 p,30000,true
+Logger lists containing L:L6STMP = 1
+Name     Node   List        Data Event
+L:L6STMP Linac  2 Min     6 p,120000,true
+Logger lists containing L:W4MFLW = 1
+Name     Node   List        Data Event
+L:W4MFLW Linac  15 Sec   12 p,15000,true
+Logger lists containing L:K2WG1P = 1
+Name     Node   List        Data Event
+L:K2WG1P Linac  15 Sec   16 p,15000,true
+Logger lists containing L:AIG = 5
+Name  Node   List        Data Event
+L:AIG Ctrls  15 Hz    15 p,66,true
+L:AIG Linac  Event     8 e,52,e,0
+L:AIG Bstr2  15 Sec   13 p,15000,true
+L:AIG Bstr2  1 Sec    14 p,1000,true
+L:AIG DCE46  15 Hz    15 p,66,true
+Logger lists containing L:BPH4IN = 4
+Name     Node   List        Data Event
+L:BPH4IN Linac  Event     3 e,09,e,0
+L:BPH4IN Lina2  30 Sec    9 p,30000,true
+L:BPH4IN BClk   Event     8 e,52,e,0
+L:BPH4IN Lina3  Event     7 e,0A,e,0
+Logger lists containing L:K0BWF = 1
+Name    Node   List        Data Event
+L:K0BWF Linac  2 Min     0 p,120000,true
+Logger lists containing L:DELM5 = 3
+Name    Node   List        Data Event
+L:DELM5 Linac  Event     9 e,0A,e,0
+L:DELM5 BClk   Event     9 e,52,e,0
+L:DELM5 Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:Q126P9 = 1
+Name     Node   List        Data Event
+L:Q126P9 Linac  15 Sec   15 p,15000,true
+Logger lists containing L:M8CDQV = 1
+Name     Node   List        Data Event
+L:M8CDQV Linac  2 Min     1 p,120000,true
+Logger lists containing L:V6VPAB = 2
+Name     Node   List        Data Event
+L:V6VPAB Linac  2 Min     6 p,120000,true
+L:V6VPAB Linac  15 Sec   12 p,15000,true
+Logger lists containing L:V3VP1 = 1
+Name    Node   List        Data Event
+L:V3VP1 Linac  15 Sec   15 p,15000,true
+Logger lists containing L:WVTAVG = 1
+Name     Node   List        Data Event
+L:WVTAVG Linac  30 Sec    4 p,30000,true
+Logger lists containing L:BPV201 = 3
+Name     Node   List        Data Event
+L:BPV201 Linac  Event    11 e,0A,e,0
+L:BPV201 Linac  15 Sec   17 p,15000,true
+L:BPV201 Lina3  Event     9 e,0A,e,0
+Logger lists containing L:V1SGRD = 4
+Name     Node   List        Data Event
+L:V1SGRD Linac  Event    11 e,52,e,0
+L:V1SGRD LLRF   1 Min     0 p,60000,true
+L:V1SGRD LLRF   Event    16 e,0A,e,0
+L:V1SGRD Lina4  15 Hz    12 p,66,true
+Logger lists containing L:WK2RES = 1
+Name     Node   List        Data Event
+L:WK2RES Linac  2 Min     2 p,120000,true
+Logger lists containing B:BQ2F = 1
+Name   Node   List        Data Event
+B:BQ2F Linac  Event    11 e,52,e,0
+Logger lists containing L:C7GRAD = 3
+Name     Node   List        Data Event
+L:C7GRAD Linac  Event     8 e,52,e,0
+L:C7GRAD Linac  15 Sec   16 p,15000,true
+L:C7GRAD Lina4  15 Hz    13 p,66,true
+Logger lists containing L:V1SFWD = 3
+Name     Node   List        Data Event
+L:V1SFWD Linac  Event    11 e,52,e,0
+L:V1SFWD LLRF   1 Min     0 p,60000,true
+L:V1SFWD LLRF   Event    16 e,0A,e,0
+Logger lists containing L:T3VACH = 2
+Name     Node   List        Data Event
+L:T3VACH Linac  15 Sec   13 p,15000,true
+L:T3VACH Lina4  15 Hz    16 p,66,true
+Logger lists containing L:W6CTMP = 1
+Name     Node   List        Data Event
+L:W6CTMP Linac  15 Sec   15 p,15000,true
+Logger lists containing L:CX2 = 1
+Name  Node   List        Data Event
+L:CX2 Linac  15 Sec    5 p,15000,true
+Logger lists containing L:CDPHAS = 3
+Name     Node   List        Data Event
+L:CDPHAS Linac  Event     8 e,52,e,0
+L:CDPHAS MCR    1 Min     1 p,60000,true
+L:CDPHAS Lina4  15 Hz    13 p,66,true
+Logger lists containing L:MD1OI = 2
+Name    Node   List        Data Event
+L:MD1OI Linac  15 Sec   12 p,15000,true
+L:MD1OI Lina3  1 Sec     3 p,1000,true
+Logger lists containing L:VT4002 = 1
+Name     Node   List        Data Event
+L:VT4002 Linac  15 Sec   17 p,15000,true
+Logger lists containing L:DR1F = 3
+Name   Node   List        Data Event
+L:DR1F Linac  15 Sec   15 p,15000,true
+L:DR1F LLRF   2 Min     4 p,120000,true
+L:DR1F Lina4  15 Hz    12 p,66,true
+Logger lists containing L:K4VAC = 2
+Name    Node   List        Data Event
+L:K4VAC Linac  2 Min     1 p,120000,true
+L:K4VAC Lina3  1 Sec     3 p,1000,true
+Logger lists containing L:D04TMV = 1
+Name     Node   List        Data Event
+L:D04TMV Linac  15 Sec   17 p,15000,true
+Logger lists containing L:K6SWFB = 1
+Name     Node   List        Data Event
+L:K6SWFB Linac  2 Min     0 p,120000,true
+Logger lists containing L:M2PFNV = 1
+Name     Node   List        Data Event
+L:M2PFNV Linac  2 Min     7 p,120000,true
+Logger lists containing L:QD3 = 1
+Name  Node   List        Data Event
+L:QD3 Linac  15 Sec   17 p,15000,true
+Logger lists containing L:TORSO = 4
+Name    Node   List        Data Event
+L:TORSO Clcck  Event    13 e,0A,e,0
+L:TORSO Inst3  15 Sec   12 p,15000,true
+L:TORSO Linac  Event    11 e,0A,e,0
+L:TORSO Linac  15 Sec   13 p,15000,true
+Logger lists containing L:D2TOR = 2
+Name    Node   List        Data Event
+L:D2TOR Linac  Event     8 e,52,e,0
+L:D2TOR Linac  15 Sec   14 p,15000,true
+Logger lists containing L:C0PHAS = 3
+Name     Node   List        Data Event
+L:C0PHAS Mau    2 Min    11 p,120000,true
+L:C0PHAS Linac  Event     8 e,52,e,0
+L:C0PHAS Lina4  15 Hz    13 p,66,true
+Logger lists containing L:RFQPHS = 4
+Name     Node   List        Data Event
+L:RFQPHS Ctrls  15 Hz    13 p,66,true
+L:RFQPHS Linac  Event    10 e,52,e,0
+L:RFQPHS MCR    Event    17 e,22,e,0
+L:RFQPHS DCE46  15 Hz    13 p,66,true
+Logger lists containing L|B7MODR = 1
+Name     Node   List        Data Event
+L|B7MODR Linac  Event    11 e,52,e,0
+Logger lists containing L:K8FILI = 1
+Name     Node   List        Data Event
+L:K8FILI Linac  15 Sec   13 p,15000,true
+Logger lists containing L:D62LM = 4
+Name    Node   List        Data Event
+L:D62LM Linac  Event     9 e,0A,e,0
+L:D62LM Linac  Event    10 e,52,e,0
+L:D62LM BClk   Event     9 e,52,e,0
+L:D62LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:L0STMP = 1
+Name     Node   List        Data Event
+L:L0STMP Linac  2 Min     7 p,120000,true
+Logger lists containing L:K7RHUM = 1
+Name     Node   List        Data Event
+L:K7RHUM Linac  2 Min     1 p,120000,true
+Logger lists containing L:V2STKQ = 4
+Name     Node   List        Data Event
+L:V2STKQ Ctrls  15 Hz    13 p,66,true
+L:V2STKQ Linac  Event     3 e,52,e,0
+L:V2STKQ Lina2  15 Sec   14 p,15000,true
+L:V2STKQ DCE46  15 Hz    13 p,66,true
+Logger lists containing L:W4FPGM = 1
+Name     Node   List        Data Event
+L:W4FPGM Linac  15 Sec   14 p,15000,true
+Logger lists containing L:CHS2 = 1
+Name   Node   List        Data Event
+L:CHS2 Linac  2 Min     6 p,120000,true
+Logger lists containing L:C4GRAD = 3
+Name     Node   List        Data Event
+L:C4GRAD Linac  Event     8 e,52,e,0
+L:C4GRAD Linac  15 Sec   16 p,15000,true
+L:C4GRAD Lina4  15 Hz    13 p,66,true
+Logger lists containing L:PA5F = 4
+Name   Node   List        Data Event
+L:PA5F Linac  Event     3 e,52,e,0
+L:PA5F Lina2  1 Sec     1 p,1000,true
+L:PA5F LLRF   2 Min     4 p,120000,true
+L:PA5F Lina4  15 Hz    12 p,66,true
+Logger lists containing L:WDPDIS = 1
+Name     Node   List        Data Event
+L:WDPDIS Linac  2 Min     0 p,120000,true
+Logger lists containing Z:TVTEMP = 1
+Name     Node   List        Data Event
+Z:TVTEMP Linac  15 Sec   16 p,15000,true
+Logger lists containing L:WVMTMP = 1
+Name     Node   List        Data Event
+L:WVMTMP Linac  15 Sec   12 p,15000,true
+Logger lists containing L:W4CTMP = 1
+Name     Node   List        Data Event
+L:W4CTMP Linac  15 Sec   15 p,15000,true
+Logger lists containing L:K2SOL1 = 1
+Name     Node   List        Data Event
+L:K2SOL1 Linac  15 Sec    5 p,15000,true
+Logger lists containing L:C2PHAS = 2
+Name     Node   List        Data Event
+L:C2PHAS Linac  Event     8 e,52,e,0
+L:C2PHAS Lina4  15 Hz    13 p,66,true
+Logger lists containing L:C3VPCD = 1
+Name     Node   List        Data Event
+L:C3VPCD Linac  15 Sec   12 p,15000,true
+Logger lists containing L:DR3F = 3
+Name   Node   List        Data Event
+L:DR3F Linac  15 Sec   15 p,15000,true
+L:DR3F LLRF   2 Min     4 p,120000,true
+L:DR3F Lina4  15 Hz    12 p,66,true
+Logger lists containing L:L3PADJ = 2
+Name     Node   List        Data Event
+L:L3PADJ Linac  2 Min     7 p,120000,true
+L:L3PADJ Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:PA4F = 4
+Name   Node   List        Data Event
+L:PA4F Linac  Event     8 e,52,e,0
+L:PA4F Lina2  1 Sec     1 p,1000,true
+L:PA4F LLRF   2 Min     4 p,120000,true
+L:PA4F Lina4  15 Hz    12 p,66,true
+Logger lists containing L:W5FERR = 2
+Name     Node   List        Data Event
+L:W5FERR Linac  15 Sec   13 p,15000,true
+L:W5FERR Lina4  1 Hz      1 p,1000,true
+Logger lists containing L:GR1LO = 1
+Name    Node   List        Data Event
+L:GR1LO Linac  Event    11 e,52,e,0
+Logger lists containing L:K1RHUM = 1
+Name     Node   List        Data Event
+L:K1RHUM Linac  2 Min     1 p,120000,true
+Logger lists containing Z:TSTEMP = 1
+Name     Node   List        Data Event
+Z:TSTEMP Linac  15 Sec   16 p,15000,true
+Logger lists containing L:RF1TEM = 1
+Name     Node   List        Data Event
+L:RF1TEM Linac  2 Min     6 p,120000,true
+Logger lists containing L:V2SQ = 4
+Name   Node   List        Data Event
+L:V2SQ Linac  Event    10 e,52,e,0
+L:V2SQ Linac  Event    11 e,0A,e,0
+L:V2SQ LLRF   1 Min     0 p,60000,true
+L:V2SQ LLRF   1 Hz      6 p,1000,true
+Logger lists containing L:D22BPV = 4
+Name     Node   List        Data Event
+L:D22BPV Linac  Event     9 e,0A,e,0
+L:D22BPV Lina2  30 Sec    9 p,30000,true
+L:D22BPV BClk   Event     8 e,52,e,0
+L:D22BPV Lina3  Event     8 e,0A,e,0
+Logger lists containing L:BLCC = 5
+Name   Node   List        Data Event
+L:BLCC Tev2   1 Sec     9 p,1000,true
+L:BLCC Ctrls  15 Hz    15 p,66,true
+L:BLCC Linac  Event    11 e,52,e,0
+L:BLCC Bstr2  15 Sec   12 p,15000,true
+L:BLCC DCE46  15 Hz    15 p,66,true
+Logger lists containing B_CTOFFC = 1
+Name     Node   List        Data Event
+B_CTOFFC Linac  2 Min     0 p,120000,true
+Logger lists containing L:V3SAFF = 5
+Name     Node   List        Data Event
+L:V3SAFF Ctrls  15 Hz    15 p,66,true
+L:V3SAFF Linac  Event    10 e,52,e,0
+L:V3SAFF Linac  Event    11 e,0A,e,0
+L:V3SAFF LLRF   1 Min     0 p,60000,true
+L:V3SAFF DCE46  15 Hz    15 p,66,true
+Logger lists containing L:K8XWF = 1
+Name    Node   List        Data Event
+L:K8XWF Linac  15 Sec   13 p,15000,true
+Logger lists containing L:AGASV = 3
+Name    Node   List        Data Event
+L:AGASV Hins   15 Hz     8 p,66,true
+L:AGASV Linac  Event    11 e,52,e,0
+L:AGASV Lina3  15 Sec   15 p,15000,true
+Logger lists containing B:HPLAM = 3
+Name    Node   List        Data Event
+B:HPLAM Bstr   15 Sec   13 p,15000,true
+B:HPLAM Linac  Event     3 e,0A,e,0
+B:HPLAM Lina3  Event     8 e,52,e,0
+Logger lists containing L:INBPHS = 2
+Name     Node   List        Data Event
+L:INBPHS Linac  Event    11 e,0A,e,0
+L:INBPHS Linac  15 Sec   16 p,15000,true
+Logger lists containing L:K0CTEM = 1
+Name     Node   List        Data Event
+L:K0CTEM Linac  2 Min     2 p,120000,true
+Logger lists containing L:L7STMP = 1
+Name     Node   List        Data Event
+L:L7STMP Linac  2 Min     6 p,120000,true
+Logger lists containing L:K3SWFB = 1
+Name     Node   List        Data Event
+L:K3SWFB Linac  2 Min     0 p,120000,true
+Logger lists containing L:D4PHAS = 1
+Name     Node   List        Data Event
+L:D4PHAS Linac  Event    10 e,52,e,0
+Logger lists containing L:Q12 = 2
+Name  Node   List        Data Event
+L:Q12 Linac  2 Min     1 p,120000,true
+L:Q12 Linac  Event    10 e,52,e,0
+Logger lists containing L:Q21 = 1
+Name  Node   List        Data Event
+L:Q21 Linac  2 Min     2 p,120000,true
+Logger lists containing L:K3SWFA = 1
+Name     Node   List        Data Event
+L:K3SWFA Linac  2 Min     0 p,120000,true
+Logger lists containing L:D7APWL = 1
+Name     Node   List        Data Event
+L:D7APWL Linac  Event    10 e,52,e,0
+Logger lists containing L:KVGUNI = 1
+Name     Node   List        Data Event
+L:KVGUNI Linac  15 Sec   14 p,15000,true
+Logger lists containing L:RF1PAV = 2
+Name     Node   List        Data Event
+L:RF1PAV Linac  30 Sec    4 p,30000,true
+L:RF1PAV Lina3  10 Sec    4 p,10000,true
+Logger lists containing L:STH2 = 1
+Name   Node   List        Data Event
+L:STH2 Linac  15 Sec   17 p,15000,true
+Logger lists containing L:C2VPAB = 1
+Name     Node   List        Data Event
+L:C2VPAB Linac  15 Sec   12 p,15000,true
+Logger lists containing L:T3VCC = 1
+Name    Node   List        Data Event
+L:T3VCC Linac  15 Sec    5 p,15000,true
+Logger lists containing L:T4VACL = 1
+Name     Node   List        Data Event
+L:T4VACL Linac  15 Sec   13 p,15000,true
+Logger lists containing L|V1VALV = 1
+Name     Node   List        Data Event
+L|V1VALV Linac  2 Min     1 p,120000,true
+Logger lists containing L:HT3IN = 1
+Name    Node   List        Data Event
+L:HT3IN Linac  15 Sec   13 p,15000,true
+Logger lists containing L:D74TMV = 3
+Name     Node   List        Data Event
+L:D74TMV Linac  Event     3 e,0A,e,0
+L:D74TMV Linac  15 Sec   17 p,15000,true
+L:D74TMV Lina2  2 Min    11 p,120000,true
+Logger lists containing L:L0PADJ = 2
+Name     Node   List        Data Event
+L:L0PADJ Linac  2 Min     7 p,120000,true
+L:L0PADJ Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:BGASO = 2
+Name    Node   List        Data Event
+L:BGASO Linac  Event    11 e,52,e,0
+L:BGASO Lina3  15 Sec   16 p,15000,true
+Logger lists containing L:M6CDQV = 1
+Name     Node   List        Data Event
+L:M6CDQV Linac  2 Min     0 p,120000,true
+Logger lists containing L:CVGRAD = 3
+Name     Node   List        Data Event
+L:CVGRAD Linac  Event     8 e,52,e,0
+L:CVGRAD Linac  15 Sec   16 p,15000,true
+L:CVGRAD Lina4  15 Hz    13 p,66,true
+Logger lists containing L:M3PFNV = 1
+Name     Node   List        Data Event
+L:M3PFNV Linac  2 Min     7 p,120000,true
+Logger lists containing L:M6CSWF = 1
+Name     Node   List        Data Event
+L:M6CSWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:BPV4IN = 4
+Name     Node   List        Data Event
+L:BPV4IN Linac  Event     3 e,09,e,0
+L:BPV4IN Lina2  30 Sec    9 p,30000,true
+L:BPV4IN BClk   Event     8 e,52,e,0
+L:BPV4IN Lina3  Event     7 e,0A,e,0
+Logger lists containing L:M7CHRG = 1
+Name     Node   List        Data Event
+L:M7CHRG Linac  2 Min     6 p,120000,true
+Logger lists containing L:K6VAC = 2
+Name    Node   List        Data Event
+L:K6VAC Linac  2 Min     6 p,120000,true
+L:K6VAC Lina3  1 Sec     3 p,1000,true
+Logger lists containing L:SIPI05 = 1
+Name     Node   List        Data Event
+L:SIPI05 Linac  2 Min     2 p,120000,true
+Logger lists containing L:K0GUNI = 1
+Name     Node   List        Data Event
+L:K0GUNI Linac  15 Sec   14 p,15000,true
+Logger lists containing L:C2VAC = 1
+Name    Node   List        Data Event
+L:C2VAC Linac  30 Sec    4 p,30000,true
+Logger lists containing L:W5TAVG = 1
+Name     Node   List        Data Event
+L:W5TAVG Linac  30 Sec    4 p,30000,true
+Logger lists containing L:KVCWF = 1
+Name    Node   List        Data Event
+L:KVCWF Linac  2 Min     0 p,120000,true
+Logger lists containing L:K4GHUM = 1
+Name     Node   List        Data Event
+L:K4GHUM Linac  2 Min     1 p,120000,true
+Logger lists containing L:L8MDET = 1
+Name     Node   List        Data Event
+L:L8MDET Linac  15 Sec   15 p,15000,true
+Logger lists containing L:V4STKQ = 4
+Name     Node   List        Data Event
+L:V4STKQ Ctrls  15 Hz    13 p,66,true
+L:V4STKQ Linac  Event     3 e,52,e,0
+L:V4STKQ Lina2  15 Sec   14 p,15000,true
+L:V4STKQ DCE46  15 Hz    13 p,66,true
+Logger lists containing L:K5GUNV = 1
+Name     Node   List        Data Event
+L:K5GUNV Linac  15 Sec   14 p,15000,true
+Logger lists containing L:KVPERV = 1
+Name     Node   List        Data Event
+L:KVPERV Linac  2 Min     1 p,120000,true
+Logger lists containing L:HT4002 = 1
+Name     Node   List        Data Event
+L:HT4002 Linac  15 Sec   17 p,15000,true
+Logger lists containing L:V1VPAB = 1
+Name     Node   List        Data Event
+L:V1VPAB Linac  15 Sec   12 p,15000,true
+Logger lists containing L:M0SCRV = 1
+Name     Node   List        Data Event
+L:M0SCRV Linac  15 Sec   15 p,15000,true
+Logger lists containing L:M7PFNV = 1
+Name     Node   List        Data Event
+L:M7PFNV Linac  2 Min     6 p,120000,true
+Logger lists containing L:K3SPKR = 1
+Name     Node   List        Data Event
+L:K3SPKR Linac  2 Min     1 p,120000,true
+Logger lists containing L:W5FSET = 2
+Name     Node   List        Data Event
+L:W5FSET Linac  15 Sec   16 p,15000,true
+L:W5FSET Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:K3TBOT = 1
+Name     Node   List        Data Event
+L:K3TBOT Linac  2 Min     7 p,120000,true
+Logger lists containing L:ATOR = 6
+Name   Node   List        Data Event
+L:ATOR Ctrls  15 Hz    15 p,66,true
+L:ATOR Linac  Event    10 e,52,e,0
+L:ATOR MBoon  Event     1 e,1D,e,0
+L:ATOR BClk   Event     2 e,00,e,0
+L:ATOR Lina3  15 Sec   15 p,15000,true
+L:ATOR DCE46  15 Hz    15 p,66,true
+Logger lists containing L:H2LELB = 3
+Name     Node   List        Data Event
+L:H2LELB Ctrls  15 Hz    13 p,66,true
+L:H2LELB Linac  15 Sec   14 p,15000,true
+L:H2LELB DCE46  15 Hz    13 p,66,true
+Logger lists containing L:D71BPH = 4
+Name     Node   List        Data Event
+L:D71BPH Linac  Event     9 e,0A,e,0
+L:D71BPH Lina2  30 Sec    9 p,30000,true
+L:D71BPH BClk   Event     7 e,52,e,0
+L:D71BPH Lina3  Event     9 e,0A,e,0
+Logger lists containing L:DISTHS = 1
+Name     Node   List        Data Event
+L:DISTHS Linac  2 Min     6 p,120000,true
+Logger lists containing L:GR4MID = 6
+Name     Node   List        Data Event
+L:GR4MID Ctrls  15 Hz    15 p,66,true
+L:GR4MID Linac  Event     8 e,52,e,0
+L:GR4MID Linac  Event    11 e,0A,e,0
+L:GR4MID Lina2  1 Sec     1 p,1000,true
+L:GR4MID Lina2  2 Min    13 p,120000,true
+L:GR4MID DCE46  15 Hz    15 p,66,true
+Logger lists containing L:LDPADJ = 2
+Name     Node   List        Data Event
+L:LDPADJ Linac  30 Sec    4 p,30000,true
+L:LDPADJ Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:L5PADJ = 2
+Name     Node   List        Data Event
+L:L5PADJ Linac  2 Min     7 p,120000,true
+L:L5PADJ Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:KVXWF = 1
+Name    Node   List        Data Event
+L:KVXWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:K2TBOU = 1
+Name     Node   List        Data Event
+L:K2TBOU Linac  15 Sec   13 p,15000,true
+Logger lists containing L:M1CDQV = 2
+Name     Node   List        Data Event
+L:M1CDQV Linac  2 Min     0 p,120000,true
+L:M1CDQV Lina3  10 Sec    4 p,10000,true
+Logger lists containing L:V5STKQ = 4
+Name     Node   List        Data Event
+L:V5STKQ Ctrls  15 Hz    13 p,66,true
+L:V5STKQ Linac  Event     3 e,52,e,0
+L:V5STKQ Lina2  15 Sec   14 p,15000,true
+L:V5STKQ DCE46  15 Hz    13 p,66,true
+Logger lists containing L:TLML1 = 1
+Name    Node   List        Data Event
+L:TLML1 Linac  15 Sec   16 p,15000,true
+Logger lists containing L:C5PHOF = 1
+Name     Node   List        Data Event
+L:C5PHOF Linac  2 Min     6 p,120000,true
+Logger lists containing L:WK2RT = 1
+Name    Node   List        Data Event
+L:WK2RT Linac  30 Sec    4 p,30000,true
+Logger lists containing L:M5PWF = 1
+Name    Node   List        Data Event
+L:M5PWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:CDPHOF = 1
+Name     Node   List        Data Event
+L:CDPHOF Linac  2 Min     6 p,120000,true
+Logger lists containing L:D62TMV = 1
+Name     Node   List        Data Event
+L:D62TMV Linac  15 Sec   17 p,15000,true
+Logger lists containing L:D61TMH = 1
+Name     Node   List        Data Event
+L:D61TMH Linac  15 Sec   17 p,15000,true
+Logger lists containing L:K6SOL1 = 1
+Name     Node   List        Data Event
+L:K6SOL1 Linac  15 Sec    5 p,15000,true
+Logger lists containing L:Q64 = 1
+Name  Node   List        Data Event
+L:Q64 Linac  2 Min     2 p,120000,true
+Logger lists containing L|V6VALV = 1
+Name     Node   List        Data Event
+L|V6VALV Linac  2 Min     1 p,120000,true
+Logger lists containing Z:TEXTI = 1
+Name    Node   List        Data Event
+Z:TEXTI Linac  2 Min     2 p,120000,true
+Logger lists containing L:M6PWF = 1
+Name    Node   List        Data Event
+L:M6PWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:TORMDS = 2
+Name     Node   List        Data Event
+L:TORMDS Inst3  15 Sec   12 p,15000,true
+L:TORMDS Linac  15 Sec   13 p,15000,true
+Logger lists containing L:D42TMV = 1
+Name     Node   List        Data Event
+L:D42TMV Linac  15 Sec   17 p,15000,true
+Logger lists containing L:M8SECI = 1
+Name     Node   List        Data Event
+L:M8SECI Linac  2 Min     0 p,120000,true
+Logger lists containing L:WDTAVG = 1
+Name     Node   List        Data Event
+L:WDTAVG Linac  30 Sec    4 p,30000,true
+Logger lists containing L:W3FSET = 2
+Name     Node   List        Data Event
+L:W3FSET Linac  15 Sec   16 p,15000,true
+L:W3FSET Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:CX1HI = 1
+Name    Node   List        Data Event
+L:CX1HI Linac  15 Sec   17 p,15000,true
+Logger lists containing L:BPV3IN = 4
+Name     Node   List        Data Event
+L:BPV3IN Linac  Event     3 e,09,e,0
+L:BPV3IN Lina2  30 Sec    9 p,30000,true
+L:BPV3IN BClk   Event     8 e,52,e,0
+L:BPV3IN Lina3  Event     7 e,0A,e,0
+Logger lists containing L:M2CSWF = 1
+Name     Node   List        Data Event
+L:M2CSWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:TORSIS = 2
+Name     Node   List        Data Event
+L:TORSIS Inst3  15 Sec   12 p,15000,true
+L:TORSIS Linac  15 Sec   15 p,15000,true
+Logger lists containing L:TORSOS = 2
+Name     Node   List        Data Event
+L:TORSOS Inst3  15 Sec   12 p,15000,true
+L:TORSOS Linac  15 Sec   15 p,15000,true
+Logger lists containing L:D33LM = 3
+Name    Node   List        Data Event
+L:D33LM Clcck  Event    13 e,0A,e,0
+L:D33LM Linac  Event     8 e,52,e,0
+L:D33LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:K5TBIN = 1
+Name     Node   List        Data Event
+L:K5TBIN Linac  2 Min     0 p,120000,true
+Logger lists containing L:D7PHAS = 1
+Name     Node   List        Data Event
+L:D7PHAS Linac  Event    10 e,52,e,0
+Logger lists containing L:D02TMV = 1
+Name     Node   List        Data Event
+L:D02TMV Linac  15 Sec   17 p,15000,true
+Logger lists containing L:M5CHRG = 2
+Name     Node   List        Data Event
+L:M5CHRG Linac  2 Min     7 p,120000,true
+L:M5CHRG Lina3  Event     8 e,52,e,0
+Logger lists containing L:D7LMSM = 3
+Name     Node   List        Data Event
+L:D7LMSM Bstr   1 Min     8 p,60000,true
+L:D7LMSM Linac  Event     3 e,52,e,0
+L:D7LMSM Linac  Event     9 e,0A,e,0
+Logger lists containing L:D41TMV = 1
+Name     Node   List        Data Event
+L:D41TMV Linac  15 Sec   15 p,15000,true
+Logger lists containing L:D7TOR = 9
+Name         Node   List        Data Event
+L:D7TOR      Ctrls  15 Hz    13 p,66,true
+L:D7TOR[0:1] CBSDA  Client    1 client
+L:D7TOR      Linac  Event     3 e,0A,e,0
+L:D7TOR      Linac  Event     8 e,52,e,0
+L:D7TOR      Linac  15 Sec   14 p,15000,true
+L:D7TOR      Lina2  2 Min    13 p,120000,true
+L:D7TOR      MBoon  Event     1 e,1D,e,0
+L:D7TOR      Lina3  Event     7 e,0A,e,0
+L:D7TOR      DCE46  15 Hz    13 p,66,true
+Logger lists containing L:K4GUNV = 1
+Name     Node   List        Data Event
+L:K4GUNV Linac  15 Sec   14 p,15000,true
+Logger lists containing L:KVTTEM = 1
+Name     Node   List        Data Event
+L:KVTTEM Linac  2 Min     2 p,120000,true
+Logger lists containing L:K4SWFB = 1
+Name     Node   List        Data Event
+L:K4SWFB Linac  2 Min     0 p,120000,true
+Logger lists containing L:M2CDQV = 1
+Name     Node   List        Data Event
+L:M2CDQV Linac  2 Min     0 p,120000,true
+Logger lists containing L:M5PRIV = 1
+Name     Node   List        Data Event
+L:M5PRIV Linac  2 Min     7 p,120000,true
+Logger lists containing L:Q117P9 = 1
+Name     Node   List        Data Event
+L:Q117P9 Linac  15 Sec   15 p,15000,true
+Logger lists containing L:SIPI02 = 1
+Name     Node   List        Data Event
+L:SIPI02 Linac  2 Min     1 p,120000,true
+Logger lists containing L:K8PWR = 1
+Name    Node   List        Data Event
+L:K8PWR Linac  2 Min     2 p,120000,true
+Logger lists containing L:D43BPH = 4
+Name     Node   List        Data Event
+L:D43BPH Linac  Event     9 e,0A,e,0
+L:D43BPH Lina2  30 Sec    9 p,30000,true
+L:D43BPH BClk   Event    10 e,52,e,0
+L:D43BPH Lina3  Event     8 e,0A,e,0
+Logger lists containing L:K8FILV = 1
+Name     Node   List        Data Event
+L:K8FILV Linac  15 Sec   13 p,15000,true
+Logger lists containing L:Q74 = 2
+Name  Node   List        Data Event
+L:Q74 Linac  2 Min     2 p,120000,true
+L:Q74 Linac  15 Sec   17 p,15000,true
+Logger lists containing L:D42BPV = 4
+Name     Node   List        Data Event
+L:D42BPV Linac  Event     9 e,0A,e,0
+L:D42BPV Lina2  30 Sec    9 p,30000,true
+L:D42BPV BClk   Event     8 e,52,e,0
+L:D42BPV Lina3  Event     8 e,0A,e,0
+Logger lists containing L:W6MFLW = 2
+Name     Node   List        Data Event
+L:W6MFLW Bstr   1 Min     4 p,60000,true
+L:W6MFLW Linac  15 Sec   12 p,15000,true
+Logger lists containing L:C6VPAB = 1
+Name     Node   List        Data Event
+L:C6VPAB Linac  15 Sec   12 p,15000,true
+Logger lists containing L:K2TTOP = 1
+Name     Node   List        Data Event
+L:K2TTOP Linac  2 Min     1 p,120000,true
+Logger lists containing L:D72TMH = 3
+Name     Node   List        Data Event
+L:D72TMH Linac  Event     3 e,0A,e,0
+L:D72TMH Linac  15 Sec   17 p,15000,true
+L:D72TMH Lina2  2 Min    11 p,120000,true
+Logger lists containing L:D11BPH = 4
+Name     Node   List        Data Event
+L:D11BPH Linac  Event     9 e,0A,e,0
+L:D11BPH Lina2  30 Sec    9 p,30000,true
+L:D11BPH BClk   Event    10 e,52,e,0
+L:D11BPH Lina3  Event     7 e,0A,e,0
+Logger lists containing L:RF5PAI = 1
+Name     Node   List        Data Event
+L:RF5PAI Linac  2 Min     0 p,120000,true
+Logger lists containing L:L4STMP = 1
+Name     Node   List        Data Event
+L:L4STMP Linac  2 Min     7 p,120000,true
+Logger lists containing L:D13BPV = 4
+Name     Node   List        Data Event
+L:D13BPV Linac  Event     9 e,0A,e,0
+L:D13BPV Lina2  30 Sec    9 p,30000,true
+L:D13BPV BClk   Event     8 e,52,e,0
+L:D13BPV Lina3  Event     7 e,0A,e,0
+Logger lists containing L:D1PHAS = 1
+Name     Node   List        Data Event
+L:D1PHAS Linac  Event    10 e,52,e,0
+Logger lists containing L:Q210P9 = 1
+Name     Node   List        Data Event
+L:Q210P9 Linac  15 Sec   15 p,15000,true
+Logger lists containing L:SPECCR = 1
+Name     Node   List        Data Event
+L:SPECCR Linac  30 Sec    4 p,30000,true
+Logger lists containing Z:TCTEMP = 2
+Name     Node   List        Data Event
+Z:TCTEMP Linac  15 Sec   16 p,15000,true
+Z:TCTEMP Lina3  1 Sec     1 p,1000,true
+Logger lists containing L:W7FPGM = 1
+Name     Node   List        Data Event
+L:W7FPGM Linac  15 Sec   14 p,15000,true
+Logger lists containing L:Q43 = 1
+Name  Node   List        Data Event
+L:Q43 Linac  2 Min     2 p,120000,true
+Logger lists containing L:W1FERR = 2
+Name     Node   List        Data Event
+L:W1FERR Linac  15 Sec   13 p,15000,true
+L:W1FERR Lina4  1 Hz      1 p,1000,true
+Logger lists containing L:SIPI08 = 1
+Name     Node   List        Data Event
+L:SIPI08 Linac  2 Min     2 p,120000,true
+Logger lists containing L|B4MODR = 1
+Name     Node   List        Data Event
+L|B4MODR Linac  Event    11 e,52,e,0
+Logger lists containing L:D52BPV = 4
+Name     Node   List        Data Event
+L:D52BPV Linac  Event     9 e,0A,e,0
+L:D52BPV Lina2  30 Sec    9 p,30000,true
+L:D52BPV BClk   Event     8 e,52,e,0
+L:D52BPV Lina3  Event     9 e,0A,e,0
+Logger lists containing L:M6PRIV = 1
+Name     Node   List        Data Event
+L:M6PRIV Linac  2 Min     6 p,120000,true
+Logger lists containing L:W6TNOM = 1
+Name     Node   List        Data Event
+L:W6TNOM Linac  30 Sec    4 p,30000,true
+Logger lists containing L:D34LM = 3
+Name    Node   List        Data Event
+L:D34LM Clcck  Event    13 e,0A,e,0
+L:D34LM Linac  Event     8 e,52,e,0
+L:D34LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:M1SECI = 1
+Name     Node   List        Data Event
+L:M1SECI Linac  2 Min     7 p,120000,true
+Logger lists containing L:SPECF = 1
+Name    Node   List        Data Event
+L:SPECF Linac  30 Sec    4 p,30000,true
+Logger lists containing L:K1SWFB = 1
+Name     Node   List        Data Event
+L:K1SWFB Linac  2 Min     0 p,120000,true
+Logger lists containing L:LNDMPE = 3
+Name     Node   List        Data Event
+L:LNDMPE Linac  Event     3 e,52,e,0
+L:LNDMPE MCR    Event     5 e,0C,s,0
+L:LNDMPE Bstr2  15 Sec   15 p,15000,true
+Logger lists containing L:RF3PAV = 2
+Name     Node   List        Data Event
+L:RF3PAV Linac  30 Sec    4 p,30000,true
+L:RF3PAV Lina3  10 Sec    4 p,10000,true
+Logger lists containing L:K0SOLI = 1
+Name     Node   List        Data Event
+L:K0SOLI Linac  15 Sec    5 p,15000,true
+Logger lists containing L:NTF1BR = 1
+Name     Node   List        Data Event
+L:NTF1BR Linac  2 Min     1 p,120000,true
+Logger lists containing L|B5MODR = 1
+Name     Node   List        Data Event
+L|B5MODR Linac  Event    11 e,52,e,0
+Logger lists containing L:HT5IN = 1
+Name    Node   List        Data Event
+L:HT5IN Linac  15 Sec   13 p,15000,true
+Logger lists containing L:C7VPAB = 1
+Name     Node   List        Data Event
+L:C7VPAB Linac  15 Sec   12 p,15000,true
+Logger lists containing L:MD2OV = 3
+Name    Node   List        Data Event
+L:MD2OV Linac  15 Sec   17 p,15000,true
+L:MD2OV MBoon  Event     1 e,1D,e,0
+L:MD2OV Lina3  1 Sec     3 p,1000,true
+Logger lists containing L:K1WG1P = 1
+Name     Node   List        Data Event
+L:K1WG1P Linac  15 Sec   16 p,15000,true
+Logger lists containing L:L7GADJ = 2
+Name     Node   List        Data Event
+L:L7GADJ Linac  2 Min     0 p,120000,true
+L:L7GADJ Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:D14LM = 3
+Name    Node   List        Data Event
+L:D14LM Clcck  Event    13 e,0A,e,0
+L:D14LM Linac  Event     8 e,52,e,0
+L:D14LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:LVSDET = 1
+Name     Node   List        Data Event
+L:LVSDET Linac  15 Sec   15 p,15000,true
+Logger lists containing L:K8GUNV = 1
+Name     Node   List        Data Event
+L:K8GUNV Linac  15 Sec   13 p,15000,true
+Logger lists containing L:DR2ION = 1
+Name     Node   List        Data Event
+L:DR2ION Linac  2 Min     0 p,120000,true
+Logger lists containing L:CVPHOF = 1
+Name     Node   List        Data Event
+L:CVPHOF Linac  2 Min     6 p,120000,true
+Logger lists containing L:H2LELA = 3
+Name     Node   List        Data Event
+L:H2LELA Ctrls  15 Hz    13 p,66,true
+L:H2LELA Linac  15 Sec   14 p,15000,true
+L:H2LELA DCE46  15 Hz    13 p,66,true
+Logger lists containing L:Q13 = 1
+Name  Node   List        Data Event
+L:Q13 Linac  2 Min     1 p,120000,true
+Logger lists containing L:W5PNOM = 1
+Name     Node   List        Data Event
+L:W5PNOM Linac  2 Min     6 p,120000,true
+Logger lists containing L:K2PWRD = 1
+Name     Node   List        Data Event
+L:K2PWRD Linac  15 Sec   14 p,15000,true
+Logger lists containing L:GR2MID = 6
+Name     Node   List        Data Event
+L:GR2MID Ctrls  15 Hz    15 p,66,true
+L:GR2MID Linac  Event     8 e,52,e,0
+L:GR2MID Linac  Event    11 e,0A,e,0
+L:GR2MID Lina2  1 Sec     1 p,1000,true
+L:GR2MID Lina2  2 Min    13 p,120000,true
+L:GR2MID DCE46  15 Hz    15 p,66,true
+Logger lists containing L:C2GRAD = 3
+Name     Node   List        Data Event
+L:C2GRAD Linac  Event     8 e,52,e,0
+L:C2GRAD Linac  15 Sec   16 p,15000,true
+L:C2GRAD Lina4  15 Hz    13 p,66,true
+Logger lists containing L:C1VAC = 1
+Name    Node   List        Data Event
+L:C1VAC Linac  30 Sec    4 p,30000,true
+Logger lists containing L:WK3SP = 1
+Name    Node   List        Data Event
+L:WK3SP Linac  30 Sec    4 p,30000,true
+Logger lists containing L:K1POWR = 3
+Name     Node   List        Data Event
+L:K1POWR Linac  Event    10 e,52,e,0
+L:K1POWR Lina3  2 Min    12 p,120000,true
+L:K1POWR Lina4  15 Hz    13 p,66,true
+Logger lists containing L:T5VACL = 1
+Name     Node   List        Data Event
+L:T5VACL Linac  15 Sec   13 p,15000,true
+Logger lists containing L:V3SQ = 4
+Name   Node   List        Data Event
+L:V3SQ Linac  Event    10 e,52,e,0
+L:V3SQ Linac  Event    11 e,0A,e,0
+L:V3SQ LLRF   1 Min     0 p,60000,true
+L:V3SQ LLRF   1 Hz      6 p,1000,true
+Logger lists containing L:K7TBOT = 1
+Name     Node   List        Data Event
+L:K7TBOT Linac  2 Min     6 p,120000,true
+Logger lists containing L:SPCRDA = 1
+Name     Node   List        Data Event
+L:SPCRDA Linac  2 Min     0 p,120000,true
+Logger lists containing L:W6MTMP = 1
+Name     Node   List        Data Event
+L:W6MTMP Linac  15 Sec   12 p,15000,true
+Logger lists containing L:V1SAFF = 5
+Name     Node   List        Data Event
+L:V1SAFF Ctrls  15 Hz    15 p,66,true
+L:V1SAFF Linac  Event    10 e,52,e,0
+L:V1SAFF Linac  Event    11 e,0A,e,0
+L:V1SAFF LLRF   1 Min     0 p,60000,true
+L:V1SAFF DCE46  15 Hz    15 p,66,true
+Logger lists containing L:M5CDQV = 1
+Name     Node   List        Data Event
+L:M5CDQV Linac  2 Min     0 p,120000,true
+Logger lists containing L:WK2ST = 1
+Name    Node   List        Data Event
+L:WK2ST Linac  30 Sec    4 p,30000,true
+Logger lists containing L:D22TMH = 1
+Name     Node   List        Data Event
+L:D22TMH Linac  15 Sec   17 p,15000,true
+Logger lists containing B:CHOP = 2
+Name   Node   List        Data Event
+B:CHOP Bstr   1 Min     1 p,60000,true
+B:CHOP Linac  Event    10 e,52,e,0
+Logger lists containing L:M3PRIV = 1
+Name     Node   List        Data Event
+L:M3PRIV Linac  2 Min     7 p,120000,true
+Logger lists containing L:W5MFLW = 1
+Name     Node   List        Data Event
+L:W5MFLW Linac  15 Sec   12 p,15000,true
+Logger lists containing L|V5VALV = 1
+Name     Node   List        Data Event
+L|V5VALV Linac  2 Min     1 p,120000,true
+Logger lists containing L:RF2PAV = 2
+Name     Node   List        Data Event
+L:RF2PAV Linac  30 Sec    4 p,30000,true
+L:RF2PAV Lina3  10 Sec    4 p,10000,true
+Logger lists containing L:W3FERR = 2
+Name     Node   List        Data Event
+L:W3FERR Linac  15 Sec   13 p,15000,true
+L:W3FERR Lina4  1 Hz      1 p,1000,true
+Logger lists containing L:V7VP1 = 1
+Name    Node   List        Data Event
+L:V7VP1 Linac  15 Sec   15 p,15000,true
+Logger lists containing Z:TGASPW = 1
+Name     Node   List        Data Event
+Z:TGASPW Linac  15 Sec   12 p,15000,true
+Logger lists containing L:RF7PAV = 2
+Name     Node   List        Data Event
+L:RF7PAV Linac  30 Sec    4 p,30000,true
+L:RF7PAV Lina3  15 Sec   14 p,15000,true
+Logger lists containing B:VPQ2 = 4
+Name   Node   List        Data Event
+B:VPQ2 Bstr   15 Sec   13 p,15000,true
+B:VPQ2 Linac  Event     3 e,0A,e,0
+B:VPQ2 Linac  Event    10 e,52,e,0
+B:VPQ2 Lina2  2 Min    13 p,120000,true
+Logger lists containing L:L3SDET = 1
+Name     Node   List        Data Event
+L:L3SDET Linac  15 Sec   15 p,15000,true
+Logger lists containing L:C3GRAD = 3
+Name     Node   List        Data Event
+L:C3GRAD Linac  Event     8 e,52,e,0
+L:C3GRAD Linac  15 Sec   16 p,15000,true
+L:C3GRAD Lina4  15 Hz    13 p,66,true
+Logger lists containing L:DR4F = 3
+Name   Node   List        Data Event
+L:DR4F Linac  15 Sec   15 p,15000,true
+L:DR4F LLRF   2 Min     4 p,120000,true
+L:DR4F Lina4  15 Hz    12 p,66,true
+Logger lists containing L:V6VPCD = 2
+Name     Node   List        Data Event
+L:V6VPCD Linac  2 Min     6 p,120000,true
+L:V6VPCD Linac  15 Sec   12 p,15000,true
+Logger lists containing L:C6VPCD = 1
+Name     Node   List        Data Event
+L:C6VPCD Linac  15 Sec   12 p,15000,true
+Logger lists containing L:K1PERV = 1
+Name     Node   List        Data Event
+L:K1PERV Linac  2 Min     1 p,120000,true
+Logger lists containing L:AEXTV = 4
+Name    Node   List        Data Event
+L:AEXTV Ctrls  15 Hz    13 p,66,true
+L:AEXTV Linac  Event     8 e,52,e,0
+L:AEXTV Lina3  15 Sec   15 p,15000,true
+L:AEXTV DCE46  15 Hz    13 p,66,true
+Logger lists containing L:K3TBIN = 1
+Name     Node   List        Data Event
+L:K3TBIN Linac  2 Min     0 p,120000,true
+Logger lists containing L:HT4IN = 1
+Name    Node   List        Data Event
+L:HT4IN Linac  15 Sec   13 p,15000,true
+Logger lists containing L:WK2F95 = 1
+Name     Node   List        Data Event
+L:WK2F95 Linac  2 Min     6 p,120000,true
+Logger lists containing L:KVCTEM = 1
+Name     Node   List        Data Event
+L:KVCTEM Linac  2 Min     2 p,120000,true
+Logger lists containing L:WVMFLW = 1
+Name     Node   List        Data Event
+L:WVMFLW Linac  15 Sec   12 p,15000,true
+Logger lists containing L:W2MFLW = 1
+Name     Node   List        Data Event
+L:W2MFLW Linac  15 Sec   12 p,15000,true
+Logger lists containing L:WDFERR = 2
+Name     Node   List        Data Event
+L:WDFERR Linac  15 Sec   13 p,15000,true
+L:WDFERR Lina4  1 Hz      1 p,1000,true
+Logger lists containing L:K8TBOT = 1
+Name     Node   List        Data Event
+L:K8TBOT Linac  15 Sec   13 p,15000,true
+Logger lists containing L:RF2PAI = 2
+Name     Node   List        Data Event
+L:RF2PAI Linac  2 Min     0 p,120000,true
+L:RF2PAI Lina2  1 Sec     3 p,1000,true
+Logger lists containing L:WDPSUC = 1
+Name     Node   List        Data Event
+L:WDPSUC Linac  2 Min     0 p,120000,true
+Logger lists containing L:M4CSWF = 1
+Name     Node   List        Data Event
+L:M4CSWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:C4VPAB = 1
+Name     Node   List        Data Event
+L:C4VPAB Linac  15 Sec   12 p,15000,true
+Logger lists containing Z:TGPRES = 3
+Name     Node   List        Data Event
+Z:TGPRES Ctrls  15 Hz    13 p,66,true
+Z:TGPRES Linac  15 Sec   16 p,15000,true
+Z:TGPRES Lina3  1 Sec     0 p,1000,true
+Logger lists containing L:M6SECV = 1
+Name     Node   List        Data Event
+L:M6SECV Linac  2 Min     6 p,120000,true
+Logger lists containing L:SIPI01 = 1
+Name     Node   List        Data Event
+L:SIPI01 Linac  2 Min     1 p,120000,true
+Logger lists containing L:W1MTMP = 1
+Name     Node   List        Data Event
+L:W1MTMP Linac  15 Sec   12 p,15000,true
+Logger lists containing L:M8CHRG = 1
+Name     Node   List        Data Event
+L:M8CHRG Linac  2 Min     2 p,120000,true
+Logger lists containing L:W7FSET = 2
+Name     Node   List        Data Event
+L:W7FSET Linac  15 Sec   16 p,15000,true
+L:W7FSET Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:CCHG2 = 1
+Name    Node   List        Data Event
+L:CCHG2 Linac  15 Sec    5 p,15000,true
+Logger lists containing L:VT3IN = 1
+Name    Node   List        Data Event
+L:VT3IN Linac  15 Sec   13 p,15000,true
+Logger lists containing L:V4SQ = 4
+Name   Node   List        Data Event
+L:V4SQ Linac  Event    10 e,52,e,0
+L:V4SQ Linac  Event    11 e,0A,e,0
+L:V4SQ LLRF   1 Min     0 p,60000,true
+L:V4SQ LLRF   1 Hz      6 p,1000,true
+Logger lists containing L:LGHUM = 1
+Name    Node   List        Data Event
+L:LGHUM Linac  2 Min     2 p,120000,true
+Logger lists containing L:K8BWF = 1
+Name    Node   List        Data Event
+L:K8BWF Linac  15 Sec   13 p,15000,true
+Logger lists containing L:WK3CWF = 1
+Name     Node   List        Data Event
+L:WK3CWF Linac  2 Min     6 p,120000,true
+Logger lists containing L:K6TBOT = 1
+Name     Node   List        Data Event
+L:K6TBOT Linac  2 Min     6 p,120000,true
+Logger lists containing L:WDCFLW = 2
+Name     Node   List        Data Event
+L:WDCFLW Linac  30 Sec    4 p,30000,true
+L:WDCFLW Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:DISTIN = 1
+Name     Node   List        Data Event
+L:DISTIN Linac  2 Min     6 p,120000,true
+Logger lists containing L:TORSI = 4
+Name    Node   List        Data Event
+L:TORSI Clcck  Event    13 e,0A,e,0
+L:TORSI Inst3  15 Sec   12 p,15000,true
+L:TORSI Linac  Event    11 e,0A,e,0
+L:TORSI Linac  15 Sec   13 p,15000,true
+Logger lists containing L:MD1OV = 3
+Name    Node   List        Data Event
+L:MD1OV Linac  15 Sec   17 p,15000,true
+L:MD1OV MBoon  Event     1 e,1D,e,0
+L:MD1OV Lina3  1 Sec     3 p,1000,true
+Logger lists containing L:MD4OV = 3
+Name    Node   List        Data Event
+L:MD4OV Linac  15 Sec   17 p,15000,true
+L:MD4OV MBoon  Event     1 e,1D,e,0
+L:MD4OV Lina3  1 Sec     3 p,1000,true
+Logger lists containing L:NTF1BC = 1
+Name     Node   List        Data Event
+L:NTF1BC Linac  30 Sec    4 p,30000,true
+Logger lists containing L:D73TMH = 3
+Name     Node   List        Data Event
+L:D73TMH Linac  Event     3 e,0A,e,0
+L:D73TMH Linac  15 Sec   13 p,15000,true
+L:D73TMH Lina2  2 Min    11 p,120000,true
+Logger lists containing L:CTOR2 = 2
+Name    Node   List        Data Event
+L:CTOR2 Linac  15 Sec    5 p,15000,true
+L:CTOR2 Clock  Event     2 e,09,e,0
+Logger lists containing L:V2VP2 = 1
+Name    Node   List        Data Event
+L:V2VP2 Linac  15 Sec   15 p,15000,true
+Logger lists containing L:NTF1BW = 1
+Name     Node   List        Data Event
+L:NTF1BW Linac  30 Sec    4 p,30000,true
+Logger lists containing L:M3CDQI = 1
+Name     Node   List        Data Event
+L:M3CDQI Linac  15 Sec   14 p,15000,true
+Logger lists containing L:ASTEMP = 2
+Name     Node   List        Data Event
+L:ASTEMP Linac  Event    11 e,52,e,0
+L:ASTEMP Lina3  15 Sec   15 p,15000,true
+Logger lists containing Z:TARCSV = 1
+Name     Node   List        Data Event
+Z:TARCSV Linac  2 Min     2 p,120000,true
+Logger lists containing L:C1GRAD = 5
+Name     Node   List        Data Event
+L:C1GRAD Ctrls  15 Hz    13 p,66,true
+L:C1GRAD Linac  Event     8 e,52,e,0
+L:C1GRAD Linac  15 Sec   16 p,15000,true
+L:C1GRAD Lina4  15 Hz    13 p,66,true
+L:C1GRAD DCE46  15 Hz    13 p,66,true
+Logger lists containing L:D73LM = 3
+Name    Node   List        Data Event
+L:D73LM Linac  Event     9 e,0A,e,0
+L:D73LM BClk   Event     9 e,52,e,0
+L:D73LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:C0VPA = 1
+Name    Node   List        Data Event
+L:C0VPA Linac  15 Sec   12 p,15000,true
+Logger lists containing L:LVMDET = 1
+Name     Node   List        Data Event
+L:LVMDET Linac  15 Sec    5 p,15000,true
+Logger lists containing L:D11LM = 3
+Name    Node   List        Data Event
+L:D11LM Clcck  Event    13 e,0A,e,0
+L:D11LM Linac  Event     8 e,52,e,0
+L:D11LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:L4MDET = 1
+Name     Node   List        Data Event
+L:L4MDET Linac  15 Sec   14 p,15000,true
+Logger lists containing L:KDCTEM = 1
+Name     Node   List        Data Event
+L:KDCTEM Linac  2 Min     0 p,120000,true
+Logger lists containing L:QPSC06 = 1
+Name     Node   List        Data Event
+L:QPSC06 Linac  15 Sec    5 p,15000,true
+Logger lists containing L:V1VPCD = 1
+Name     Node   List        Data Event
+L:V1VPCD Linac  15 Sec   12 p,15000,true
+Logger lists containing L:M3SECV = 1
+Name     Node   List        Data Event
+L:M3SECV Linac  2 Min     7 p,120000,true
+Logger lists containing L:KVGUNV = 1
+Name     Node   List        Data Event
+L:KVGUNV Linac  15 Sec   14 p,15000,true
+Logger lists containing B:HPQ2 = 4
+Name   Node   List        Data Event
+B:HPQ2 Bstr   15 Sec   13 p,15000,true
+B:HPQ2 Linac  Event     3 e,0A,e,0
+B:HPQ2 Linac  Event    10 e,52,e,0
+B:HPQ2 Lina2  2 Min    13 p,120000,true
+Logger lists containing L:HT4001 = 1
+Name     Node   List        Data Event
+L:HT4001 Linac  15 Sec   17 p,15000,true
+Logger lists containing Z:TATEMP = 1
+Name     Node   List        Data Event
+Z:TATEMP Linac  15 Sec   16 p,15000,true
+Logger lists containing L:SIPI10 = 1
+Name     Node   List        Data Event
+L:SIPI10 Linac  2 Min     2 p,120000,true
+Logger lists containing L:V3STKQ = 4
+Name     Node   List        Data Event
+L:V3STKQ Ctrls  15 Hz    13 p,66,true
+L:V3STKQ Linac  Event     3 e,52,e,0
+L:V3STKQ Lina2  15 Sec   14 p,15000,true
+L:V3STKQ DCE46  15 Hz    13 p,66,true
+Logger lists containing L:LCWRP = 1
+Name    Node   List        Data Event
+L:LCWRP Linac  30 Sec    4 p,30000,true
+Logger lists containing L:K7VAC = 2
+Name    Node   List        Data Event
+L:K7VAC Linac  2 Min     6 p,120000,true
+L:K7VAC Lina3  1 Sec     3 p,1000,true
+Logger lists containing L:D02WPX = 1
+Name     Node   List        Data Event
+L:D02WPX Linac  15 Sec   15 p,15000,true
+Logger lists containing L:WVCFLW = 3
+Name     Node   List        Data Event
+L:WVCFLW Linac  15 Sec   12 p,15000,true
+L:WVCFLW Lina4  1 Hz      0 p,1000,true
+L:WVCFLW Lina4  15 Hz    15 p,66,true
+Logger lists containing L|B1MODR = 1
+Name     Node   List        Data Event
+L|B1MODR Linac  Event    11 e,52,e,0
+Logger lists containing L:D51LM = 3
+Name    Node   List        Data Event
+L:D51LM Linac  Event     9 e,0A,e,0
+L:D51LM BClk   Event     9 e,52,e,0
+L:D51LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:Z3CWSL = 1
+Name     Node   List        Data Event
+L:Z3CWSL Linac  30 Sec    4 p,30000,true
+Logger lists containing L:W0FPGM = 1
+Name     Node   List        Data Event
+L:W0FPGM Linac  15 Sec   14 p,15000,true
+Logger lists containing L:K3GUNI = 1
+Name     Node   List        Data Event
+L:K3GUNI Linac  15 Sec   14 p,15000,true
+Logger lists containing L:K4SPKR = 1
+Name     Node   List        Data Event
+L:K4SPKR Linac  2 Min     1 p,120000,true
+Logger lists containing L:M7CDQV = 1
+Name     Node   List        Data Event
+L:M7CDQV Linac  2 Min     0 p,120000,true
+Logger lists containing L:D00LM = 4
+Name    Node   List        Data Event
+L:D00LM Clcck  Event    13 e,0A,e,0
+L:D00LM Linac  Event     8 e,52,e,0
+L:D00LM MTA    Event    17 e,03,e,0
+L:D00LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:M8REFV = 1
+Name     Node   List        Data Event
+L:M8REFV Linac  2 Min     1 p,120000,true
+Logger lists containing L:V2STKI = 2
+Name     Node   List        Data Event
+L:V2STKI Linac  Event     3 e,52,e,0
+L:V2STKI Lina2  15 Sec   14 p,15000,true
+Logger lists containing L:DELM11 = 2
+Name     Node   List        Data Event
+L:DELM11 Linac  Event    10 e,52,e,0
+L:DELM11 Lina2  30 Sec    8 p,30000,true
+Logger lists containing L|RF1SKD = 1
+Name     Node   List        Data Event
+L|RF1SKD Linac  15 Sec   16 p,15000,true
+Logger lists containing L:V7VP2 = 1
+Name    Node   List        Data Event
+L:V7VP2 Linac  15 Sec   15 p,15000,true
+Logger lists containing L:D54LM = 3
+Name    Node   List        Data Event
+L:D54LM Linac  Event     9 e,0A,e,0
+L:D54LM BClk   Event     9 e,52,e,0
+L:D54LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:KVSOLI = 1
+Name     Node   List        Data Event
+L:KVSOLI Linac  15 Sec    5 p,15000,true
+Logger lists containing L:D0PHAS = 1
+Name     Node   List        Data Event
+L:D0PHAS Linac  Event    10 e,52,e,0
+Logger lists containing L:K6PWRD = 1
+Name     Node   List        Data Event
+L:K6PWRD Linac  15 Sec   14 p,15000,true
+Logger lists containing L:M5PFNV = 1
+Name     Node   List        Data Event
+L:M5PFNV Linac  2 Min     7 p,120000,true
+Logger lists containing L:KDBWF = 1
+Name    Node   List        Data Event
+L:KDBWF Linac  2 Min     7 p,120000,true
+Logger lists containing L:C7PHAS = 2
+Name     Node   List        Data Event
+L:C7PHAS Linac  Event     8 e,52,e,0
+L:C7PHAS Lina4  15 Hz    13 p,66,true
+Logger lists containing L:L1PADJ = 2
+Name     Node   List        Data Event
+L:L1PADJ Linac  2 Min     7 p,120000,true
+L:L1PADJ Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:DELM2 = 3
+Name    Node   List        Data Event
+L:DELM2 Linac  Event     3 e,52,e,0
+L:DELM2 Linac  Event     9 e,0A,e,0
+L:DELM2 Linac  15 Sec   17 p,15000,true
+Logger lists containing L:M6PRII = 1
+Name     Node   List        Data Event
+L:M6PRII Linac  2 Min     6 p,120000,true
+Logger lists containing L:W0TB = 1
+Name   Node   List        Data Event
+L:W0TB Linac  30 Sec    4 p,30000,true
+Logger lists containing L:LGTEMP = 1
+Name     Node   List        Data Event
+L:LGTEMP Linac  15 Sec    5 p,15000,true
+Logger lists containing L:Q03 = 1
+Name  Node   List        Data Event
+L:Q03 Linac  2 Min     1 p,120000,true
+Logger lists containing L:K6POWR = 3
+Name     Node   List        Data Event
+L:K6POWR Linac  Event    10 e,52,e,0
+L:K6POWR Lina3  2 Min    12 p,120000,true
+L:K6POWR Lina4  15 Hz    13 p,66,true
+Logger lists containing L:V6VP2 = 1
+Name    Node   List        Data Event
+L:V6VP2 Linac  15 Sec   15 p,15000,true
+Logger lists containing L:K1VAC = 2
+Name    Node   List        Data Event
+L:K1VAC Linac  2 Min     0 p,120000,true
+L:K1VAC Lina3  1 Sec     3 p,1000,true
+Logger lists containing L:VT4000 = 1
+Name     Node   List        Data Event
+L:VT4000 Linac  15 Sec   17 p,15000,true
+Logger lists containing L:D3TOR = 2
+Name    Node   List        Data Event
+L:D3TOR Linac  Event     8 e,52,e,0
+L:D3TOR Linac  15 Sec   14 p,15000,true
+Logger lists containing L:W1CTMP = 1
+Name     Node   List        Data Event
+L:W1CTMP Linac  15 Sec   15 p,15000,true
+Logger lists containing L:T2VCC = 1
+Name    Node   List        Data Event
+L:T2VCC Linac  15 Sec    5 p,15000,true
+Logger lists containing L:D32BPV = 4
+Name     Node   List        Data Event
+L:D32BPV Linac  Event     9 e,0A,e,0
+L:D32BPV Lina2  30 Sec    9 p,30000,true
+L:D32BPV BClk   Event     8 e,52,e,0
+L:D32BPV Lina3  Event     8 e,0A,e,0
+Logger lists containing L:K5SWFA = 1
+Name     Node   List        Data Event
+L:K5SWFA Linac  2 Min     0 p,120000,true
+Logger lists containing Z:TTTEMP = 1
+Name     Node   List        Data Event
+Z:TTTEMP Linac  15 Sec   16 p,15000,true
+Logger lists containing L:L1STMP = 1
+Name     Node   List        Data Event
+L:L1STMP Linac  2 Min     7 p,120000,true
+Logger lists containing L:W5CTMP = 1
+Name     Node   List        Data Event
+L:W5CTMP Linac  15 Sec   15 p,15000,true
+Logger lists containing L:L6MDET = 1
+Name     Node   List        Data Event
+L:L6MDET Linac  15 Sec   15 p,15000,true
+Logger lists containing L:D1TOR = 2
+Name    Node   List        Data Event
+L:D1TOR Linac  Event     8 e,52,e,0
+L:D1TOR Linac  15 Sec   14 p,15000,true
+Logger lists containing L:K2TBIN = 1
+Name     Node   List        Data Event
+L:K2TBIN Linac  2 Min     0 p,120000,true
+Logger lists containing L:IN2PHS = 5
+Name     Node   List        Data Event
+L:IN2PHS Linac  Event     3 e,0A,e,0
+L:IN2PHS Linac  Event     8 e,52,e,0
+L:IN2PHS Linac  15 Sec   16 p,15000,true
+L:IN2PHS Lina2  1 Sec     3 p,1000,true
+L:IN2PHS LLRF   1 Hz      6 p,1000,true
+Logger lists containing L:K3GUNV = 1
+Name     Node   List        Data Event
+L:K3GUNV Linac  15 Sec   14 p,15000,true
+Logger lists containing L:W3MFLW = 1
+Name     Node   List        Data Event
+L:W3MFLW Linac  15 Sec   12 p,15000,true
+Logger lists containing L:K1GUNV = 1
+Name     Node   List        Data Event
+L:K1GUNV Linac  15 Sec   14 p,15000,true
+Logger lists containing L:K7GUNV = 1
+Name     Node   List        Data Event
+L:K7GUNV Linac  15 Sec   14 p,15000,true
+Logger lists containing L:400SCA = 2
+Name     Node   List        Data Event
+L:400SCA Linac  15 Sec    5 p,15000,true
+L:400SCA Linac  Event    10 e,52,e,0
+Logger lists containing L:PA3F = 5
+Name   Node   List        Data Event
+L:PA3F Linac  Event     3 e,09,e,0
+L:PA3F Linac  Event     8 e,52,e,0
+L:PA3F Lina2  1 Sec     1 p,1000,true
+L:PA3F LLRF   2 Min     4 p,120000,true
+L:PA3F Lina4  15 Hz    12 p,66,true
+Logger lists containing L:WK2SP = 1
+Name    Node   List        Data Event
+L:WK2SP Linac  30 Sec    4 p,30000,true
+Logger lists containing L:D61TMV = 1
+Name     Node   List        Data Event
+L:D61TMV Linac  15 Sec   17 p,15000,true
+Logger lists containing L:L1SDET = 1
+Name     Node   List        Data Event
+L:L1SDET Linac  15 Sec   15 p,15000,true
+Logger lists containing L:SIPI12 = 1
+Name     Node   List        Data Event
+L:SIPI12 Linac  2 Min     7 p,120000,true
+Logger lists containing L:WDMFLW = 1
+Name     Node   List        Data Event
+L:WDMFLW Linac  2 Min     7 p,120000,true
+Logger lists containing L:K5TBOU = 1
+Name     Node   List        Data Event
+L:K5TBOU Linac  15 Sec   13 p,15000,true
+Logger lists containing L:Q22 = 3
+Name  Node   List        Data Event
+L:Q22 Linac  2 Min     2 p,120000,true
+L:Q22 Lina2  1 Sec     3 p,1000,true
+L:Q22 MCR    Event     5 e,0C,s,0
+Logger lists containing L:M7CSWF = 1
+Name     Node   List        Data Event
+L:M7CSWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:CTOR1 = 2
+Name    Node   List        Data Event
+L:CTOR1 Linac  15 Sec    5 p,15000,true
+L:CTOR1 Clock  Event     2 e,09,e,0
+Logger lists containing L:IN3PHS = 5
+Name     Node   List        Data Event
+L:IN3PHS Linac  Event     3 e,0A,e,0
+L:IN3PHS Linac  Event     8 e,52,e,0
+L:IN3PHS Linac  15 Sec   16 p,15000,true
+L:IN3PHS Lina2  1 Sec     3 p,1000,true
+L:IN3PHS LLRF   1 Hz      6 p,1000,true
+Logger lists containing L:T4VACH = 1
+Name     Node   List        Data Event
+L:T4VACH Linac  15 Sec   13 p,15000,true
+Logger lists containing L:W0FERR = 2
+Name     Node   List        Data Event
+L:W0FERR Linac  15 Sec   13 p,15000,true
+L:W0FERR Lina4  1 Hz      1 p,1000,true
+Logger lists containing L:K2POWR = 3
+Name     Node   List        Data Event
+L:K2POWR Linac  Event    10 e,52,e,0
+L:K2POWR Lina3  2 Min    12 p,120000,true
+L:K2POWR Lina4  15 Hz    13 p,66,true
+Logger lists containing L:D54BPV = 4
+Name     Node   List        Data Event
+L:D54BPV Linac  Event     9 e,0A,e,0
+L:D54BPV Lina2  30 Sec    9 p,30000,true
+L:D54BPV BClk   Event     8 e,52,e,0
+L:D54BPV Lina3  Event     9 e,0A,e,0
+Logger lists containing L:Q33 = 1
+Name  Node   List        Data Event
+L:Q33 Linac  2 Min     2 p,120000,true
+Logger lists containing L:D03TMV = 1
+Name     Node   List        Data Event
+L:D03TMV Linac  15 Sec   17 p,15000,true
+Logger lists containing L:D04TMH = 1
+Name     Node   List        Data Event
+L:D04TMH Linac  15 Sec   17 p,15000,true
+Logger lists containing L:BPV203 = 2
+Name     Node   List        Data Event
+L:BPV203 Linac  15 Sec   17 p,15000,true
+L:BPV203 Lina3  Event     9 e,0A,e,0
+Logger lists containing L:LINEV1 = 5
+Name     Node   List        Data Event
+L:LINEV1 Clcck  Event     6 e,25,e,0
+L:LINEV1 Ctrls  15 Hz    13 p,66,true
+L:LINEV1 Linac  2 Min     0 p,120000,true
+L:LINEV1 Clock  Event     0 e,26,e,0
+L:LINEV1 DCE46  15 Hz    13 p,66,true
+Logger lists containing L:M6CHRG = 1
+Name     Node   List        Data Event
+L:M6CHRG Linac  2 Min     6 p,120000,true
+Logger lists containing L:LSOL = 3
+Name   Node   List        Data Event
+L:LSOL Linac  Event     9 e,0A,e,0
+L:LSOL Linac  Event    10 e,52,e,0
+L:LSOL Lina3  15 Sec   15 p,15000,true
+Logger lists containing L:M8CSEI = 1
+Name     Node   List        Data Event
+L:M8CSEI Linac  2 Min     2 p,120000,true
+Logger lists containing L:L7SDET = 1
+Name     Node   List        Data Event
+L:L7SDET Linac  15 Sec   15 p,15000,true
+Logger lists containing L:K5TBOT = 1
+Name     Node   List        Data Event
+L:K5TBOT Linac  2 Min     7 p,120000,true
+Logger lists containing L:GR2LO = 2
+Name    Node   List        Data Event
+L:GR2LO Linac  Event    11 e,52,e,0
+L:GR2LO Lina2  1 Sec     1 p,1000,true
+Logger lists containing L:V4STKI = 4
+Name     Node   List        Data Event
+L:V4STKI Ctrls  15 Hz    15 p,66,true
+L:V4STKI Linac  Event     3 e,52,e,0
+L:V4STKI Lina2  15 Sec   14 p,15000,true
+L:V4STKI DCE46  15 Hz    15 p,66,true
+Logger lists containing L:W0TD = 1
+Name   Node   List        Data Event
+L:W0TD Linac  30 Sec    4 p,30000,true
+Logger lists containing L:STV1 = 1
+Name   Node   List        Data Event
+L:STV1 Linac  15 Sec   17 p,15000,true
+Logger lists containing L:K6TBIN = 1
+Name     Node   List        Data Event
+L:K6TBIN Linac  2 Min     0 p,120000,true
+Logger lists containing L:D42TMH = 1
+Name     Node   List        Data Event
+L:D42TMH Linac  15 Sec   17 p,15000,true
+Logger lists containing L:D41TMH = 1
+Name     Node   List        Data Event
+L:D41TMH Linac  15 Sec   17 p,15000,true
+Logger lists containing L|RF2SKD = 1
+Name     Node   List        Data Event
+L|RF2SKD Linac  15 Sec   16 p,15000,true
+Logger lists containing L:DR1ION = 1
+Name     Node   List        Data Event
+L:DR1ION Linac  2 Min     0 p,120000,true
+Logger lists containing L|V3VALV = 1
+Name     Node   List        Data Event
+L|V3VALV Linac  2 Min     1 p,120000,true
+Logger lists containing L:D41LM = 3
+Name    Node   List        Data Event
+L:D41LM Linac  Event     9 e,0A,e,0
+L:D41LM BClk   Event     9 e,52,e,0
+L:D41LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:M1CSWF = 1
+Name     Node   List        Data Event
+L:M1CSWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:K1TBOT = 1
+Name     Node   List        Data Event
+L:K1TBOT Linac  2 Min     7 p,120000,true
+Logger lists containing L:BPH202 = 3
+Name     Node   List        Data Event
+L:BPH202 Linac  Event     9 e,0A,e,0
+L:BPH202 Linac  15 Sec   17 p,15000,true
+L:BPH202 Lina3  Event     9 e,0A,e,0
+Logger lists containing L:K7SPKR = 1
+Name     Node   List        Data Event
+L:K7SPKR Linac  2 Min     1 p,120000,true
+Logger lists containing L:WDPNOM = 1
+Name     Node   List        Data Event
+L:WDPNOM Linac  2 Min     6 p,120000,true
+Logger lists containing L:K0GUNV = 1
+Name     Node   List        Data Event
+L:K0GUNV Linac  15 Sec   14 p,15000,true
+Logger lists containing L:WK1RES = 1
+Name     Node   List        Data Event
+L:WK1RES Linac  2 Min     6 p,120000,true
+Logger lists containing L:D01WPX = 1
+Name     Node   List        Data Event
+L:D01WPX Linac  15 Sec   17 p,15000,true
+Logger lists containing L:K7POWR = 3
+Name     Node   List        Data Event
+L:K7POWR Linac  Event    10 e,52,e,0
+L:K7POWR Lina3  2 Min    12 p,120000,true
+L:K7POWR Lina4  15 Hz    13 p,66,true
+Logger lists containing L:D62BPV = 4
+Name     Node   List        Data Event
+L:D62BPV Linac  Event     9 e,0A,e,0
+L:D62BPV Lina2  30 Sec    9 p,30000,true
+L:D62BPV BClk   Event     8 e,52,e,0
+L:D62BPV Lina3  Event     9 e,0A,e,0
+Logger lists containing L:GR2HI = 3
+Name    Node   List        Data Event
+L:GR2HI Linac  Event    11 e,52,e,0
+L:GR2HI BClk   Event    11 e,0A,e,0
+L:GR2HI Lina3  2 Min    13 p,120000,true
+Logger lists containing L:C4VPCD = 1
+Name     Node   List        Data Event
+L:C4VPCD Linac  15 Sec   12 p,15000,true
+Logger lists containing L:Q34 = 1
+Name  Node   List        Data Event
+L:Q34 Linac  2 Min     2 p,120000,true
+Logger lists containing L:WK3RES = 1
+Name     Node   List        Data Event
+L:WK3RES Linac  2 Min     2 p,120000,true
+Logger lists containing L:D43LM = 3
+Name    Node   List        Data Event
+L:D43LM Linac  Event     9 e,0A,e,0
+L:D43LM BClk   Event     9 e,52,e,0
+L:D43LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:D03TMH = 1
+Name     Node   List        Data Event
+L:D03TMH Linac  15 Sec   17 p,15000,true
+Logger lists containing L:M3CSWF = 1
+Name     Node   List        Data Event
+L:M3CSWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:KVPOWR = 3
+Name     Node   List        Data Event
+L:KVPOWR Linac  Event    10 e,52,e,0
+L:KVPOWR Lina3  2 Min    12 p,120000,true
+L:KVPOWR Lina4  15 Hz    13 p,66,true
+Logger lists containing L:M7SECI = 1
+Name     Node   List        Data Event
+L:M7SECI Linac  2 Min     6 p,120000,true
+Logger lists containing L:K2SPKR = 1
+Name     Node   List        Data Event
+L:K2SPKR Linac  2 Min     1 p,120000,true
+Logger lists containing L:D34BPV = 4
+Name     Node   List        Data Event
+L:D34BPV Linac  Event     9 e,0A,e,0
+L:D34BPV Lina2  30 Sec    9 p,30000,true
+L:D34BPV BClk   Event     8 e,52,e,0
+L:D34BPV Lina3  Event     8 e,0A,e,0
+Logger lists containing L:BARCSI = 4
+Name     Node   List        Data Event
+L:BARCSI Ctrls  15 Hz    13 p,66,true
+L:BARCSI Linac  Event    11 e,52,e,0
+L:BARCSI Lina3  15 Sec   16 p,15000,true
+L:BARCSI DCE46  15 Hz    13 p,66,true
+Logger lists containing L:V4VPCD = 1
+Name     Node   List        Data Event
+L:V4VPCD Linac  15 Sec   12 p,15000,true
+Logger lists containing L:TLMR1 = 1
+Name    Node   List        Data Event
+L:TLMR1 Linac  15 Sec   16 p,15000,true
+Logger lists containing L:WK3F95 = 1
+Name     Node   List        Data Event
+L:WK3F95 Linac  2 Min     6 p,120000,true
+Logger lists containing L:KVVAC = 2
+Name    Node   List        Data Event
+L:KVVAC Linac  2 Min     7 p,120000,true
+L:KVVAC Lina3  1 Sec     3 p,1000,true
+Logger lists containing L:AARCI = 4
+Name    Node   List        Data Event
+L:AARCI Ctrls  15 Hz    13 p,66,true
+L:AARCI Linac  Event     8 e,52,e,0
+L:AARCI Lina3  15 Sec   15 p,15000,true
+L:AARCI DCE46  15 Hz    13 p,66,true
+Logger lists containing L:D73TMV = 2
+Name     Node   List        Data Event
+L:D73TMV Linac  15 Sec   13 p,15000,true
+L:D73TMV Lina2  2 Min    11 p,120000,true
+Logger lists containing L:WK1CWF = 1
+Name     Node   List        Data Event
+L:WK1CWF Linac  2 Min     6 p,120000,true
+Logger lists containing Z:TARCZ = 2
+Name    Node   List        Data Event
+Z:TARCZ Linac  15 Sec   16 p,15000,true
+Z:TARCZ Lina3  1 Sec     0 p,1000,true
+Logger lists containing L:K0VAC = 2
+Name    Node   List        Data Event
+L:K0VAC Linac  2 Min     0 p,120000,true
+L:K0VAC Lina3  1 Sec     3 p,1000,true
+Logger lists containing L:DR5F = 4
+Name   Node   List        Data Event
+L:DR5F Linac  15 Sec   15 p,15000,true
+L:DR5F Lina2  1 Sec     1 p,1000,true
+L:DR5F LLRF   2 Min     4 p,120000,true
+L:DR5F Lina4  15 Hz    12 p,66,true
+Logger lists containing Z:TIONGA = 1
+Name     Node   List        Data Event
+Z:TIONGA Linac  15 Sec   16 p,15000,true
+Logger lists containing L:K6PERV = 1
+Name     Node   List        Data Event
+L:K6PERV Linac  2 Min     1 p,120000,true
+Logger lists containing L:SIPI13 = 1
+Name     Node   List        Data Event
+L:SIPI13 Linac  2 Min     7 p,120000,true
+Logger lists containing L:BPH201 = 3
+Name     Node   List        Data Event
+L:BPH201 Linac  Event    11 e,0A,e,0
+L:BPH201 Linac  15 Sec   17 p,15000,true
+L:BPH201 Lina3  Event     9 e,0A,e,0
+Logger lists containing L:D5TOR = 2
+Name    Node   List        Data Event
+L:D5TOR Linac  Event     8 e,52,e,0
+L:D5TOR Linac  15 Sec   14 p,15000,true
+Logger lists containing L:M4PRIV = 1
+Name     Node   List        Data Event
+L:M4PRIV Linac  2 Min     7 p,120000,true
+Logger lists containing L:Q51 = 1
+Name  Node   List        Data Event
+L:Q51 Linac  2 Min     2 p,120000,true
+Logger lists containing L:TORSD = 3
+Name    Node   List        Data Event
+L:TORSD Inst3  15 Sec   12 p,15000,true
+L:TORSD Linac  Event    11 e,0A,e,0
+L:TORSD Linac  15 Sec   13 p,15000,true
+Logger lists containing L:T1TEMP = 1
+Name     Node   List        Data Event
+L:T1TEMP Linac  15 Sec    5 p,15000,true
+Logger lists containing L:BPH3OT = 4
+Name     Node   List        Data Event
+L:BPH3OT Linac  Event     3 e,09,e,0
+L:BPH3OT Lina2  30 Sec    9 p,30000,true
+L:BPH3OT BClk   Event     8 e,52,e,0
+L:BPH3OT Lina3  Event     7 e,0A,e,0
+Logger lists containing L:BIG = 4
+Name  Node   List        Data Event
+L:BIG Ctrls  15 Hz    15 p,66,true
+L:BIG Linac  Event    11 e,52,e,0
+L:BIG Bstr2  15 Sec   13 p,15000,true
+L:BIG DCE46  15 Hz    15 p,66,true
+Logger lists containing G:RD2040 = 3
+Name     Node   List        Data Event
+G:RD2040 Linac  Event     3 e,52,e,0
+G:RD2040 Safty  1 Min     2 p,60000,true
+G:RD2040 LLRF   1 Hz      6 p,1000,true
+Logger lists containing L:C0VAC = 1
+Name    Node   List        Data Event
+L:C0VAC Linac  30 Sec    4 p,30000,true
+Logger lists containing L:K4TTOP = 1
+Name     Node   List        Data Event
+L:K4TTOP Linac  2 Min     1 p,120000,true
+Logger lists containing L:MD5OV = 3
+Name    Node   List        Data Event
+L:MD5OV Linac  15 Sec   17 p,15000,true
+L:MD5OV MBoon  Event     1 e,1D,e,0
+L:MD5OV Lina3  1 Sec     3 p,1000,true
+Logger lists containing L:Q63 = 1
+Name  Node   List        Data Event
+L:Q63 Linac  2 Min     2 p,120000,true
+Logger lists containing L:K6GUNI = 1
+Name     Node   List        Data Event
+L:K6GUNI Linac  15 Sec   14 p,15000,true
+Logger lists containing L:TMPLM3 = 1
+Name     Node   List        Data Event
+L:TMPLM3 Linac  Event     9 e,0A,e,0
+Logger lists containing L:L7MDET = 1
+Name     Node   List        Data Event
+L:L7MDET Linac  15 Sec   15 p,15000,true
+Logger lists containing L:K7GUNI = 1
+Name     Node   List        Data Event
+L:K7GUNI Linac  15 Sec   14 p,15000,true
+Logger lists containing L:D63BPH = 4
+Name     Node   List        Data Event
+L:D63BPH Linac  Event     9 e,0A,e,0
+L:D63BPH Lina2  30 Sec    9 p,30000,true
+L:D63BPH BClk   Event     7 e,52,e,0
+L:D63BPH Lina3  Event     9 e,0A,e,0
+Logger lists containing L:D4TOR = 2
+Name    Node   List        Data Event
+L:D4TOR Linac  Event     8 e,52,e,0
+L:D4TOR Linac  15 Sec   14 p,15000,true
+Logger lists containing L:K4TBIN = 1
+Name     Node   List        Data Event
+L:K4TBIN Linac  2 Min     0 p,120000,true
+Logger lists containing L:SIPI06 = 1
+Name     Node   List        Data Event
+L:SIPI06 Linac  2 Min     2 p,120000,true
+Logger lists containing L:VT5IN = 1
+Name    Node   List        Data Event
+L:VT5IN Linac  15 Sec   13 p,15000,true
+Logger lists containing L:D74TMH = 2
+Name     Node   List        Data Event
+L:D74TMH Linac  15 Sec   13 p,15000,true
+L:D74TMH Lina2  2 Min    11 p,120000,true
+Logger lists containing L:CVVAC = 1
+Name    Node   List        Data Event
+L:CVVAC Linac  30 Sec    4 p,30000,true
+Logger lists containing L:V1STKI = 2
+Name     Node   List        Data Event
+L:V1STKI Linac  Event     3 e,52,e,0
+L:V1STKI Lina2  15 Sec   14 p,15000,true
+Logger lists containing L:V7VPAB = 2
+Name     Node   List        Data Event
+L:V7VPAB Linac  2 Min     6 p,120000,true
+L:V7VPAB Linac  15 Sec   12 p,15000,true
+Logger lists containing L:LDPHOF = 1
+Name     Node   List        Data Event
+L:LDPHOF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:V3VP2 = 1
+Name    Node   List        Data Event
+L:V3VP2 Linac  15 Sec   15 p,15000,true
+Logger lists containing L:W7PNOM = 1
+Name     Node   List        Data Event
+L:W7PNOM Linac  2 Min     6 p,120000,true
+Logger lists containing L:K3PERV = 1
+Name     Node   List        Data Event
+L:K3PERV Linac  2 Min     1 p,120000,true
+Logger lists containing L:D12BPH = 4
+Name     Node   List        Data Event
+L:D12BPH Linac  Event     9 e,0A,e,0
+L:D12BPH Lina2  30 Sec    9 p,30000,true
+L:D12BPH BClk   Event    10 e,52,e,0
+L:D12BPH Lina3  Event     7 e,0A,e,0
+Logger lists containing L:K4RHUM = 1
+Name     Node   List        Data Event
+L:K4RHUM Linac  2 Min     1 p,120000,true
+Logger lists containing L:Q32 = 1
+Name  Node   List        Data Event
+L:Q32 Linac  2 Min     2 p,120000,true
+Logger lists containing L:V0VPA = 1
+Name    Node   List        Data Event
+L:V0VPA Linac  15 Sec   12 p,15000,true
+Logger lists containing Z:TTGOFF = 1
+Name     Node   List        Data Event
+Z:TTGOFF Linac  15 Sec   12 p,15000,true
+Logger lists containing B:VPLAM = 3
+Name    Node   List        Data Event
+B:VPLAM Bstr   15 Sec   13 p,15000,true
+B:VPLAM Linac  Event     3 e,0A,e,0
+B:VPLAM Lina3  Event     8 e,52,e,0
+Logger lists containing L:D62TMH = 1
+Name     Node   List        Data Event
+L:D62TMH Linac  15 Sec   17 p,15000,true
+Logger lists containing L:CX1 = 2
+Name  Node   List        Data Event
+L:CX1 Linac  15 Sec    5 p,15000,true
+L:CX1 Clock  Event     2 e,09,e,0
+Logger lists containing L:K4TBOT = 1
+Name     Node   List        Data Event
+L:K4TBOT Linac  2 Min     7 p,120000,true
+Logger lists containing L:W6FSET = 2
+Name     Node   List        Data Event
+L:W6FSET Linac  15 Sec   16 p,15000,true
+L:W6FSET Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:TLML2 = 1
+Name    Node   List        Data Event
+L:TLML2 Linac  15 Sec   16 p,15000,true
+Logger lists containing L:W1DP1 = 1
+Name    Node   List        Data Event
+L:W1DP1 Linac  2 Min     6 p,120000,true
+Logger lists containing L:DISTLS = 1
+Name     Node   List        Data Event
+L:DISTLS Linac  2 Min     6 p,120000,true
+Logger lists containing L:WK2CWF = 1
+Name     Node   List        Data Event
+L:WK2CWF Linac  2 Min     6 p,120000,true
+Logger lists containing L:T1VACH = 2
+Name     Node   List        Data Event
+L:T1VACH Linac  15 Sec   13 p,15000,true
+L:T1VACH Lina4  15 Hz    17 p,66,true
+Logger lists containing L:K1TBOU = 1
+Name     Node   List        Data Event
+L:K1TBOU Linac  15 Sec   13 p,15000,true
+Logger lists containing L:C7PHOF = 1
+Name     Node   List        Data Event
+L:C7PHOF Linac  2 Min     6 p,120000,true
+Logger lists containing L:TORMDI = 3
+Name     Node   List        Data Event
+L:TORMDI Inst3  15 Sec   12 p,15000,true
+L:TORMDI Linac  Event     3 e,0A,e,0
+L:TORMDI LLRF   1 Hz      6 p,1000,true
+Logger lists containing L:V4VP2 = 1
+Name    Node   List        Data Event
+L:V4VP2 Linac  15 Sec   15 p,15000,true
+Logger lists containing L|V7VALV = 1
+Name     Node   List        Data Event
+L|V7VALV Linac  2 Min     1 p,120000,true
+Logger lists containing L:Q111P9 = 1
+Name     Node   List        Data Event
+L:Q111P9 Linac  15 Sec   15 p,15000,true
+Logger lists containing L:KDPERV = 1
+Name     Node   List        Data Event
+L:KDPERV Linac  2 Min     1 p,120000,true
+Logger lists containing L:M4SECI = 1
+Name     Node   List        Data Event
+L:M4SECI Linac  2 Min     7 p,120000,true
+Logger lists containing L:QIG = 5
+Name  Node   List        Data Event
+L:QIG Ctrls  15 Hz    15 p,66,true
+L:QIG Linac  Event     8 e,52,e,0
+L:QIG Bstr2  15 Sec   13 p,15000,true
+L:QIG Bstr2  1 Sec    14 p,1000,true
+L:QIG DCE46  15 Hz    15 p,66,true
+Logger lists containing L:D22TMV = 1
+Name     Node   List        Data Event
+L:D22TMV Linac  15 Sec   17 p,15000,true
+Logger lists containing L:WDRESI = 1
+Name     Node   List        Data Event
+L:WDRESI Linac  2 Min     2 p,120000,true
+Logger lists containing L:M1PWF = 1
+Name    Node   List        Data Event
+L:M1PWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:K1TTOP = 1
+Name     Node   List        Data Event
+L:K1TTOP Linac  2 Min     1 p,120000,true
+Logger lists containing L:ALCC = 5
+Name   Node   List        Data Event
+L:ALCC Ctrls  15 Hz    15 p,66,true
+L:ALCC Linac  Event     8 e,52,e,0
+L:ALCC Bstr2  15 Sec   13 p,15000,true
+L:ALCC Bstr2  1 Sec    14 p,1000,true
+L:ALCC DCE46  15 Hz    15 p,66,true
+Logger lists containing L:K6SPKR = 1
+Name     Node   List        Data Event
+L:K6SPKR Linac  2 Min     1 p,120000,true
+Logger lists containing L:M1PRII = 1
+Name     Node   List        Data Event
+L:M1PRII Linac  2 Min     7 p,120000,true
+Logger lists containing L:TK4RAD = 3
+Name     Node   List        Data Event
+L:TK4RAD Linac  Event    10 e,52,e,0
+L:TK4RAD Linac  Event    11 e,0A,e,0
+L:TK4RAD Linac  15 Sec   13 p,15000,true
+Logger lists containing L:K8VAC = 2
+Name    Node   List        Data Event
+L:K8VAC Linac  15 Sec   13 p,15000,true
+L:K8VAC Lina3  1 Sec     0 p,1000,true
+Logger lists containing L:W5FPGM = 1
+Name     Node   List        Data Event
+L:W5FPGM Linac  15 Sec   14 p,15000,true
+Logger lists containing L:C2VPCD = 1
+Name     Node   List        Data Event
+L:C2VPCD Linac  15 Sec   12 p,15000,true
+Logger lists containing Z:TBTOR = 3
+Name    Node   List        Data Event
+Z:TBTOR Linac  2 Min     2 p,120000,true
+Z:TBTOR Linac  15 Sec   12 p,15000,true
+Z:TBTOR Lina3  1 Sec     0 p,1000,true
+Logger lists containing L:K7TBIN = 1
+Name     Node   List        Data Event
+L:K7TBIN Linac  2 Min     0 p,120000,true
+Logger lists containing L:DELM7 = 3
+Name    Node   List        Data Event
+L:DELM7 Linac  Event     9 e,0A,e,0
+L:DELM7 BClk   Event     9 e,52,e,0
+L:DELM7 Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:K4SWFA = 1
+Name     Node   List        Data Event
+L:K4SWFA Linac  2 Min     0 p,120000,true
+Logger lists containing L:W4TAVG = 1
+Name     Node   List        Data Event
+L:W4TAVG Linac  30 Sec    4 p,30000,true
+Logger lists containing L:AARCSI = 4
+Name     Node   List        Data Event
+L:AARCSI Ctrls  15 Hz    13 p,66,true
+L:AARCSI Linac  Event    11 e,52,e,0
+L:AARCSI Lina3  15 Sec   15 p,15000,true
+L:AARCSI DCE46  15 Hz    13 p,66,true
+Logger lists containing L:K2PERV = 1
+Name     Node   List        Data Event
+L:K2PERV Linac  2 Min     1 p,120000,true
+Logger lists containing L:M2PRIV = 1
+Name     Node   List        Data Event
+L:M2PRIV Linac  2 Min     7 p,120000,true
+Logger lists containing Z:TBSRCI = 1
+Name     Node   List        Data Event
+Z:TBSRCI Linac  15 Sec   17 p,15000,true
+Logger lists containing L:K7PHTB = 1
+Name     Node   List        Data Event
+L:K7PHTB Linac  15 Sec   13 p,15000,true
+Logger lists containing L:K7SWFB = 1
+Name     Node   List        Data Event
+L:K7SWFB Linac  2 Min     0 p,120000,true
+Logger lists containing L:V3STKI = 2
+Name     Node   List        Data Event
+L:V3STKI Linac  Event     3 e,52,e,0
+L:V3STKI Lina2  15 Sec   14 p,15000,true
+Logger lists containing L:D13LM = 3
+Name    Node   List        Data Event
+L:D13LM Clcck  Event    13 e,0A,e,0
+L:D13LM Linac  Event     8 e,52,e,0
+L:D13LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:W0TA = 2
+Name   Node   List        Data Event
+L:W0TA Linac  30 Sec    4 p,30000,true
+L:W0TA Lina4  15 Hz    15 p,66,true
+Logger lists containing L:M2CSRV = 1
+Name     Node   List        Data Event
+L:M2CSRV Linac  Event    10 e,52,e,0
+Logger lists containing L:V0VP1 = 1
+Name    Node   List        Data Event
+L:V0VP1 Linac  15 Sec   15 p,15000,true
+Logger lists containing L:K0POWR = 3
+Name     Node   List        Data Event
+L:K0POWR Linac  Event    10 e,52,e,0
+L:K0POWR Lina3  2 Min    12 p,120000,true
+L:K0POWR Lina4  15 Hz    13 p,66,true
+Logger lists containing L:V5SQ = 4
+Name   Node   List        Data Event
+L:V5SQ Linac  Event    10 e,52,e,0
+L:V5SQ Linac  Event    11 e,0A,e,0
+L:V5SQ LLRF   1 Min     0 p,60000,true
+L:V5SQ LLRF   1 Hz      6 p,1000,true
+Logger lists containing L:BPH204 = 3
+Name     Node   List        Data Event
+L:BPH204 Linac  Event     9 e,0A,e,0
+L:BPH204 Linac  15 Sec   16 p,15000,true
+L:BPH204 Lina3  Event     9 e,0A,e,0
+Logger lists containing L|V2VALV = 1
+Name     Node   List        Data Event
+L|V2VALV Linac  2 Min     1 p,120000,true
+Logger lists containing L:D42LM = 3
+Name    Node   List        Data Event
+L:D42LM Linac  Event     9 e,0A,e,0
+L:D42LM BClk   Event     9 e,52,e,0
+L:D42LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:V5VPCD = 1
+Name     Node   List        Data Event
+L:V5VPCD Linac  15 Sec   12 p,15000,true
+Logger lists containing L:W2FPGM = 1
+Name     Node   List        Data Event
+L:W2FPGM Linac  15 Sec   14 p,15000,true
+Logger lists containing B:BLMLAM = 2
+Name     Node   List        Data Event
+B:BLMLAM Bstr   Event     5 e,10,s,2
+B:BLMLAM Linac  Event     3 e,52,e,0
+Logger lists containing L:Q127P9 = 1
+Name     Node   List        Data Event
+L:Q127P9 Linac  15 Sec   15 p,15000,true
+Logger lists containing L:L5STMP = 1
+Name     Node   List        Data Event
+L:L5STMP Linac  2 Min     7 p,120000,true
+Logger lists containing L:M1PFNV = 1
+Name     Node   List        Data Event
+L:M1PFNV Linac  2 Min     7 p,120000,true
+Logger lists containing L:D11TMV = 2
+Name     Node   List        Data Event
+L:D11TMV Linac  15 Sec   17 p,15000,true
+L:D11TMV PXIE   10 Hz    12 p,100,true
+Logger lists containing L:KDSWF = 1
+Name    Node   List        Data Event
+L:KDSWF Linac  2 Min     7 p,120000,true
+Logger lists containing L:WK3ST = 1
+Name    Node   List        Data Event
+L:WK3ST Linac  30 Sec    4 p,30000,true
+Logger lists containing L:W7MTMP = 1
+Name     Node   List        Data Event
+L:W7MTMP Linac  15 Sec   12 p,15000,true
+Logger lists containing L:L5GADJ = 2
+Name     Node   List        Data Event
+L:L5GADJ Linac  2 Min     2 p,120000,true
+L:L5GADJ Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:RF4PAV = 2
+Name     Node   List        Data Event
+L:RF4PAV Linac  30 Sec    4 p,30000,true
+L:RF4PAV Lina3  10 Sec    4 p,10000,true
+Logger lists containing L:DELM3 = 4
+Name    Node   List        Data Event
+L:DELM3 Linac  Event     3 e,52,e,0
+L:DELM3 Linac  Event     9 e,0A,e,0
+L:DELM3 Lina3  30 Sec    6 p,30000,true
+L:DELM3 Lina3  Event     7 e,0A,e,0
+Logger lists containing L:M7PRIV = 1
+Name     Node   List        Data Event
+L:M7PRIV Linac  2 Min     6 p,120000,true
+Logger lists containing L:K1SOL1 = 1
+Name     Node   List        Data Event
+L:K1SOL1 Linac  15 Sec    5 p,15000,true
+Logger lists containing L:WK2RP = 1
+Name    Node   List        Data Event
+L:WK2RP Linac  30 Sec    4 p,30000,true
+Logger lists containing L:L4PADJ = 2
+Name     Node   List        Data Event
+L:L4PADJ Linac  2 Min     7 p,120000,true
+L:L4PADJ Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:GR1MID = 6
+Name     Node   List        Data Event
+L:GR1MID Ctrls  15 Hz    15 p,66,true
+L:GR1MID Linac  Event     8 e,52,e,0
+L:GR1MID Linac  Event    11 e,0A,e,0
+L:GR1MID Lina2  1 Sec     1 p,1000,true
+L:GR1MID Lina2  2 Min    13 p,120000,true
+L:GR1MID DCE46  15 Hz    15 p,66,true
+Logger lists containing L:C3PHAS = 2
+Name     Node   List        Data Event
+L:C3PHAS Linac  Event     8 e,52,e,0
+L:C3PHAS Lina4  15 Hz    13 p,66,true
+Logger lists containing L:BGASV = 3
+Name    Node   List        Data Event
+L:BGASV Hins   15 Hz     8 p,66,true
+L:BGASV Linac  Event    11 e,52,e,0
+L:BGASV Lina3  15 Sec   16 p,15000,true
+Logger lists containing L:AEXTI = 2
+Name    Node   List        Data Event
+L:AEXTI Linac  Event     8 e,52,e,0
+L:AEXTI Lina3  15 Sec   15 p,15000,true
+Logger lists containing L:W1MFLW = 1
+Name     Node   List        Data Event
+L:W1MFLW Linac  15 Sec   12 p,15000,true
+Logger lists containing L:K0XWF = 1
+Name    Node   List        Data Event
+L:K0XWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:M3PWF = 1
+Name    Node   List        Data Event
+L:M3PWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:D31BPH = 4
+Name     Node   List        Data Event
+L:D31BPH Linac  Event     9 e,0A,e,0
+L:D31BPH Lina2  30 Sec    9 p,30000,true
+L:D31BPH BClk   Event    10 e,52,e,0
+L:D31BPH Lina3  Event     8 e,0A,e,0
+Logger lists containing L:W0TC = 1
+Name   Node   List        Data Event
+L:W0TC Linac  30 Sec    4 p,30000,true
+Logger lists containing L:K6TBOU = 1
+Name     Node   List        Data Event
+L:K6TBOU Linac  15 Sec   13 p,15000,true
+Logger lists containing L:C5PHAS = 2
+Name     Node   List        Data Event
+L:C5PHAS Linac  Event     8 e,52,e,0
+L:C5PHAS Lina4  15 Hz    13 p,66,true
+Logger lists containing L:D23LM = 3
+Name    Node   List        Data Event
+L:D23LM Clcck  Event    13 e,0A,e,0
+L:D23LM Linac  Event     8 e,52,e,0
+L:D23LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:WK1SP = 1
+Name    Node   List        Data Event
+L:WK1SP Linac  15 Sec    5 p,15000,true
+Logger lists containing L:K4PWRD = 1
+Name     Node   List        Data Event
+L:K4PWRD Linac  15 Sec   14 p,15000,true
+Logger lists containing L:K6RHUM = 1
+Name     Node   List        Data Event
+L:K6RHUM Linac  2 Min     1 p,120000,true
+Logger lists containing L:V1SQ = 4
+Name   Node   List        Data Event
+L:V1SQ Linac  Event    10 e,52,e,0
+L:V1SQ Linac  Event    11 e,0A,e,0
+L:V1SQ LLRF   1 Min     0 p,60000,true
+L:V1SQ LLRF   1 Hz      6 p,1000,true
+Logger lists containing Z:TBVLVI = 1
+Name     Node   List        Data Event
+Z:TBVLVI Linac  15 Sec   16 p,15000,true
+Logger lists containing L:K7SWFA = 1
+Name     Node   List        Data Event
+L:K7SWFA Linac  2 Min     0 p,120000,true
+Logger lists containing L:D11BPV = 4
+Name     Node   List        Data Event
+L:D11BPV Linac  Event     9 e,0A,e,0
+L:D11BPV Lina2  30 Sec    9 p,30000,true
+L:D11BPV BClk   Event     8 e,52,e,0
+L:D11BPV Lina3  Event     7 e,0A,e,0
+Logger lists containing L:NTF1BE = 1
+Name     Node   List        Data Event
+L:NTF1BE Linac  30 Sec    4 p,30000,true
+Logger lists containing L:M3PRII = 1
+Name     Node   List        Data Event
+L:M3PRII Linac  2 Min     7 p,120000,true
+Logger lists containing L:D71TMV = 2
+Name     Node   List        Data Event
+L:D71TMV Linac  15 Sec   13 p,15000,true
+L:D71TMV Lina2  2 Min    11 p,120000,true
+Logger lists containing L:K7PERV = 1
+Name     Node   List        Data Event
+L:K7PERV Linac  2 Min     1 p,120000,true
+Logger lists containing L:L4GADJ = 2
+Name     Node   List        Data Event
+L:L4GADJ Linac  2 Min     2 p,120000,true
+L:L4GADJ Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:K1PWRD = 1
+Name     Node   List        Data Event
+L:K1PWRD Linac  15 Sec   14 p,15000,true
+Logger lists containing L:BSTEMP = 2
+Name     Node   List        Data Event
+L:BSTEMP Linac  Event    11 e,52,e,0
+L:BSTEMP Lina3  15 Sec   16 p,15000,true
+Logger lists containing L:M3CDQV = 2
+Name     Node   List        Data Event
+L:M3CDQV Linac  2 Min     0 p,120000,true
+L:M3CDQV Linac  15 Sec   14 p,15000,true
+Logger lists containing L:W0MTMP = 1
+Name     Node   List        Data Event
+L:W0MTMP Linac  15 Sec   12 p,15000,true
+Logger lists containing L:QPSC02 = 1
+Name     Node   List        Data Event
+L:QPSC02 Linac  15 Sec    5 p,15000,true
+Logger lists containing L:K7TRGP = 1
+Name     Node   List        Data Event
+L:K7TRGP Linac  2 Min     1 p,120000,true
+Logger lists containing L:W1FSET = 2
+Name     Node   List        Data Event
+L:W1FSET Linac  15 Sec   16 p,15000,true
+L:W1FSET Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:L6PADJ = 2
+Name     Node   List        Data Event
+L:L6PADJ Linac  2 Min     7 p,120000,true
+L:L6PADJ Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:V3VPAB = 1
+Name     Node   List        Data Event
+L:V3VPAB Linac  15 Sec   12 p,15000,true
+Logger lists containing L:C1PHAS = 2
+Name     Node   List        Data Event
+L:C1PHAS Linac  Event     8 e,52,e,0
+L:C1PHAS Lina4  15 Hz    13 p,66,true
+Logger lists containing L:C3PHOF = 1
+Name     Node   List        Data Event
+L:C3PHOF Linac  2 Min     6 p,120000,true
+Logger lists containing L:D44LM = 3
+Name    Node   List        Data Event
+L:D44LM Linac  Event     9 e,0A,e,0
+L:D44LM BClk   Event     9 e,52,e,0
+L:D44LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:GR3HI = 2
+Name    Node   List        Data Event
+L:GR3HI Linac  Event    11 e,52,e,0
+L:GR3HI Lina3  2 Min    13 p,120000,true
+Logger lists containing L:K6TTOP = 1
+Name     Node   List        Data Event
+L:K6TTOP Linac  2 Min     1 p,120000,true
+Logger lists containing L:QPSC07 = 1
+Name     Node   List        Data Event
+L:QPSC07 Linac  15 Sec    5 p,15000,true
+Logger lists containing L:WVFERR = 2
+Name     Node   List        Data Event
+L:WVFERR Linac  15 Sec   13 p,15000,true
+L:WVFERR Lina4  1 Hz      1 p,1000,true
+Logger lists containing L:W2MTMP = 1
+Name     Node   List        Data Event
+L:W2MTMP Linac  15 Sec   12 p,15000,true
+Logger lists containing L:C1VPAB = 1
+Name     Node   List        Data Event
+L:C1VPAB Linac  15 Sec   12 p,15000,true
+Logger lists containing L:V4VP1 = 1
+Name    Node   List        Data Event
+L:V4VP1 Linac  15 Sec   15 p,15000,true
+Logger lists containing L:SBEAMW = 2
+Name     Node   List        Data Event
+L:SBEAMW Linac  2 Min     0 p,120000,true
+L:SBEAMW Lina3  1 Sec     0 p,1000,true
+Logger lists containing L:SPECUR = 1
+Name     Node   List        Data Event
+L:SPECUR Linac  30 Sec    4 p,30000,true
+Logger lists containing L:Q24 = 1
+Name  Node   List        Data Event
+L:Q24 Linac  2 Min     2 p,120000,true
+Logger lists containing L:Q41 = 1
+Name  Node   List        Data Event
+L:Q41 Linac  2 Min     2 p,120000,true
+Logger lists containing L:D23BPH = 4
+Name     Node   List        Data Event
+L:D23BPH Linac  Event     9 e,0A,e,0
+L:D23BPH Lina2  30 Sec    9 p,30000,true
+L:D23BPH BClk   Event    10 e,52,e,0
+L:D23BPH Lina3  Event     8 e,0A,e,0
+Logger lists containing L:DELM9 = 2
+Name    Node   List        Data Event
+L:DELM9 Linac  15 Sec   15 p,15000,true
+L:DELM9 Lina3  Event     7 e,0A,e,0
+Logger lists containing L:V5VPAB = 1
+Name     Node   List        Data Event
+L:V5VPAB Linac  15 Sec   12 p,15000,true
+Logger lists containing L:BPH203 = 2
+Name     Node   List        Data Event
+L:BPH203 Linac  15 Sec   17 p,15000,true
+L:BPH203 Lina3  Event     9 e,0A,e,0
+Logger lists containing L:DISTDB = 1
+Name     Node   List        Data Event
+L:DISTDB Linac  2 Min     2 p,120000,true
+Logger lists containing L:W4FERR = 2
+Name     Node   List        Data Event
+L:W4FERR Linac  15 Sec   13 p,15000,true
+L:W4FERR Lina4  1 Hz      1 p,1000,true
+Logger lists containing L:M1PRIV = 1
+Name     Node   List        Data Event
+L:M1PRIV Linac  2 Min     7 p,120000,true
+Logger lists containing L:K8TTOP = 1
+Name     Node   List        Data Event
+L:K8TTOP Linac  15 Sec   13 p,15000,true
+Logger lists containing L:D3PHAS = 1
+Name     Node   List        Data Event
+L:D3PHAS Linac  Event    10 e,52,e,0
+Logger lists containing L:STH1 = 1
+Name   Node   List        Data Event
+L:STH1 Linac  15 Sec   17 p,15000,true
+Logger lists containing L:V5SAFF = 5
+Name     Node   List        Data Event
+L:V5SAFF Ctrls  15 Hz    15 p,66,true
+L:V5SAFF Linac  Event    10 e,52,e,0
+L:V5SAFF Linac  Event    11 e,0A,e,0
+L:V5SAFF LLRF   1 Min     0 p,60000,true
+L:V5SAFF DCE46  15 Hz    15 p,66,true
+Logger lists containing L:K2GUNI = 1
+Name     Node   List        Data Event
+L:K2GUNI Linac  15 Sec   14 p,15000,true
+Logger lists containing L:M5PRII = 1
+Name     Node   List        Data Event
+L:M5PRII Linac  2 Min     7 p,120000,true
+Logger lists containing L:Q53 = 1
+Name  Node   List        Data Event
+L:Q53 Linac  2 Min     2 p,120000,true
+Logger lists containing L:K5GUNI = 1
+Name     Node   List        Data Event
+L:K5GUNI Linac  15 Sec   14 p,15000,true
+Logger lists containing L:Q44 = 1
+Name  Node   List        Data Event
+L:Q44 Linac  2 Min     2 p,120000,true
+Logger lists containing Z:TEXTV = 4
+Name    Node   List        Data Event
+Z:TEXTV Ctrls  15 Hz    13 p,66,true
+Z:TEXTV Linac  2 Min     2 p,120000,true
+Z:TEXTV Lina3  1 Sec     0 p,1000,true
+Z:TEXTV DCE46  15 Hz    13 p,66,true
+Logger lists containing L:VT4001 = 1
+Name     Node   List        Data Event
+L:VT4001 Linac  15 Sec   17 p,15000,true
+Logger lists containing L:D7POWL = 1
+Name     Node   List        Data Event
+L:D7POWL Linac  Event    10 e,52,e,0
+Logger lists containing L:DELM4 = 4
+Name    Node   List        Data Event
+L:DELM4 Linac  Event     3 e,52,e,0
+L:DELM4 Linac  Event     9 e,0A,e,0
+L:DELM4 Linac  15 Sec   15 p,15000,true
+L:DELM4 Lina3  Event     7 e,0A,e,0
+Logger lists containing L:W0PNOM = 1
+Name     Node   List        Data Event
+L:W0PNOM Linac  2 Min     6 p,120000,true
+Logger lists containing L:C58VER = 1
+Name     Node   List        Data Event
+L:C58VER Linac  15 Sec    5 p,15000,true
+Logger lists containing L:C6PHAS = 2
+Name     Node   List        Data Event
+L:C6PHAS Linac  Event     8 e,52,e,0
+L:C6PHAS Lina4  15 Hz    13 p,66,true
+Logger lists containing L:D74INT = 5
+Name     Node   List        Data Event
+L:D74INT Inst1  15 Sec    1 p,15000,true
+L:D74INT Linac  Event     3 e,0A,e,0
+L:D74INT MCR    Event     5 e,A0,e,0
+L:D74INT MTA    Event    11 e,FE,h,5
+L:D74INT Bstr2  Event    17 e,52,e,0
+Logger lists containing L:D61BPH = 4
+Name     Node   List        Data Event
+L:D61BPH Linac  Event     9 e,0A,e,0
+L:D61BPH Lina2  30 Sec    9 p,30000,true
+L:D61BPH BClk   Event     7 e,52,e,0
+L:D61BPH Lina3  Event     9 e,0A,e,0
+Logger lists containing L:DELM8 = 1
+Name    Node   List        Data Event
+L:DELM8 Linac  15 Sec   15 p,15000,true
+Logger lists containing L:TO4INI = 2
+Name     Node   List        Data Event
+L:TO4INI Inst3  15 Sec    0 p,15000,true
+L:TO4INI Linac  Event    10 e,52,e,0
+Logger lists containing L:QPSC03 = 1
+Name     Node   List        Data Event
+L:QPSC03 Linac  15 Sec    5 p,15000,true
+Logger lists containing G:TLGNTF = 1
+Name     Node   List        Data Event
+G:TLGNTF Linac  15 Sec   14 p,15000,true
+Logger lists containing L:V1VP1 = 1
+Name    Node   List        Data Event
+L:V1VP1 Linac  15 Sec   15 p,15000,true
+Logger lists containing L:Q31 = 1
+Name  Node   List        Data Event
+L:Q31 Linac  2 Min     2 p,120000,true
+Logger lists containing L:M7PRII = 1
+Name     Node   List        Data Event
+L:M7PRII Linac  2 Min     6 p,120000,true
+Logger lists containing L:WDTSET = 1
+Name     Node   List        Data Event
+L:WDTSET Linac  30 Sec    4 p,30000,true
+Logger lists containing L:D53BPH = 4
+Name     Node   List        Data Event
+L:D53BPH Linac  Event     9 e,0A,e,0
+L:D53BPH Lina2  30 Sec    9 p,30000,true
+L:D53BPH BClk   Event     7 e,52,e,0
+L:D53BPH Lina3  Event     9 e,0A,e,0
+Logger lists containing L:D72BPV = 4
+Name     Node   List        Data Event
+L:D72BPV Linac  Event     9 e,0A,e,0
+L:D72BPV Lina2  30 Sec    9 p,30000,true
+L:D72BPV BClk   Event     8 e,52,e,0
+L:D72BPV Lina3  Event     9 e,0A,e,0
+Logger lists containing L:C4VAC = 1
+Name    Node   List        Data Event
+L:C4VAC Linac  30 Sec    4 p,30000,true
+Logger lists containing L:D5PHAS = 1
+Name     Node   List        Data Event
+L:D5PHAS Linac  Event    10 e,52,e,0
+Logger lists containing L:K4SOL1 = 1
+Name     Node   List        Data Event
+L:K4SOL1 Linac  15 Sec    5 p,15000,true
+Logger lists containing L:D0TOR = 2
+Name    Node   List        Data Event
+L:D0TOR Linac  Event     8 e,52,e,0
+L:D0TOR Linac  15 Sec   14 p,15000,true
+Logger lists containing L:D52TMH = 1
+Name     Node   List        Data Event
+L:D52TMH Linac  15 Sec   17 p,15000,true
+Logger lists containing L:K3RHUM = 1
+Name     Node   List        Data Event
+L:K3RHUM Linac  2 Min     1 p,120000,true
+Logger lists containing L:CDGRAD = 5
+Name     Node   List        Data Event
+L:CDGRAD Bstr   2 Min     0 p,120000,true
+L:CDGRAD Linac  Event     3 e,52,e,0
+L:CDGRAD Linac  15 Sec   16 p,15000,true
+L:CDGRAD Inst2  1 Sec    17 p,1000,true
+L:CDGRAD Lina4  15 Hz    13 p,66,true
+Logger lists containing L:D6PHAS = 1
+Name     Node   List        Data Event
+L:D6PHAS Linac  Event    10 e,52,e,0
+Logger lists containing L:DR2F = 3
+Name   Node   List        Data Event
+L:DR2F Linac  15 Sec   15 p,15000,true
+L:DR2F LLRF   2 Min     4 p,120000,true
+L:DR2F Lina4  15 Hz    12 p,66,true
+Logger lists containing L:K0CWF = 1
+Name    Node   List        Data Event
+L:K0CWF Linac  2 Min     0 p,120000,true
+Logger lists containing L:SPECDA = 1
+Name     Node   List        Data Event
+L:SPECDA Linac  2 Min     0 p,120000,true
+Logger lists containing L:V4SAFF = 4
+Name     Node   List        Data Event
+L:V4SAFF Ctrls  15 Hz    15 p,66,true
+L:V4SAFF Linac  Event    11 e,0A,e,0
+L:V4SAFF LLRF   1 Min     0 p,60000,true
+L:V4SAFF DCE46  15 Hz    15 p,66,true
+Logger lists containing L:GR5LO = 2
+Name    Node   List        Data Event
+L:GR5LO EESup  1 Sec     0 p,1000,true
+L:GR5LO Linac  Event    11 e,52,e,0
+Logger lists containing L:DKWVPG = 1
+Name     Node   List        Data Event
+L:DKWVPG Linac  2 Min     2 p,120000,true
+Logger lists containing L:M2SECV = 1
+Name     Node   List        Data Event
+L:M2SECV Linac  2 Min     7 p,120000,true
+Logger lists containing L:T2VACL = 1
+Name     Node   List        Data Event
+L:T2VACL Linac  15 Sec   13 p,15000,true
+Logger lists containing L:V2SAFF = 5
+Name     Node   List        Data Event
+L:V2SAFF Ctrls  15 Hz    15 p,66,true
+L:V2SAFF Linac  Event    10 e,52,e,0
+L:V2SAFF Linac  Event    11 e,0A,e,0
+L:V2SAFF LLRF   1 Min     0 p,60000,true
+L:V2SAFF DCE46  15 Hz    15 p,66,true
+Logger lists containing L|B2MODR = 1
+Name     Node   List        Data Event
+L|B2MODR Linac  Event    11 e,52,e,0
+Logger lists containing L:L2PADJ = 2
+Name     Node   List        Data Event
+L:L2PADJ Linac  2 Min     7 p,120000,true
+L:L2PADJ Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:M1SECV = 1
+Name     Node   List        Data Event
+L:M1SECV Linac  2 Min     7 p,120000,true
+Logger lists containing L:K2XWF = 1
+Name    Node   List        Data Event
+L:K2XWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:SPECHP = 1
+Name     Node   List        Data Event
+L:SPECHP Linac  30 Sec    4 p,30000,true
+Logger lists containing L:L3STMP = 1
+Name     Node   List        Data Event
+L:L3STMP Linac  2 Min     7 p,120000,true
+Logger lists containing L:KVBWF = 1
+Name    Node   List        Data Event
+L:KVBWF Linac  2 Min     0 p,120000,true
+Logger lists containing L:D01TMH = 1
+Name     Node   List        Data Event
+L:D01TMH Linac  15 Sec   13 p,15000,true
+Logger lists containing L:BPH2OT = 4
+Name     Node   List        Data Event
+L:BPH2OT Linac  Event     3 e,09,e,0
+L:BPH2OT Lina2  30 Sec    9 p,30000,true
+L:BPH2OT BClk   Event     8 e,52,e,0
+L:BPH2OT Lina3  Event     7 e,0A,e,0
+Logger lists containing L:K8FILP = 1
+Name     Node   List        Data Event
+L:K8FILP Linac  15 Sec   13 p,15000,true
+Logger lists containing L:V2VPAB = 1
+Name     Node   List        Data Event
+L:V2VPAB Linac  15 Sec   12 p,15000,true
+Logger lists containing L:W7CTMP = 1
+Name     Node   List        Data Event
+L:W7CTMP Linac  15 Sec   15 p,15000,true
+Logger lists containing L:L5SDET = 1
+Name     Node   List        Data Event
+L:L5SDET Linac  15 Sec   15 p,15000,true
+Logger lists containing L:V5VP1 = 1
+Name    Node   List        Data Event
+L:V5VP1 Linac  15 Sec   15 p,15000,true
+Logger lists containing L:D53LM = 3
+Name    Node   List        Data Event
+L:D53LM Linac  Event     9 e,0A,e,0
+L:D53LM BClk   Event     9 e,52,e,0
+L:D53LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:K5POWR = 3
+Name     Node   List        Data Event
+L:K5POWR Linac  Event    10 e,52,e,0
+L:K5POWR Lina3  2 Min    12 p,120000,true
+L:K5POWR Lina4  15 Hz    13 p,66,true
+Logger lists containing L:K8CWF = 1
+Name    Node   List        Data Event
+L:K8CWF Linac  15 Sec   13 p,15000,true
+Logger lists containing L:W0MFLW = 1
+Name     Node   List        Data Event
+L:W0MFLW Linac  15 Sec   12 p,15000,true
+Logger lists containing L:M4SECV = 1
+Name     Node   List        Data Event
+L:M4SECV Linac  2 Min     7 p,120000,true
+Logger lists containing L:Q72 = 1
+Name  Node   List        Data Event
+L:Q72 Linac  2 Min     2 p,120000,true
+Logger lists containing L:K2VAC = 2
+Name    Node   List        Data Event
+L:K2VAC Linac  2 Min     0 p,120000,true
+L:K2VAC Lina3  1 Sec     3 p,1000,true
+Logger lists containing L:BTOR = 7
+Name   Node   List        Data Event
+L:BTOR Ctrls  15 Hz    15 p,66,true
+L:BTOR Linac  Event     3 e,52,e,0
+L:BTOR MBoon  Event     1 e,1D,e,0
+L:BTOR BClk   Event     2 e,00,e,0
+L:BTOR Lina3  Event     7 e,0A,e,0
+L:BTOR Lina3  15 Sec   16 p,15000,true
+L:BTOR DCE46  15 Hz    15 p,66,true
+Logger lists containing L:V3VPCD = 1
+Name     Node   List        Data Event
+L:V3VPCD Linac  15 Sec   12 p,15000,true
+Logger lists containing L:QD4 = 1
+Name  Node   List        Data Event
+L:QD4 Linac  15 Sec   17 p,15000,true
+Logger lists containing L:W3TNOM = 1
+Name     Node   List        Data Event
+L:W3TNOM Linac  15 Sec   14 p,15000,true
+Logger lists containing L:K7SOL1 = 1
+Name     Node   List        Data Event
+L:K7SOL1 Linac  15 Sec    5 p,15000,true
+Logger lists containing L:QPSC05 = 1
+Name     Node   List        Data Event
+L:QPSC05 Linac  15 Sec    5 p,15000,true
+Logger lists containing L:D63LM = 4
+Name    Node   List        Data Event
+L:D63LM Linac  Event     9 e,0A,e,0
+L:D63LM Linac  Event    10 e,52,e,0
+L:D63LM BClk   Event     9 e,52,e,0
+L:D63LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:L7PADJ = 3
+Name     Node   List        Data Event
+L:L7PADJ Linac  15 Sec    5 p,15000,true
+L:L7PADJ Linac  2 Min     7 p,120000,true
+L:L7PADJ Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:D64BPV = 4
+Name     Node   List        Data Event
+L:D64BPV Linac  Event     9 e,0A,e,0
+L:D64BPV Lina2  30 Sec    9 p,30000,true
+L:D64BPV BClk   Event     8 e,52,e,0
+L:D64BPV Lina3  Event     9 e,0A,e,0
+Logger lists containing L:D51TMV = 1
+Name     Node   List        Data Event
+L:D51TMV Linac  15 Sec   17 p,15000,true
+Logger lists containing L:KDTTEM = 1
+Name     Node   List        Data Event
+L:KDTTEM Linac  2 Min     2 p,120000,true
+Logger lists containing L:MD2OI = 2
+Name    Node   List        Data Event
+L:MD2OI Linac  15 Sec   12 p,15000,true
+L:MD2OI Lina3  1 Sec     3 p,1000,true
+Logger lists containing L:L0SDET = 1
+Name     Node   List        Data Event
+L:L0SDET Linac  15 Sec   15 p,15000,true
+Logger lists containing L:M4PFNV = 1
+Name     Node   List        Data Event
+L:M4PFNV Linac  2 Min     7 p,120000,true
+Logger lists containing L:W4MTMP = 1
+Name     Node   List        Data Event
+L:W4MTMP Linac  15 Sec   12 p,15000,true
+Logger lists containing L:K0SWF = 1
+Name    Node   List        Data Event
+L:K0SWF Linac  2 Min     1 p,120000,true
+Logger lists containing L:DR4ION = 1
+Name     Node   List        Data Event
+L:DR4ION Linac  2 Min     0 p,120000,true
+Logger lists containing L:D24LM = 3
+Name    Node   List        Data Event
+L:D24LM Clcck  Event    13 e,0A,e,0
+L:D24LM Linac  Event     8 e,52,e,0
+L:D24LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:D51TMH = 1
+Name     Node   List        Data Event
+L:D51TMH Linac  15 Sec   17 p,15000,true
+Logger lists containing L:Q04 = 1
+Name  Node   List        Data Event
+L:Q04 Linac  2 Min     1 p,120000,true
+Logger lists containing L:W0VSET = 3
+Name     Node   List        Data Event
+L:W0VSET Linac  30 Sec    4 p,30000,true
+L:W0VSET Lina4  1 Hz      0 p,1000,true
+L:W0VSET Lina4  15 Hz    15 p,66,true
+Logger lists containing L:TLTMPW = 1
+Name     Node   List        Data Event
+L:TLTMPW Linac  15 Sec   16 p,15000,true
+Logger lists containing L:M0SWTV = 1
+Name     Node   List        Data Event
+L:M0SWTV Linac  15 Sec   15 p,15000,true
+Logger lists containing L:M8CSRV = 1
+Name     Node   List        Data Event
+L:M8CSRV Linac  2 Min     2 p,120000,true
+Logger lists containing L:WVCTMP = 1
+Name     Node   List        Data Event
+L:WVCTMP Linac  15 Sec   15 p,15000,true
+Logger lists containing L:K1TBIN = 1
+Name     Node   List        Data Event
+L:K1TBIN Linac  2 Min     0 p,120000,true
+Logger lists containing L:K7TTOP = 1
+Name     Node   List        Data Event
+L:K7TTOP Linac  2 Min     1 p,120000,true
+Logger lists containing L|RF3SKD = 1
+Name     Node   List        Data Event
+L|RF3SKD Linac  15 Sec   16 p,15000,true
+Logger lists containing L:KDXWF = 1
+Name    Node   List        Data Event
+L:KDXWF Linac  2 Min     0 p,120000,true
+Logger lists containing L:D32TMV = 1
+Name     Node   List        Data Event
+L:D32TMV Linac  15 Sec   17 p,15000,true
+Logger lists containing L|RF4SKD = 1
+Name     Node   List        Data Event
+L|RF4SKD Linac  15 Sec   16 p,15000,true
+Logger lists containing L:CVPHAS = 3
+Name     Node   List        Data Event
+L:CVPHAS Bstr   1 Min     4 p,60000,true
+L:CVPHAS Linac  Event     8 e,52,e,0
+L:CVPHAS Lina4  15 Hz    13 p,66,true
+Logger lists containing L:K0TTEM = 1
+Name     Node   List        Data Event
+L:K0TTEM Linac  2 Min     2 p,120000,true
+Logger lists containing L:WK3RP = 1
+Name    Node   List        Data Event
+L:WK3RP Linac  30 Sec    4 p,30000,true
+Logger lists containing L:WK1RP = 1
+Name    Node   List        Data Event
+L:WK1RP Linac  15 Sec    5 p,15000,true
+Logger lists containing L:D71LM = 3
+Name    Node   List        Data Event
+L:D71LM Linac  Event     9 e,0A,e,0
+L:D71LM BClk   Event     9 e,52,e,0
+L:D71LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:K2GUNV = 1
+Name     Node   List        Data Event
+L:K2GUNV Linac  15 Sec   14 p,15000,true
+Logger lists containing L:TLMR2 = 1
+Name    Node   List        Data Event
+L:TLMR2 Linac  15 Sec   16 p,15000,true
+Logger lists containing L:VT4IN = 1
+Name    Node   List        Data Event
+L:VT4IN Linac  15 Sec   13 p,15000,true
+Logger lists containing L:BSOL = 5
+Name   Node   List        Data Event
+L:BSOL Ctrls  15 Hz    13 p,66,true
+L:BSOL Linac  Event     9 e,0A,e,0
+L:BSOL Linac  Event    11 e,52,e,0
+L:BSOL Lina3  15 Sec   15 p,15000,true
+L:BSOL DCE46  15 Hz    13 p,66,true
+Logger lists containing L:Q01 = 1
+Name  Node   List        Data Event
+L:Q01 Linac  2 Min     1 p,120000,true
+Logger lists containing L:D74BPH = 4
+Name     Node   List        Data Event
+L:D74BPH Linac  Event     3 e,52,e,0
+L:D74BPH Linac  Event     9 e,0A,e,0
+L:D74BPH Lina2  30 Sec    8 p,30000,true
+L:D74BPH Lina3  Event     9 e,0A,e,0
+Logger lists containing L:M1CHRG = 1
+Name     Node   List        Data Event
+L:M1CHRG Linac  2 Min     7 p,120000,true
+Logger lists containing L:Q54 = 1
+Name  Node   List        Data Event
+L:Q54 Linac  2 Min     2 p,120000,true
+Logger lists containing Z:LNSOFD = 1
+Name     Node   List        Data Event
+Z:LNSOFD Linac  15 Sec   16 p,15000,true
+Logger lists containing L:CX1LO = 1
+Name    Node   List        Data Event
+L:CX1LO Linac  15 Sec   17 p,15000,true
+Logger lists containing L:HT4000 = 2
+Name     Node   List        Data Event
+L:HT4000 Linac  Event     8 e,52,e,0
+L:HT4000 Linac  15 Sec   17 p,15000,true
+Logger lists containing L:L5MDET = 1
+Name     Node   List        Data Event
+L:L5MDET Linac  15 Sec   14 p,15000,true
+Logger lists containing L:BBTEMP = 2
+Name     Node   List        Data Event
+L:BBTEMP Linac  Event    11 e,52,e,0
+L:BBTEMP Lina3  15 Sec   16 p,15000,true
+Logger lists containing L:D12BPV = 4
+Name     Node   List        Data Event
+L:D12BPV Linac  Event     9 e,0A,e,0
+L:D12BPV Lina2  30 Sec    9 p,30000,true
+L:D12BPV BClk   Event     8 e,52,e,0
+L:D12BPV Lina3  Event     7 e,0A,e,0
+Logger lists containing L:TORSOI = 2
+Name     Node   List        Data Event
+L:TORSOI Inst3  15 Sec   12 p,15000,true
+L:TORSOI Linac  Event     3 e,0A,e,0
+Logger lists containing L:T1VACL = 2
+Name     Node   List        Data Event
+L:T1VACL Linac  15 Sec   13 p,15000,true
+L:T1VACL Lina4  15 Hz    17 p,66,true
+Logger lists containing L:C0PHOF = 1
+Name     Node   List        Data Event
+L:C0PHOF Linac  2 Min     6 p,120000,true
+Logger lists containing L:TMPLM1 = 1
+Name     Node   List        Data Event
+L:TMPLM1 Linac  Event     9 e,0A,e,0
+Logger lists containing L:D21TMV = 1
+Name     Node   List        Data Event
+L:D21TMV Linac  15 Sec   17 p,15000,true
+Logger lists containing L:BPV2OT = 4
+Name     Node   List        Data Event
+L:BPV2OT Linac  Event     3 e,09,e,0
+L:BPV2OT Lina2  30 Sec    9 p,30000,true
+L:BPV2OT BClk   Event     8 e,52,e,0
+L:BPV2OT Lina3  Event     7 e,0A,e,0
+Logger lists containing L:Q14 = 2
+Name  Node   List        Data Event
+L:Q14 Linac  2 Min     2 p,120000,true
+L:Q14 Linac  Event    10 e,52,e,0
+Logger lists containing L:D11TMH = 1
+Name     Node   List        Data Event
+L:D11TMH Linac  15 Sec   17 p,15000,true
+Logger lists containing L:W0CFLW = 4
+Name     Node   List        Data Event
+L:W0CFLW Linac  Event     3 e,09,e,0
+L:W0CFLW Linac  15 Sec   12 p,15000,true
+L:W0CFLW Lina4  1 Hz      0 p,1000,true
+L:W0CFLW Lina4  15 Hz    15 p,66,true
+Logger lists containing L:TO4IN = 4
+Name    Node   List        Data Event
+L:TO4IN Inst3  15 Sec    0 p,15000,true
+L:TO4IN Linac  Event     3 e,0A,e,0
+L:TO4IN Linac  15 Sec   14 p,15000,true
+L:TO4IN Lina3  Event     8 e,52,e,0
+Logger lists containing L:AGASO = 2
+Name    Node   List        Data Event
+L:AGASO Linac  Event    11 e,52,e,0
+L:AGASO Lina3  15 Sec   15 p,15000,true
+Logger lists containing L:WLCWR = 1
+Name    Node   List        Data Event
+L:WLCWR Linac  30 Sec    4 p,30000,true
+Logger lists containing L:TORMD = 5
+Name    Node   List        Data Event
+L:TORMD Clcck  Event    13 e,0A,e,0
+L:TORMD Inst3  15 Sec   12 p,15000,true
+L:TORMD Linac  Event    11 e,0A,e,0
+L:TORMD Linac  15 Sec   13 p,15000,true
+L:TORMD Lina3  Event     8 e,52,e,0
+Logger lists containing L:Q61 = 1
+Name  Node   List        Data Event
+L:Q61 Linac  2 Min     2 p,120000,true
+Logger lists containing L:C1PHOF = 1
+Name     Node   List        Data Event
+L:C1PHOF Linac  2 Min     6 p,120000,true
+Logger lists containing L:WDOPRS = 1
+Name     Node   List        Data Event
+L:WDOPRS Linac  2 Min     0 p,120000,true
+Logger lists containing L:W3TAVG = 1
+Name     Node   List        Data Event
+L:W3TAVG Linac  30 Sec    4 p,30000,true
+Logger lists containing L:KDCWF = 1
+Name    Node   List        Data Event
+L:KDCWF Linac  2 Min     7 p,120000,true
+Logger lists containing L:L2SDET = 1
+Name     Node   List        Data Event
+L:L2SDET Linac  15 Sec   15 p,15000,true
+Logger lists containing L:D0VLM = 3
+Name    Node   List        Data Event
+L:D0VLM Clcck  Event    13 e,0A,e,0
+L:D0VLM Linac  Event     8 e,52,e,0
+L:D0VLM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:V5STKI = 2
+Name     Node   List        Data Event
+L:V5STKI Linac  Event     3 e,52,e,0
+L:V5STKI Lina2  15 Sec   14 p,15000,true
+Logger lists containing L:D31TMH = 1
+Name     Node   List        Data Event
+L:D31TMH Linac  15 Sec   17 p,15000,true
+Logger lists containing L:V1VP2 = 1
+Name    Node   List        Data Event
+L:V1VP2 Linac  15 Sec   15 p,15000,true
+Logger lists containing L:D44BPV = 4
+Name     Node   List        Data Event
+L:D44BPV Linac  Event     9 e,0A,e,0
+L:D44BPV Lina2  30 Sec    9 p,30000,true
+L:D44BPV BClk   Event     8 e,52,e,0
+L:D44BPV Lina3  Event     8 e,0A,e,0
+Logger lists containing L:SPEC = 2
+Name   Node   List        Data Event
+L:SPEC Linac  2 Min     0 p,120000,true
+L:SPEC Lina2  10 Sec    4 p,10000,true
+Logger lists containing L:V1STKQ = 4
+Name     Node   List        Data Event
+L:V1STKQ Ctrls  15 Hz    13 p,66,true
+L:V1STKQ Linac  Event     3 e,52,e,0
+L:V1STKQ Lina2  15 Sec   14 p,15000,true
+L:V1STKQ DCE46  15 Hz    13 p,66,true
+Logger lists containing L|B6MODR = 1
+Name     Node   List        Data Event
+L|B6MODR Linac  Event    11 e,52,e,0
+Logger lists containing L:M8PRIV = 1
+Name     Node   List        Data Event
+L:M8PRIV Linac  2 Min     0 p,120000,true
+Logger lists containing L:Q71 = 1
+Name  Node   List        Data Event
+L:Q71 Linac  2 Min     2 p,120000,true
+Logger lists containing L:K5XWF = 1
+Name    Node   List        Data Event
+L:K5XWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:D51BPH = 4
+Name     Node   List        Data Event
+L:D51BPH Linac  Event     9 e,0A,e,0
+L:D51BPH Lina2  30 Sec    9 p,30000,true
+L:D51BPH BClk   Event     7 e,52,e,0
+L:D51BPH Lina3  Event     8 e,0A,e,0
+Logger lists containing L:RF5PAV = 2
+Name     Node   List        Data Event
+L:RF5PAV Linac  30 Sec    4 p,30000,true
+L:RF5PAV Lina3  10 Sec    4 p,10000,true
+Logger lists containing L:SIPI11 = 1
+Name     Node   List        Data Event
+L:SIPI11 Linac  2 Min     7 p,120000,true
+Logger lists containing L:KDVAC = 2
+Name    Node   List        Data Event
+L:KDVAC Linac  15 Sec   12 p,15000,true
+L:KDVAC Lina3  1 Sec     3 p,1000,true
+Logger lists containing L:WVPNOM = 1
+Name     Node   List        Data Event
+L:WVPNOM Linac  2 Min     6 p,120000,true
+Logger lists containing L:Z3CSL = 1
+Name    Node   List        Data Event
+L:Z3CSL Linac  30 Sec    4 p,30000,true
+Logger lists containing L:TO5OUT = 4
+Name     Node   List        Data Event
+L:TO5OUT Inst3  15 Sec    0 p,15000,true
+L:TO5OUT Linac  Event     3 e,0A,e,0
+L:TO5OUT Linac  15 Sec   14 p,15000,true
+L:TO5OUT Lina3  Event     8 e,52,e,0
+Logger lists containing L:GR1HI = 3
+Name    Node   List        Data Event
+L:GR1HI Linac  Event    11 e,52,e,0
+L:GR1HI BClk   Event    11 e,0A,e,0
+L:GR1HI Lina3  2 Min    13 p,120000,true
+Logger lists containing L:M2PRII = 1
+Name     Node   List        Data Event
+L:M2PRII Linac  2 Min     7 p,120000,true
+Logger lists containing L:BARCI = 4
+Name    Node   List        Data Event
+L:BARCI Ctrls  15 Hz    13 p,66,true
+L:BARCI Linac  Event    11 e,52,e,0
+L:BARCI Lina3  15 Sec   16 p,15000,true
+L:BARCI DCE46  15 Hz    13 p,66,true
+Logger lists containing L:DELM1 = 3
+Name    Node   List        Data Event
+L:DELM1 Linac  Event     3 e,52,e,0
+L:DELM1 Linac  Event     9 e,0A,e,0
+L:DELM1 Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:C7VPCD = 1
+Name     Node   List        Data Event
+L:C7VPCD Linac  15 Sec   12 p,15000,true
+Logger lists containing L:TO4OUT = 3
+Name     Node   List        Data Event
+L:TO4OUT Linac  Event     3 e,0A,e,0
+L:TO4OUT Linac  15 Sec   14 p,15000,true
+L:TO4OUT Lina3  1 Sec     3 p,1000,true
+Logger lists containing Z:TBTEMP = 2
+Name     Node   List        Data Event
+Z:TBTEMP Linac  15 Sec   16 p,15000,true
+Z:TBTEMP Lina3  1 Sec     3 p,1000,true
+Logger lists containing L:M8SECV = 1
+Name     Node   List        Data Event
+L:M8SECV Linac  2 Min     0 p,120000,true
+Logger lists containing L:W1DP2 = 1
+Name    Node   List        Data Event
+L:W1DP2 Linac  15 Sec    5 p,15000,true
+Logger lists containing L:K0PERV = 1
+Name     Node   List        Data Event
+L:K0PERV Linac  2 Min     1 p,120000,true
+Logger lists containing L:M3SECI = 1
+Name     Node   List        Data Event
+L:M3SECI Linac  2 Min     7 p,120000,true
+Logger lists containing L:ABTEMP = 2
+Name     Node   List        Data Event
+L:ABTEMP Linac  Event    11 e,52,e,0
+L:ABTEMP Lina3  15 Sec   15 p,15000,true
+Logger lists containing L:LNREAP = 3
+Name     Node   List        Data Event
+L:LNREAP Linac  Event    10 e,52,e,0
+L:LNREAP Lina2  15 Sec   16 p,15000,true
+L:LNREAP MCR    Event     5 e,0C,s,0
+Logger lists containing L:K4GUNI = 1
+Name     Node   List        Data Event
+L:K4GUNI Linac  15 Sec   14 p,15000,true
+Logger lists containing L:K5PWRD = 1
+Name     Node   List        Data Event
+L:K5PWRD Linac  15 Sec   14 p,15000,true
+Logger lists containing L:Q215P9 = 1
+Name     Node   List        Data Event
+L:Q215P9 Linac  15 Sec   15 p,15000,true
+Logger lists containing L:W3PNOM = 2
+Name     Node   List        Data Event
+L:W3PNOM Linac  30 Sec    4 p,30000,true
+L:W3PNOM Linac  2 Min     6 p,120000,true
+Logger lists containing L:K5TTOP = 1
+Name     Node   List        Data Event
+L:K5TTOP Linac  2 Min     1 p,120000,true
+Logger lists containing L:K6GUNV = 1
+Name     Node   List        Data Event
+L:K6GUNV Linac  15 Sec   14 p,15000,true
+Logger lists containing Z:TTGON = 1
+Name    Node   List        Data Event
+Z:TTGON Linac  15 Sec   12 p,15000,true
+Logger lists containing L:L1GADJ = 2
+Name     Node   List        Data Event
+L:L1GADJ Linac  2 Min     2 p,120000,true
+L:L1GADJ Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:TO1IN = 5
+Name    Node   List        Data Event
+L:TO1IN Ctrls  15 Hz    15 p,66,true
+L:TO1IN Linac  Event     3 e,0A,e,0
+L:TO1IN Linac  Event    10 e,52,e,0
+L:TO1IN Linac  15 Sec   13 p,15000,true
+L:TO1IN DCE46  15 Hz    15 p,66,true
+Logger lists containing L:L6SDET = 1
+Name     Node   List        Data Event
+L:L6SDET Linac  15 Sec   15 p,15000,true
+Logger lists containing L:BPV204 = 3
+Name     Node   List        Data Event
+L:BPV204 Linac  Event     9 e,0A,e,0
+L:BPV204 Linac  15 Sec   16 p,15000,true
+L:BPV204 Lina3  Event     9 e,0A,e,0
+Logger lists containing L:GR4LO = 1
+Name    Node   List        Data Event
+L:GR4LO Linac  Event    11 e,52,e,0
+Logger lists containing Z:TBTUBI = 1
+Name     Node   List        Data Event
+Z:TBTUBI Linac  15 Sec   17 p,15000,true
+Logger lists containing L:K2TBOT = 1
+Name     Node   List        Data Event
+L:K2TBOT Linac  2 Min     7 p,120000,true
+Logger lists containing L:L6GADJ = 2
+Name     Node   List        Data Event
+L:L6GADJ Linac  2 Min     2 p,120000,true
+L:L6GADJ Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:D31LM = 3
+Name    Node   List        Data Event
+L:D31LM Clcck  Event    13 e,0A,e,0
+L:D31LM Linac  Event     8 e,52,e,0
+L:D31LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:D22LM = 3
+Name    Node   List        Data Event
+L:D22LM Clcck  Event    13 e,0A,e,0
+L:D22LM Linac  Event     8 e,52,e,0
+L:D22LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:K2RHUM = 1
+Name     Node   List        Data Event
+L:K2RHUM Linac  2 Min     1 p,120000,true
+Logger lists containing L:K5SOL1 = 1
+Name     Node   List        Data Event
+L:K5SOL1 Linac  15 Sec    5 p,15000,true
+Logger lists containing L:LVPADJ = 2
+Name     Node   List        Data Event
+L:LVPADJ Linac  2 Min     7 p,120000,true
+L:LVPADJ Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:C1VPCD = 1
+Name     Node   List        Data Event
+L:C1VPCD Linac  15 Sec   12 p,15000,true
+Logger lists containing Z:TTAON = 1
+Name    Node   List        Data Event
+Z:TTAON Linac  15 Sec   14 p,15000,true
+Logger lists containing L:W3CTMP = 1
+Name     Node   List        Data Event
+L:W3CTMP Linac  15 Sec   15 p,15000,true
+Logger lists containing L:D12LM = 3
+Name    Node   List        Data Event
+L:D12LM Clcck  Event    13 e,0A,e,0
+L:D12LM Linac  Event     8 e,52,e,0
+L:D12LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:W2FSET = 2
+Name     Node   List        Data Event
+L:W2FSET Linac  15 Sec   16 p,15000,true
+L:W2FSET Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:C2PHOF = 1
+Name     Node   List        Data Event
+L:C2PHOF Linac  2 Min     6 p,120000,true
+Logger lists containing L:RF3PAI = 1
+Name     Node   List        Data Event
+L:RF3PAI Linac  2 Min     0 p,120000,true
+Logger lists containing L:QPSC04 = 1
+Name     Node   List        Data Event
+L:QPSC04 Linac  15 Sec    5 p,15000,true
+Logger lists containing L:C3VPAB = 1
+Name     Node   List        Data Event
+L:C3VPAB Linac  15 Sec   12 p,15000,true
+Logger lists containing L:TK1RAD = 3
+Name     Node   List        Data Event
+L:TK1RAD Linac  15 Sec   14 p,15000,true
+L:TK1RAD Lina3  Event     7 e,0A,e,0
+L:TK1RAD Lina3  Event     8 e,52,e,0
+Logger lists containing L:LDMDET = 1
+Name     Node   List        Data Event
+L:LDMDET Linac  15 Sec   15 p,15000,true
+Logger lists containing L:LCWSP = 1
+Name    Node   List        Data Event
+L:LCWSP Linac  30 Sec    4 p,30000,true
+Logger lists containing L:D32LM = 3
+Name    Node   List        Data Event
+L:D32LM Clcck  Event    13 e,0A,e,0
+L:D32LM Linac  Event     8 e,52,e,0
+L:D32LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:SIPI04 = 1
+Name     Node   List        Data Event
+L:SIPI04 Linac  2 Min     1 p,120000,true
+Logger lists containing L:GR5MID = 6
+Name     Node   List        Data Event
+L:GR5MID Ctrls  15 Hz    15 p,66,true
+L:GR5MID Linac  Event     8 e,52,e,0
+L:GR5MID Linac  Event    11 e,0A,e,0
+L:GR5MID Lina2  1 Sec     1 p,1000,true
+L:GR5MID Lina2  2 Min    13 p,120000,true
+L:GR5MID DCE46  15 Hz    15 p,66,true
+Logger lists containing L:L2GADJ = 2
+Name     Node   List        Data Event
+L:L2GADJ Linac  2 Min     2 p,120000,true
+L:L2GADJ Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:M5CSWF = 1
+Name     Node   List        Data Event
+L:M5CSWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:W6TAVG = 1
+Name     Node   List        Data Event
+L:W6TAVG Linac  30 Sec    4 p,30000,true
+Logger lists containing L:C6GRAD = 3
+Name     Node   List        Data Event
+L:C6GRAD Linac  Event     8 e,52,e,0
+L:C6GRAD Linac  15 Sec   16 p,15000,true
+L:C6GRAD Lina4  15 Hz    13 p,66,true
+Logger lists containing L:W6FERR = 2
+Name     Node   List        Data Event
+L:W6FERR Linac  15 Sec   13 p,15000,true
+L:W6FERR Lina4  1 Hz      1 p,1000,true
+Logger lists containing L:BARCV = 4
+Name    Node   List        Data Event
+L:BARCV Ctrls  15 Hz    13 p,66,true
+L:BARCV Linac  Event    11 e,52,e,0
+L:BARCV Lina3  15 Sec   16 p,15000,true
+L:BARCV DCE46  15 Hz    13 p,66,true
+Logger lists containing L:M2SECI = 1
+Name     Node   List        Data Event
+L:M2SECI Linac  2 Min     7 p,120000,true
+Logger lists containing L:K3POWR = 3
+Name     Node   List        Data Event
+L:K3POWR Linac  Event    10 e,52,e,0
+L:K3POWR Lina3  2 Min    12 p,120000,true
+L:K3POWR Lina4  15 Hz    13 p,66,true
+Logger lists containing Z:LNSOND = 1
+Name     Node   List        Data Event
+Z:LNSOND Linac  15 Sec   16 p,15000,true
+Logger lists containing L:C5VPCD = 1
+Name     Node   List        Data Event
+L:C5VPCD Linac  15 Sec   12 p,15000,true
+Logger lists containing L:BEXTI = 2
+Name    Node   List        Data Event
+L:BEXTI Linac  Event    11 e,52,e,0
+L:BEXTI Lina3  15 Sec   16 p,15000,true
+Logger lists containing L:RFBPAN = 1
+Name     Node   List        Data Event
+L:RFBPAN Linac  2 Min     6 p,120000,true
+Logger lists containing L:BEXTV = 5
+Name    Node   List        Data Event
+L:BEXTV Ctrls  15 Hz    13 p,66,true
+L:BEXTV Mau    Event     4 e,53,e,0
+L:BEXTV Linac  Event    11 e,52,e,0
+L:BEXTV Lina3  15 Sec   16 p,15000,true
+L:BEXTV DCE46  15 Hz    13 p,66,true
+Logger lists containing L:Q11 = 1
+Name  Node   List        Data Event
+L:Q11 Linac  2 Min     1 p,120000,true
+Logger lists containing L:L3GADJ = 2
+Name     Node   List        Data Event
+L:L3GADJ Linac  2 Min     2 p,120000,true
+L:L3GADJ Lina4  1 Hz      0 p,1000,true
+Logger lists containing Z:TBOILI = 1
+Name     Node   List        Data Event
+Z:TBOILI Linac  15 Sec   16 p,15000,true
+Logger lists containing L:STV2 = 1
+Name   Node   List        Data Event
+L:STV2 Linac  15 Sec   17 p,15000,true
+Logger lists containing L:IN4PHS = 5
+Name     Node   List        Data Event
+L:IN4PHS Linac  Event     3 e,0A,e,0
+L:IN4PHS Linac  Event     8 e,52,e,0
+L:IN4PHS Linac  15 Sec   16 p,15000,true
+L:IN4PHS Lina2  1 Sec     3 p,1000,true
+L:IN4PHS LLRF   1 Hz      6 p,1000,true
+Logger lists containing L:BPV3OT = 4
+Name     Node   List        Data Event
+L:BPV3OT Linac  Event     3 e,09,e,0
+L:BPV3OT Lina2  30 Sec    9 p,30000,true
+L:BPV3OT BClk   Event     8 e,52,e,0
+L:BPV3OT Lina3  Event     7 e,0A,e,0
+Logger lists containing L:M4PWF = 1
+Name    Node   List        Data Event
+L:M4PWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:D13BPH = 4
+Name     Node   List        Data Event
+L:D13BPH Linac  Event     9 e,0A,e,0
+L:D13BPH Lina2  30 Sec    9 p,30000,true
+L:D13BPH BClk   Event    10 e,52,e,0
+L:D13BPH Lina3  Event     7 e,0A,e,0
+Logger lists containing L:L1MDET = 1
+Name     Node   List        Data Event
+L:L1MDET Linac  15 Sec   14 p,15000,true
+Logger lists containing L:L2STMP = 1
+Name     Node   List        Data Event
+L:L2STMP Linac  2 Min     7 p,120000,true
+Logger lists containing B_CTOFFV = 1
+Name     Node   List        Data Event
+B_CTOFFV Linac  2 Min     1 p,120000,true
+Logger lists containing L:W7TAVG = 1
+Name     Node   List        Data Event
+L:W7TAVG Linac  30 Sec    4 p,30000,true
+Logger lists containing L:GRBHI = 5
+Name    Node   List        Data Event
+L:GRBHI Ctrls  15 Hz    15 p,66,true
+L:GRBHI Linac  Event     8 e,52,e,0
+L:GRBHI Linac  Event    11 e,0A,e,0
+L:GRBHI Linac  15 Sec   14 p,15000,true
+L:GRBHI DCE46  15 Hz    15 p,66,true
+Logger lists containing L:D33BPV = 3
+Name     Node   List        Data Event
+L:D33BPV Linac  Event     9 e,0A,e,0
+L:D33BPV Lina2  30 Sec    9 p,30000,true
+L:D33BPV Lina3  Event     8 e,0A,e,0
+Logger lists containing L:C0GRAD = 3
+Name     Node   List        Data Event
+L:C0GRAD Linac  Event     8 e,52,e,0
+L:C0GRAD Linac  15 Sec   16 p,15000,true
+L:C0GRAD Lina4  15 Hz    13 p,66,true
+Logger lists containing L:WK1ST = 1
+Name    Node   List        Data Event
+L:WK1ST Linac  2 Min     6 p,120000,true
+Logger lists containing L:M4PRII = 1
+Name     Node   List        Data Event
+L:M4PRII Linac  2 Min     7 p,120000,true
+Logger lists containing L:W3FPGM = 1
+Name     Node   List        Data Event
+L:W3FPGM Linac  15 Sec   14 p,15000,true
+Logger lists containing L:M5SECV = 1
+Name     Node   List        Data Event
+L:M5SECV Linac  2 Min     7 p,120000,true
+Logger lists containing L:K1SWFA = 1
+Name     Node   List        Data Event
+L:K1SWFA Linac  2 Min     0 p,120000,true
+Logger lists containing L:W5MTMP = 1
+Name     Node   List        Data Event
+L:W5MTMP Linac  15 Sec   12 p,15000,true
+Logger lists containing L:Q52 = 1
+Name  Node   List        Data Event
+L:Q52 Linac  2 Min     2 p,120000,true
+Logger lists containing L:MD5OI = 2
+Name    Node   List        Data Event
+L:MD5OI Linac  15 Sec   12 p,15000,true
+L:MD5OI Lina3  1 Sec     3 p,1000,true
+Logger lists containing L:IN5PHS = 5
+Name     Node   List        Data Event
+L:IN5PHS Linac  Event     3 e,0A,e,0
+L:IN5PHS Linac  Event     8 e,52,e,0
+L:IN5PHS Linac  15 Sec   16 p,15000,true
+L:IN5PHS Lina2  1 Sec     3 p,1000,true
+L:IN5PHS LLRF   1 Hz      6 p,1000,true
+Logger lists containing L:K6SWFA = 1
+Name     Node   List        Data Event
+L:K6SWFA Linac  2 Min     0 p,120000,true
+Logger lists containing L:K8GUNI = 1
+Name     Node   List        Data Event
+L:K8GUNI Linac  15 Sec   13 p,15000,true
+Logger lists containing L:D73BPH = 4
+Name     Node   List        Data Event
+L:D73BPH Linac  Event     9 e,0A,e,0
+L:D73BPH Lina2  30 Sec    9 p,30000,true
+L:D73BPH BClk   Event     8 e,52,e,0
+L:D73BPH Lina3  Event     9 e,0A,e,0
+Logger lists containing L:W2CTMP = 1
+Name     Node   List        Data Event
+L:W2CTMP Linac  15 Sec   15 p,15000,true
+Logger lists containing L:DR5ION = 1
+Name     Node   List        Data Event
+L:DR5ION Linac  2 Min     0 p,120000,true
+Logger lists containing L:W0TAVG = 1
+Name     Node   List        Data Event
+L:W0TAVG Linac  30 Sec    4 p,30000,true
+Logger lists containing L:WDIPRS = 1
+Name     Node   List        Data Event
+L:WDIPRS Linac  2 Min     0 p,120000,true
+Logger lists containing L|RF5SKD = 1
+Name     Node   List        Data Event
+L|RF5SKD Linac  15 Sec   16 p,15000,true
+Logger lists containing L:T3VACL = 2
+Name     Node   List        Data Event
+L:T3VACL Linac  15 Sec   13 p,15000,true
+L:T3VACL Lina4  15 Hz    16 p,66,true
+Logger lists containing L:TORMH1 = 1
+Name     Node   List        Data Event
+L:TORMH1 Linac  Event    10 e,52,e,0
+Logger lists containing L:T5VACH = 1
+Name     Node   List        Data Event
+L:T5VACH Linac  15 Sec   13 p,15000,true
+Logger lists containing L:W1TAVG = 1
+Name     Node   List        Data Event
+L:W1TAVG Linac  30 Sec    4 p,30000,true
+Logger lists containing L:IN1PHS = 3
+Name     Node   List        Data Event
+L:IN1PHS Linac  Event     3 e,0A,e,0
+L:IN1PHS Linac  Event    10 e,52,e,0
+L:IN1PHS Linac  15 Sec   16 p,15000,true
+Logger lists containing L:NTFVAC = 1
+Name     Node   List        Data Event
+L:NTFVAC Linac  2 Min     2 p,120000,true
+Logger lists containing L:W2TAVG = 1
+Name     Node   List        Data Event
+L:W2TAVG Linac  30 Sec    4 p,30000,true
+Logger lists containing L:M6PFNV = 1
+Name     Node   List        Data Event
+L:M6PFNV Linac  2 Min     6 p,120000,true
+Logger lists containing L:CHS1 = 1
+Name   Node   List        Data Event
+L:CHS1 Linac  2 Min     6 p,120000,true
+Logger lists containing L:WK3RT = 1
+Name    Node   List        Data Event
+L:WK3RT Linac  30 Sec    4 p,30000,true
+Logger lists containing L:TMPLM4 = 1
+Name     Node   List        Data Event
+L:TMPLM4 Linac  Event     9 e,0A,e,0
+Logger lists containing L:TLTMPE = 1
+Name     Node   List        Data Event
+L:TLTMPE Linac  15 Sec   16 p,15000,true
+Logger lists containing L:CINT = 2
+Name   Node   List        Data Event
+L:CINT Linac  Event     3 e,09,e,0
+L:CINT BClk   Event     2 e,10,e,3
+Logger lists containing L:W0CTMP = 1
+Name     Node   List        Data Event
+L:W0CTMP Linac  15 Sec   15 p,15000,true
+Logger lists containing L:Q23 = 1
+Name  Node   List        Data Event
+L:Q23 Linac  2 Min     2 p,120000,true
+Logger lists containing L:K1SPKR = 1
+Name     Node   List        Data Event
+L:K1SPKR Linac  2 Min     1 p,120000,true
+Logger lists containing L:C6PHOF = 1
+Name     Node   List        Data Event
+L:C6PHOF Linac  2 Min     6 p,120000,true
+Logger lists containing L:GR3MID = 6
+Name     Node   List        Data Event
+L:GR3MID Ctrls  15 Hz    15 p,66,true
+L:GR3MID Linac  Event     8 e,52,e,0
+L:GR3MID Linac  Event    11 e,0A,e,0
+L:GR3MID Lina2  1 Sec     1 p,1000,true
+L:GR3MID Lina2  2 Min    13 p,120000,true
+L:GR3MID DCE46  15 Hz    15 p,66,true
+Logger lists containing L:C5GRAD = 3
+Name     Node   List        Data Event
+L:C5GRAD Linac  Event     8 e,52,e,0
+L:C5GRAD Linac  15 Sec   16 p,15000,true
+L:C5GRAD Lina4  15 Hz    13 p,66,true
+Logger lists containing L:Q62 = 1
+Name  Node   List        Data Event
+L:Q62 Linac  2 Min     2 p,120000,true
+Logger lists containing L:TO3IN = 7
+Name    Node   List        Data Event
+L:TO3IN Inst3  15 Sec    0 p,15000,true
+L:TO3IN Linac  Event     3 e,0A,e,0
+L:TO3IN Linac  Event    10 e,52,e,0
+L:TO3IN Linac  15 Sec   14 p,15000,true
+L:TO3IN MTA    15 Hz    15 p,66,true
+L:TO3IN Lina3  Event     7 e,0A,e,0
+L:TO3IN Lina3  Event     8 e,52,e,0
+Logger lists containing L:K5SPKR = 1
+Name     Node   List        Data Event
+L:K5SPKR Linac  2 Min     1 p,120000,true
+Logger lists containing L:K6XWF = 1
+Name    Node   List        Data Event
+L:K6XWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:D31TMV = 1
+Name     Node   List        Data Event
+L:D31TMV Linac  15 Sec   17 p,15000,true
+Logger lists containing L|B0MODR = 1
+Name     Node   List        Data Event
+L|B0MODR Linac  Event    11 e,52,e,0
+Logger lists containing L:DR3ION = 2
+Name     Node   List        Data Event
+L:DR3ION Linac  2 Min     0 p,120000,true
+L:DR3ION LLRF   1 Hz      6 p,1000,true
+Logger lists containing L:LINEV2 = 5
+Name     Node   List        Data Event
+L:LINEV2 Clcck  Event     6 e,25,e,0
+L:LINEV2 Ctrls  15 Hz    13 p,66,true
+L:LINEV2 Linac  2 Min     2 p,120000,true
+L:LINEV2 Clock  Event     0 e,26,e,0
+L:LINEV2 DCE46  15 Hz    13 p,66,true
+Logger lists containing L:L2MDET = 1
+Name     Node   List        Data Event
+L:L2MDET Linac  15 Sec   14 p,15000,true
+Logger lists containing L:RF1PAI = 2
+Name     Node   List        Data Event
+L:RF1PAI Linac  2 Min     0 p,120000,true
+L:RF1PAI Lina2  1 Sec     3 p,1000,true
+Logger lists containing L:KVSWF = 1
+Name    Node   List        Data Event
+L:KVSWF Linac  2 Min     1 p,120000,true
+Logger lists containing L:V5VP2 = 1
+Name    Node   List        Data Event
+L:V5VP2 Linac  15 Sec   15 p,15000,true
+Logger lists containing L:WK1RT = 1
+Name    Node   List        Data Event
+L:WK1RT Linac  2 Min     6 p,120000,true
+Logger lists containing L:V2VP1 = 1
+Name    Node   List        Data Event
+L:V2VP1 Linac  15 Sec   15 p,15000,true
+Logger lists containing L:BPV202 = 3
+Name     Node   List        Data Event
+L:BPV202 Linac  Event     9 e,0A,e,0
+L:BPV202 Linac  15 Sec   17 p,15000,true
+L:BPV202 Lina3  Event     9 e,0A,e,0
+Logger lists containing L:C5VPAB = 1
+Name     Node   List        Data Event
+L:C5VPAB Linac  15 Sec   12 p,15000,true
+Logger lists containing L:K3VAC = 2
+Name    Node   List        Data Event
+L:K3VAC Linac  2 Min     6 p,120000,true
+L:K3VAC Lina3  1 Sec     3 p,1000,true
+Logger lists containing L:AARCV = 4
+Name    Node   List        Data Event
+L:AARCV Ctrls  15 Hz    13 p,66,true
+L:AARCV Linac  Event     8 e,52,e,0
+L:AARCV Lina3  15 Sec   15 p,15000,true
+L:AARCV DCE46  15 Hz    13 p,66,true
+Logger lists containing L:K7XWF = 1
+Name    Node   List        Data Event
+L:K7XWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:M5SECI = 2
+Name     Node   List        Data Event
+L:M5SECI Linac  2 Min     7 p,120000,true
+L:M5SECI Lina3  Event     8 e,52,e,0
+Logger lists containing L:K5VAC = 2
+Name    Node   List        Data Event
+L:K5VAC Linac  2 Min     6 p,120000,true
+L:K5VAC Lina3  1 Sec     3 p,1000,true
+Logger lists containing L:QPSC01 = 1
+Name     Node   List        Data Event
+L:QPSC01 Linac  15 Sec    5 p,15000,true
+Logger lists containing L:W2PNOM = 2
+Name     Node   List        Data Event
+L:W2PNOM Linac  30 Sec    4 p,30000,true
+L:W2PNOM Linac  2 Min     6 p,120000,true
+Logger lists containing Z:GVTEMP = 1
+Name     Node   List        Data Event
+Z:GVTEMP Linac  15 Sec   17 p,15000,true
+Logger lists containing L:K4POWR = 3
+Name     Node   List        Data Event
+L:K4POWR Linac  Event    10 e,52,e,0
+L:K4POWR Lina3  2 Min    12 p,120000,true
+L:K4POWR Lina4  15 Hz    13 p,66,true
+Logger lists containing L:DELM12 = 2
+Name     Node   List        Data Event
+L:DELM12 Linac  Event    10 e,52,e,0
+L:DELM12 Lina2  30 Sec    8 p,30000,true
+Logger lists containing L:GR4HI = 2
+Name    Node   List        Data Event
+L:GR4HI Linac  Event    11 e,52,e,0
+L:GR4HI Lina3  2 Min    13 p,120000,true
+Logger lists containing L:K3TTOP = 1
+Name     Node   List        Data Event
+L:K3TTOP Linac  2 Min     1 p,120000,true
+Logger lists containing L:D02TMH = 1
+Name     Node   List        Data Event
+L:D02TMH Linac  15 Sec   17 p,15000,true
+Logger lists containing L:MD4OI = 2
+Name    Node   List        Data Event
+L:MD4OI Linac  15 Sec   12 p,15000,true
+L:MD4OI Lina3  1 Sec     3 p,1000,true
+Logger lists containing L:D71TMH = 2
+Name     Node   List        Data Event
+L:D71TMH Linac  15 Sec   13 p,15000,true
+L:D71TMH Lina2  2 Min    11 p,120000,true
+Logger lists containing L:WDFPGM = 1
+Name     Node   List        Data Event
+L:WDFPGM Linac  15 Sec   14 p,15000,true
+Logger lists containing L:D72TMV = 3
+Name     Node   List        Data Event
+L:D72TMV Linac  Event     3 e,0A,e,0
+L:D72TMV Linac  15 Sec   13 p,15000,true
+L:D72TMV Lina2  2 Min    11 p,120000,true
+Logger lists containing L:WDMTMP = 1
+Name     Node   List        Data Event
+L:WDMTMP Linac  15 Sec    5 p,15000,true
+Logger lists containing L:W7MFLW = 1
+Name     Node   List        Data Event
+L:W7MFLW Linac  15 Sec   12 p,15000,true
+Logger lists containing L:SIPI09 = 1
+Name     Node   List        Data Event
+L:SIPI09 Linac  2 Min     2 p,120000,true
+Logger lists containing L:T2VACH = 1
+Name     Node   List        Data Event
+L:T2VACH Linac  15 Sec   13 p,15000,true
+Logger lists containing L:K7TBOU = 1
+Name     Node   List        Data Event
+L:K7TBOU Linac  15 Sec   13 p,15000,true
+Logger lists containing L:D32TMH = 1
+Name     Node   List        Data Event
+L:D32TMH Linac  15 Sec   17 p,15000,true
+Logger lists containing L:L0GADJ = 2
+Name     Node   List        Data Event
+L:L0GADJ Linac  2 Min     2 p,120000,true
+L:L0GADJ Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:K7PWRD = 1
+Name     Node   List        Data Event
+L:K7PWRD Linac  15 Sec   14 p,15000,true
+Logger lists containing L:K7WG1P = 1
+Name     Node   List        Data Event
+L:K7WG1P Linac  2 Min     1 p,120000,true
+Logger lists containing L:D61LM = 4
+Name    Node   List        Data Event
+L:D61LM Linac  Event     9 e,0A,e,0
+L:D61LM Linac  Event    10 e,52,e,0
+L:D61LM BClk   Event     9 e,52,e,0
+L:D61LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:T4VCC = 1
+Name    Node   List        Data Event
+L:T4VCC Linac  15 Sec    5 p,15000,true
+Logger lists containing L:W3MTMP = 1
+Name     Node   List        Data Event
+L:W3MTMP Linac  15 Sec   12 p,15000,true
+Logger lists containing L|V4VALV = 1
+Name     Node   List        Data Event
+L|V4VALV Linac  2 Min     1 p,120000,true
+Logger lists containing L:W1FPGM = 1
+Name     Node   List        Data Event
+L:W1FPGM Linac  15 Sec   14 p,15000,true
+Logger lists containing L:K3PWRD = 1
+Name     Node   List        Data Event
+L:K3PWRD Linac  15 Sec   14 p,15000,true
+Logger lists containing L:K3XWF = 1
+Name    Node   List        Data Event
+L:K3XWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:K5SWFB = 1
+Name     Node   List        Data Event
+L:K5SWFB Linac  2 Min     0 p,120000,true
+Logger lists containing L:M4CDQV = 1
+Name     Node   List        Data Event
+L:M4CDQV Linac  2 Min     0 p,120000,true
+Logger lists containing L:D52TMV = 1
+Name     Node   List        Data Event
+L:D52TMV Linac  15 Sec   17 p,15000,true
+Logger lists containing L:K3SOL1 = 1
+Name     Node   List        Data Event
+L:K3SOL1 Linac  15 Sec    5 p,15000,true
+Logger lists containing L:WVVSET = 3
+Name     Node   List        Data Event
+L:WVVSET Linac  30 Sec    4 p,30000,true
+L:WVVSET Lina4  1 Hz      0 p,1000,true
+L:WVVSET Lina4  15 Hz    15 p,66,true
+Logger lists containing L:W1PNOM = 1
+Name     Node   List        Data Event
+L:W1PNOM Linac  2 Min     6 p,120000,true
+Logger lists containing L|V0VALV = 1
+Name     Node   List        Data Event
+L|V0VALV Linac  2 Min     1 p,120000,true
+Logger lists containing L:K5RHUM = 1
+Name     Node   List        Data Event
+L:K5RHUM Linac  2 Min     1 p,120000,true
+Logger lists containing L:M6SECI = 1
+Name     Node   List        Data Event
+L:M6SECI Linac  2 Min     6 p,120000,true
+Logger lists containing L:M7SECV = 1
+Name     Node   List        Data Event
+L:M7SECV Linac  2 Min     6 p,120000,true
+Logger lists containing L:V7VPCD = 2
+Name     Node   List        Data Event
+L:V7VPCD Linac  2 Min     6 p,120000,true
+L:V7VPCD Linac  15 Sec   12 p,15000,true
+Logger lists containing L:K1GUNI = 1
+Name     Node   List        Data Event
+L:K1GUNI Linac  15 Sec   14 p,15000,true
+Logger lists containing L:WK1F95 = 1
+Name     Node   List        Data Event
+L:WK1F95 Linac  2 Min     6 p,120000,true
+Logger lists containing L:D21BPH = 4
+Name     Node   List        Data Event
+L:D21BPH Linac  Event     9 e,0A,e,0
+L:D21BPH Lina2  30 Sec    9 p,30000,true
+L:D21BPH BClk   Event    10 e,52,e,0
+L:D21BPH Lina3  Event     8 e,0A,e,0
+Logger lists containing L:V4VPAB = 1
+Name     Node   List        Data Event
+L:V4VPAB Linac  15 Sec   12 p,15000,true
+Logger lists containing L:K5PERV = 1
+Name     Node   List        Data Event
+L:K5PERV Linac  2 Min     1 p,120000,true
+Logger lists containing L:W1LCWF = 1
+Name     Node   List        Data Event
+L:W1LCWF Linac  30 Sec    4 p,30000,true
+Logger lists containing Z:TARCSI = 1
+Name     Node   List        Data Event
+Z:TARCSI Linac  2 Min     2 p,120000,true
+Logger lists containing L:K4XWF = 1
+Name    Node   List        Data Event
+L:K4XWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:BPH3IN = 4
+Name     Node   List        Data Event
+L:BPH3IN Linac  Event     3 e,09,e,0
+L:BPH3IN Lina2  30 Sec    9 p,30000,true
+L:BPH3IN BClk   Event     8 e,52,e,0
+L:BPH3IN Lina3  Event     7 e,0A,e,0
+Logger lists containing L:D21TMH = 1
+Name     Node   List        Data Event
+L:D21TMH Linac  15 Sec   17 p,15000,true
+Logger lists containing L:D74BPV = 4
+Name     Node   List        Data Event
+L:D74BPV Linac  Event     3 e,52,e,0
+L:D74BPV Linac  Event     9 e,0A,e,0
+L:D74BPV Lina2  30 Sec    9 p,30000,true
+L:D74BPV Lina3  Event     9 e,0A,e,0
+Logger lists containing L:CGAUSS = 3
+Name     Node   List        Data Event
+L:CGAUSS Linac  Event     3 e,52,e,0
+L:CGAUSS Linac  15 Sec    5 p,15000,true
+L:CGAUSS Clock  Event     2 e,09,e,0
+Logger lists containing L:SIPI03 = 1
+Name     Node   List        Data Event
+L:SIPI03 Linac  2 Min     1 p,120000,true
+Logger lists containing L:K4PERV = 1
+Name     Node   List        Data Event
+L:K4PERV Linac  2 Min     1 p,120000,true
+Logger lists containing L:V2VPCD = 1
+Name     Node   List        Data Event
+L:V2VPCD Linac  15 Sec   12 p,15000,true
+Logger lists containing L:K3TBOU = 1
+Name     Node   List        Data Event
+L:K3TBOU Linac  15 Sec   13 p,15000,true
+Logger lists containing L:L4SDET = 1
+Name     Node   List        Data Event
+L:L4SDET Linac  15 Sec   15 p,15000,true
+Logger lists containing L:DISTGN = 1
+Name     Node   List        Data Event
+L:DISTGN Linac  2 Min     6 p,120000,true
+Logger lists containing L:TUBPOS = 1
+Name     Node   List        Data Event
+L:TUBPOS Linac  15 Sec   16 p,15000,true
+Logger lists containing L:M2CHRG = 1
+Name     Node   List        Data Event
+L:M2CHRG Linac  2 Min     7 p,120000,true
+Logger lists containing L:KDSOLI = 1
+Name     Node   List        Data Event
+L:KDSOLI Linac  2 Min     7 p,120000,true
+Logger lists containing L:M4CHRG = 1
+Name     Node   List        Data Event
+L:M4CHRG Linac  2 Min     7 p,120000,true
+Logger lists containing L:D74LM = 3
+Name    Node   List        Data Event
+L:D74LM Linac  Event     3 e,0A,e,0
+L:D74LM BClk   Event     9 e,52,e,0
+L:D74LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:C3VAC = 1
+Name    Node   List        Data Event
+L:C3VAC Linac  30 Sec    4 p,30000,true
+Logger lists containing L:Q73 = 1
+Name  Node   List        Data Event
+L:Q73 Linac  2 Min     2 p,120000,true
+Logger lists containing L:SIPI07 = 1
+Name     Node   List        Data Event
+L:SIPI07 Linac  2 Min     2 p,120000,true
+Logger lists containing L:T5VCC = 1
+Name    Node   List        Data Event
+L:T5VCC Linac  15 Sec    5 p,15000,true
+Logger lists containing L:W2FERR = 2
+Name     Node   List        Data Event
+L:W2FERR Linac  15 Sec   13 p,15000,true
+L:W2FERR Lina4  1 Hz      1 p,1000,true
+Logger lists containing L:W4FSET = 2
+Name     Node   List        Data Event
+L:W4FSET Linac  15 Sec   16 p,15000,true
+L:W4FSET Lina4  1 Hz      0 p,1000,true
+Logger lists containing L:W7FERR = 2
+Name     Node   List        Data Event
+L:W7FERR Linac  15 Sec   13 p,15000,true
+L:W7FERR Lina4  1 Hz      1 p,1000,true
+Logger lists containing L:W6PNOM = 2
+Name     Node   List        Data Event
+L:W6PNOM Linac  30 Sec    4 p,30000,true
+L:W6PNOM Linac  2 Min     7 p,120000,true
+Logger lists containing L:TORSDI = 2
+Name     Node   List        Data Event
+L:TORSDI Inst3  15 Sec   12 p,15000,true
+L:TORSDI Linac  Event     3 e,0A,e,0
+Logger lists containing L:K4TBOU = 1
+Name     Node   List        Data Event
+L:K4TBOU Linac  15 Sec   13 p,15000,true
+Logger lists containing L:M0PRII = 1
+Name     Node   List        Data Event
+L:M0PRII Linac  15 Sec   16 p,15000,true
+Logger lists containing L:WVFPGM = 1
+Name     Node   List        Data Event
+L:WVFPGM Linac  15 Sec   14 p,15000,true
+Logger lists containing L:M3CHRG = 1
+Name     Node   List        Data Event
+L:M3CHRG Linac  2 Min     7 p,120000,true
+Logger lists containing L:GR3LO = 1
+Name    Node   List        Data Event
+L:GR3LO Linac  Event    11 e,52,e,0
+Logger lists containing L:MD3OV = 4
+Name    Node   List        Data Event
+L:MD3OV Linac  15 Sec   17 p,15000,true
+L:MD3OV MBoon  Event     1 e,1D,e,0
+L:MD3OV Lina3  1 Sec     3 p,1000,true
+L:MD3OV Lina4  15 Hz    16 p,66,true
+Logger lists containing L:D21LM = 3
+Name    Node   List        Data Event
+L:D21LM Clcck  Event    13 e,0A,e,0
+L:D21LM Linac  Event     8 e,52,e,0
+L:D21LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:D64LM = 4
+Name    Node   List        Data Event
+L:D64LM Linac  Event     9 e,0A,e,0
+L:D64LM Linac  Event    10 e,52,e,0
+L:D64LM BClk   Event     9 e,52,e,0
+L:D64LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:D41BPH = 4
+Name     Node   List        Data Event
+L:D41BPH Linac  Event     9 e,0A,e,0
+L:D41BPH Lina2  30 Sec    9 p,30000,true
+L:D41BPH BClk   Event    10 e,52,e,0
+L:D41BPH Lina3  Event     8 e,0A,e,0
+Logger lists containing L:DRQF = 7
+Name   Node   List        Data Event
+L:DRQF Ctrls  1 Min     0 p,60000,true
+L:DRQF Ctrls  15 Hz    13 p,66,true
+L:DRQF Linac  15 Sec   13 p,15000,true
+L:DRQF MCR    Event    17 e,22,e,0
+L:DRQF Lina3  Event     7 e,0A,e,0
+L:DRQF DCE46  1 Min     0 p,60000,true
+L:DRQF DCE46  15 Hz    13 p,66,true
+Logger lists containing L:D72LM = 3
+Name    Node   List        Data Event
+L:D72LM Linac  Event     9 e,0A,e,0
+L:D72LM BClk   Event     9 e,52,e,0
+L:D72LM Lina3  30 Sec    6 p,30000,true
+Logger lists containing L:K1XWF = 1
+Name    Node   List        Data Event
+L:K1XWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:M7PWF = 1
+Name    Node   List        Data Event
+L:M7PWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:WDTNOM = 1
+Name     Node   List        Data Event
+L:WDTNOM Linac  30 Sec    4 p,30000,true
+Logger lists containing L:M2PWF = 1
+Name    Node   List        Data Event
+L:M2PWF Linac  15 Sec    5 p,15000,true
+Logger lists containing L:MD3OI = 3
+Name    Node   List        Data Event
+L:MD3OI Linac  15 Sec   12 p,15000,true
+L:MD3OI Lina3  1 Sec     3 p,1000,true
+L:MD3OI Lina4  15 Hz    16 p,66,true
+Logger lists containing L:M0PRIV = 1
+Name     Node   List        Data Event
+L:M0PRIV Linac  15 Sec   15 p,15000,true
+Logger lists containing L:C4PHAS = 2
+Name     Node   List        Data Event
+L:C4PHAS Linac  Event     8 e,52,e,0
+L:C4PHAS Lina4  15 Hz    13 p,66,true
+Logger lists containing L:Q02 = 1
+Name  Node   List        Data Event
+L:Q02 Linac  2 Min     1 p,120000,true
+Logger lists containing L:M8PRII = 1
+Name     Node   List        Data Event
+L:M8PRII Linac  2 Min     0 p,120000,true
+Logger lists containing L:TUNRAD = 3
+Name     Node   List        Data Event
+L:TUNRAD Linac  15 Sec   14 p,15000,true
+L:TUNRAD Lina3  Event     7 e,0A,e,0
+L:TUNRAD Lina3  Event     8 e,52,e,0
+Logger lists containing L:D2PHAS = 1
+Name     Node   List        Data Event
+L:D2PHAS Linac  Event    10 e,52,e,0
+Logger lists containing L:RF4PAI = 1
+Name     Node   List        Data Event
+L:RF4PAI Linac  2 Min     0 p,120000,true
+Logger lists containing L:W400RT = 1
+Name     Node   List        Data Event
+L:W400RT Linac  30 Sec    4 p,30000,true
+Logger lists containing L:Q42 = 1
+Name  Node   List        Data Event
+L:Q42 Linac  2 Min     2 p,120000,true
