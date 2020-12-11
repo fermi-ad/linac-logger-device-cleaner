@@ -23,7 +23,7 @@ for filepath in glob.glob(os.path.join(path, '*.bin')):
             if len(stripped_line) != 0:
                 for i in range(3):
                     stripped_column = line[i*column_width:i *
-                                           column_width + column_width].strip()
+                                           column_width + column_width].strip(' +*')
                     column = re.split(reg, stripped_column)
                     if stripped_column != "":
                         lines.append(column)
