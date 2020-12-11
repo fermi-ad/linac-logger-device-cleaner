@@ -1,0 +1,8 @@
+device_list/create/read ldl file='output/linac_logger_unique_devices.txt'
+
+device_list/size/output=variable:list_length ldl
+
+loop list_length
+show/logger_lists q:ldl
+device_list/inc ldl
+endloop
