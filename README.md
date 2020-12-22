@@ -8,6 +8,12 @@ ACL is required to get the rates from the data logger lists associated with the 
 
 ## Workflow
 
+### Generate a list of linac data logger devices
+
+[`./linac_logger_devices.acl`](./linac_logger_devices.acl) generates five files. A file for each Linac logger node, in the format `./output/linac_logger_devices_<logger-name>.txt`, and a file with all the devices from all the nodes, [`./output/linac_logger_devices.txt`](./output/linac_logger_devices.txt).
+
+---
+
 Note: We don't have a method for getting the initial list of devices in the [`./data_logger_device_dump`](./data_logger_device_dump) directory. We should find a way to create these files for posterity.
 
 Running `python3 parse_data_logger_devices.py` uses the files in the [`./data_logger_device_dump`](./data_logger_device_dump) directory to produce [`./output/linac_logger_unique_devices.txt`](./output/linac_logger_unique_devices.txt).

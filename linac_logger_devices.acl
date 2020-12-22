@@ -1,0 +1,26 @@
+# Get devices from each logger
+loggerListDevices('Linac', 'all', linac_devs)
+loggerListDevices('Lina2', 'all', lina2_devs)
+loggerListDevices('Lina3', 'all', lina3_devs)
+loggerListDevices('Lina4', 'all', lina4_devs)
+
+# Write devices to logger and summary files
+loopForEach linac_devs linacDev
+    print/output='output/linac_logger_devices.txt' linacDev
+    print/output='output/linac_logger_devices_linac.txt' linacDev
+endloop
+
+loopForEach lina2_devs linacDev
+    print/output='output/linac_logger_devices.txt' linacDev
+    print/output='output/linac_logger_devices_lina2.txt' linacDev
+endloop
+
+loopForEach lina3_devs linacDev
+    print/output='output/linac_logger_devices.txt' linacDev
+    print/output='output/linac_logger_devices_lina3.txt' linacDev
+endloop
+
+loopForEach lina4_devs linacDev
+    print/output='output/linac_logger_devices.txt' linacDev
+    print/output='output/linac_logger_devices_lina4.txt' linacDev
+endloop
