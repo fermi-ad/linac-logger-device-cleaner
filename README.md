@@ -38,3 +38,24 @@ Those resulting files can be combined using `cat output/node_devices/* > output/
 
 [`./validate_devices.acl`](./validate_devices.acl) is then used to validate that the devices in [`./output/area_linac_nodes_devices_no_z.txt`](./output/area_linac_nodes_devices_no_z.txt) aren't deleted or obsolete, producing [`./output/area_linac_nodes_devices_valid.txt`](./output/area_linac_nodes_devices_valid.txt).
 
+### Strategy comparison
+
+The machine field strategy results in 8532 devices.
+
+The area field strategy results in 9057 devices.
+
+## TODOs
+
+### Questions to answer
+
+- What and how many are all the Linac devices?
+- What and how many Linac devices are logged?
+  - [`./output/linac_logger_drf_requests.txt`](./output/linac_logger_drf_requests.txt)
+
+### Strategies to validate
+
+- `L:%`
+- Node database area field
+- Node database system field
+- Device database machine field
+- Data logger databases devices
