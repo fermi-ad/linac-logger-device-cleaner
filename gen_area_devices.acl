@@ -1,0 +1,32 @@
+# Thanks for Brian Hendricks for providing a significant shortcut with this script
+
+# Using /read produces only valid devices
+deviceList/create/read devs area=Linac
+
+print 'Num Linac devices = ' sizeof(deviceList=devs)
+
+numLoggedDevices = 0
+numUnloggedDevices = 0
+
+# Loop through all devices
+loop sizeof(deviceList=devs)
+    print/output='output/area_linac_devices.txt' name(Q:DEVS)
+
+    # Get device logging info
+    numLogged = whereDeviceIsLogged(Q:DEVS)
+
+    # Device is being logged
+    if numLogged > 0
+        print/output='output/area_logged_linac_devices.txt' name(Q:DEVS)
+        numLoggedDevices++
+    else
+        print/output='output/area_unlogged_linac_devices.txt' name(Q:DEVS)
+        numUnloggedDevices++
+    endIf
+
+    # Increment to the next device in the list
+    deviceList/inc devs
+endLoop
+
+print 'Num logged Linac devices = ' numLoggedDevices
+print 'Num Linac devices not logged = ' numUnloggedDevices

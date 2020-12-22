@@ -1,0 +1,9 @@
+node_info/no_display/nodes=linac_nodes area=linac/status=active/status_not=test 
+
+loopForEach linac_nodes linac_node
+    print/output='area_linac_nodes.txt' linac_node
+    filename = 'node_devices/' + toString(linac_node) + '.txt'
+    list/no_display/no_title/no_header/output=file:filename node=linac_node "%nm"
+endloop
+
+

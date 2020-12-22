@@ -1,0 +1,7 @@
+device_list/create/read ld file='output/area_linac_nodes_devices_no_z.txt'
+
+loop sizeof(deviceList=ld)
+    print/output='output/area_linac_nodes_devices_valid.txt' name(Q:LD)
+    device_list/inc ld
+endloop
+
