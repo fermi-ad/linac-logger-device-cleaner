@@ -9,46 +9,15 @@ re_loggers = re.compile(r'\s+Lina[c234]\s+')
 re_device = re.compile(r'^\w[:|_]\w{1,14}\[*\d*\]*$')
 column_width = 37
 project_dir = Path('.')
-input_dir = os.path.join(project_dir, 'data_logger_device_dump')
+input_dir = os.path.join(project_dir, 'output')
 output_dir = os.path.join(project_dir, 'output')
-
 
 def read_input():
     output = []
-
-    for filepath in glob.glob(os.path.join(input_dir, '*.bin')):
+    for filepath in glob.glob(os.path.join(input_dir, 'linac_logger_devices.txt')):
         with open(filepath) as f:
-            output = parse_columns(f)
-
+            output = f.read().splitlines()
     return output
-
-
-def parse_columns(input, column_count=3):
-    output = []
-
-    for line in input:
-        stripped_line = line.strip()
-        if len(stripped_line) != 0:
-            for i in range(column_count):
-                start = i * column_width
-                end = i * column_width + column_width
-                stripped_column = line[start:end].strip(' +*')
-                column = re_loggers.split(stripped_column)
-
-                if stripped_column != "":
-                    output.append(column)
-
-    return output
-
-
-def get_column(input, column_index=0):
-    output = []
-
-    for line in input:
-        output.append(line[column_index])
-
-    return output
-
 
 def validate_devices(input):
     output = []
@@ -56,24 +25,21 @@ def validate_devices(input):
     for device in input:
         if re_device.match(device):
             output.append(device)
-
     return output
-
 
 def write_output(filename, output):
     with open(os.path.join(output_dir, filename), 'w+') as f:
         for line in output:
             f.write(line + '\n')
 
-
 def main():
     devices_rates = read_input()
-    devices = get_column(devices_rates)
-    unique_devices = list(set(devices))
+    unique_devices = list(set(devices_rates))
+    print(len(unique_devices))
     valid_devices = validate_devices(unique_devices)
-
-    write_output('linac_logger_unique_devices.txt', valid_devices)
-
+    
+    write_output('linac_logger_unique_devices.txt', unique_devices)
+    write_output('linac_logger_valid_devices.txt', valid_devices)
 
 if __name__ == "__main__":
     main()
