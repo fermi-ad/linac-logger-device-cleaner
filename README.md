@@ -8,7 +8,7 @@ ACL is required to get the rates from the data logger lists associated with the 
 
 ## Workflow
 
-### Generate a list of linac data logger devices
+### Generate a list of Linac data logger devices
 
 [`./linac_logger_devices.acl`](./linac_logger_devices.acl) generates five files. A file for each Linac logger node, in the format `./output/linac_logger_devices_<logger-name>.txt`, and a file with all the devices from all the nodes, [`./output/linac_logger_devices.txt`](./output/linac_logger_devices.txt).
 
@@ -17,6 +17,12 @@ ACL is required to get the rates from the data logger lists associated with the 
 Executing `python parse_data_logger_devices.py` generates two files [`./output/linac_logger_unique_devices.txt`](./output/linac_logger_unique_devices.txt) and [`./output/linac_logger_valid_devices.txt`](./output/linac_logger_valid_devices.txt).
 
 The validation step uses regular expressions to match the standard device database naming convention.
+
+### Generate a list of Linac data logger requests
+
+Using acl [`./linac_logger_lists.acl`](./linac_logger_lists.acl) we can query the data loggers for the request rates of Linac logger devices. This script produces [`./output/linac_logger_rates.txt`](./output/linac_logger_rates.txt).
+
+The output from above is used to generate [DRF](https://www-bd.fnal.gov/controls/public/drf2/) requests for the persistent ML data pipeline using [`./parse_acl_logger_rates.py`](./parse_acl_logger_rates.py).
 
 ---
 
