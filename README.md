@@ -14,7 +14,7 @@ ACL is required to get the rates from the data logger lists associated with the 
 
 ### Find unique devices and validate them
 
-Executing `python parse_data_logger_devices.py` generates two files [`./output/linac_logger_unique_devices.txt`] and [./output/linac_logger_valid_devices.txt].
+Executing `python parse_data_logger_devices.py` generates two files [`./output/linac_logger_unique_devices.txt`](./output/linac_logger_unique_devices.txt) and [`./output/linac_logger_valid_devices.txt`](./output/linac_logger_valid_devices.txt).
 
 The validation step uses regular expressions to match the standard device database naming convention.
 
