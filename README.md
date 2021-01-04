@@ -2,6 +2,12 @@
 
 This project was used to produce a list of valid and unique devices that are being data logged.
 
+## Download device requests file
+
+The device requests file is versioned to make explicit what requests are being made. The data analysis team can associate a specific version of the device requests file with the analysis performed.
+
+Releases are managed with tagged commits. The latest release can be accessed at [https://github.com/fermi-controls/linac-logger-device-cleaner/releases/latest](https://github.com/fermi-controls/linac-logger-device-cleaner/releases/latest) and the device requests file can be directly downloaded here [https://github.com/fermi-controls/linac-logger-device-cleaner/releases/latest/download/linac_logger_drf_requests.txt](https://github.com/fermi-controls/linac-logger-device-cleaner/releases/latest/download/linac_logger_drf_requests.txt).
+
 ## Requirements
 
 ACL is required to get the rates from the data logger lists associated with the devices.
