@@ -19,14 +19,6 @@ def read_input():
             output = f.read().splitlines()
     return output
 
-def validate_devices(input):
-    output = []
-
-    for device in input:
-        if re_device.match(device):
-            output.append(device)
-    return output
-
 def write_output(filename, output):
     with open(os.path.join(output_dir, filename), 'w+') as f:
         for line in output:
@@ -36,10 +28,8 @@ def main():
     devices_rates = read_input()
     unique_devices = list(set(devices_rates))
     print(len(unique_devices))
-    valid_devices = validate_devices(unique_devices)
-    
+
     write_output('linac_logger_unique_devices.txt', unique_devices)
-    write_output('linac_logger_valid_devices.txt', valid_devices)
 
 if __name__ == "__main__":
     main()
