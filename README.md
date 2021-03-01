@@ -16,27 +16,17 @@ ACL is required to get the rates from the data logger lists associated with the 
 
 ### Generate a list of Linac data logger devices
 
-[`./linac_logger_devices.acl`](./linac_logger_devices.acl) generates five files. A file for each Linac logger node, in the format `./output/linac_logger_devices_<logger-name>.txt`, and a file with all the devices from all the nodes, [`./output/linac_logger_devices.txt`](./output/linac_logger_devices.txt).
+[`./linac_logger_devices.acl`](./linac_logger_devices.acl) generates a file with all the devices from all the nodes, [`./output/linac_logger_devices.txt`](./output/linac_logger_devices.txt).
 
-### Find unique devices and validate them
+### Find unique devices
 
-Executing `python parse_data_logger_devices.py` generates two files [`./output/linac_logger_unique_devices.txt`](./output/linac_logger_unique_devices.txt) and [`./output/linac_logger_valid_devices.txt`](./output/linac_logger_valid_devices.txt).
-
-The validation step uses regular expressions to match the standard device database naming convention.
+Executing `python parse_data_logger_devices.py` generates [`./output/linac_logger_unique_devices.txt`](./output/linac_logger_unique_devices.txt).
 
 ### Generate a list of Linac data logger requests
 
 Using acl [`./linac_logger_lists.acl`](./linac_logger_lists.acl) we can query the data loggers for the request rates of Linac logger devices. This script produces [`./output/linac_logger_rates.txt`](./output/linac_logger_rates.txt).
 
-The output from above is used to generate [DRF](https://www-bd.fnal.gov/controls/public/drf2/) requests for the persistent ML data pipeline using [`./parse_acl_logger_rates.py`](./parse_acl_logger_rates.py).
-
----
-
-Note: We don't have a method for getting the initial list of devices in the [`./data_logger_device_dump`](./data_logger_device_dump) directory. We should find a way to create these files for posterity.
-
-Running `python3 parse_data_logger_devices.py` uses the files in the [`./data_logger_device_dump`](./data_logger_device_dump) directory to produce [`./output/linac_logger_unique_devices.txt`](./output/linac_logger_unique_devices.txt).
-
-The output from above can be used as a device list with `acl linac_logger_lists.acl > output/linac_logger_rates.txt` to produce [`./output/linac_logger_rates.txt`](./output/linac_logger_rates.txt).
+The output from above is used to generate [DRF](https://www-bd.fnal.gov/controls/public/drf2/) requests for the persistent ML data pipeline using [`./parse_acl_logger_rates.py`](./parse_acl_logger_rates.py) to output [`./output/linac_logger_drf_requests.txt`](./output/linac_logger_drf_requests.txt).
 
 ### Duplicate device count
 
@@ -70,11 +60,18 @@ The area field strategy results in 9057 devices.
 
 ## TODOs
 
+- Only use the highest periodic rate for a device.
+- Account for different properties in the datalogger.
+  - Currently we assume that all entries are logged on their reading.
+
 ### Questions to answer
 
 - What and how many are all the Linac devices?
 - What and how many Linac devices are logged?
   - [`./output/linac_logger_drf_requests.txt`](./output/linac_logger_drf_requests.txt)
+- Do we keep event based logging?
+  - How do we determine the rate of events?
+- What do we do when the devices in the logger changes?
 
 ### Strategies to validate
 
