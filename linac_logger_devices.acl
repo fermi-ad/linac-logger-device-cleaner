@@ -1,26 +1,20 @@
-# Get devices from each logger
-loggerListDevices('Linac', 'all', linac_devs)
-loggerListDevices('Lina2', 'all', lina2_devs)
-loggerListDevices('Lina3', 'all', lina3_devs)
-loggerListDevices('Lina4', 'all', lina4_devs)
+declare loggers string[] = 'Linac', 'Lina2', 'Lina3', 'Lina4'
 
-# Write devices to logger and summary files
-loopForEach linac_devs linacDev
-    print/output='output/linac_logger_devices.txt' linacDev
-    print/output='output/linac_logger_devices_linac.txt' linacDev
-endloop
+loopForEach loggers logger
+    loggerListDevices(logger, 'all', devices,,, properties, indicies)
 
-loopForEach lina2_devs linacDev
-    print/output='output/linac_logger_devices.txt' linacDev
-    print/output='output/linac_logger_devices_lina2.txt' linacDev
-endloop
+    loop sizeOf(devices) deviceIndex
+        str_format index_string indicies[deviceIndex]
+        request = devices[deviceIndex]
 
-loopForEach lina3_devs linacDev
-    print/output='output/linac_logger_devices.txt' linacDev
-    print/output='output/linac_logger_devices_lina3.txt' linacDev
-endloop
+        if properties[deviceIndex] != 'PRREAD'
+            request = request + '.' + properties[deviceIndex]
+        endif
+        if index_string != '0'
+            request = request + '[' + index_string + ']'
+        endif
 
-loopForEach lina4_devs linacDev
-    print/output='output/linac_logger_devices.txt' linacDev
-    print/output='output/linac_logger_devices_lina4.txt' linacDev
+        print request
+        print/output='output/linac_logger_devices.txt' request
+    endloop
 endloop
