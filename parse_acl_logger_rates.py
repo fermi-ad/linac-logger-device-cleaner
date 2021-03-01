@@ -17,10 +17,36 @@ def read_input(filename):
 
 
 def drf(input):
-    output = []
+    event_requests = []
+    fastest = {}
 
-    for group in input:
-        output.append(group[0] + '@' + group[1])
+    for (device, rate) in input:
+        # Append `.BIT_VALUE` for status requests
+        # This is required to return the entire status word
+        if device[1] == '|':
+            device += '.BIT_VALUE'
+
+        # Pass through event based rates.
+        if rate.startswith('e'):
+            event_requests.append(f'{device}@{rate}')
+            continue
+
+        # Before caching each device check the existing cache for a similar device
+        if device in fastest:
+            current_ms = int(rate.split(',')[1])
+            existing_ms = int(fastest[device].split(',')[1])
+
+            # If the device already exists, is the rate faster (lower)
+            if current_ms < existing_ms:
+                # Keep the fastest request
+                fastest[device] = rate
+        else:
+            # If we haven't seen the device, add it to the dict.
+            fastest[device] = rate
+
+    periodic_requests = [f'{k}@{v}' for (k,v) in fastest.items()]
+    output = event_requests + periodic_requests
+    output.sort()
 
     return output
 
