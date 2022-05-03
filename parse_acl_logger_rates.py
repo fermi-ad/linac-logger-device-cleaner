@@ -9,7 +9,7 @@ re_device_rate = re.compile(
 project_dir = Path('.')
 input_file = os.path.join(project_dir, 'output', 'linac_logger_rates.txt')
 output_dir = os.path.join(project_dir, 'output')
-
+seting = []
 
 def read_input(filename):
     with open(filename) as f:
@@ -46,9 +46,14 @@ def drf(input):
 
     periodic_requests = [f'{k}@{v}' for (k,v) in fastest.items()]
     output = event_requests + periodic_requests
-    output.sort()
-
-    return output
+    for req in output:
+	    if req.find(':') > 0:
+		    output.append(req.replace(':','_').partition('@')[0])
+    
+    #output.sort()
+    unique_output = list(set(output))
+    unique_output.sort()
+    return unique_output
 
 
 def write_output(filename, output):
@@ -61,7 +66,8 @@ def main():
     raw_logger_rates = read_input(input_file)
     device_rates = re_device_rate.findall(raw_logger_rates)
     drfs = drf(device_rates)
-    write_output('linac_logger_drf_requests.txt', drfs)
+    #write_output('linac_logger_drf_requests.txt', drfs)
+    write_output('test_drf_requests.txt', drfs)
 
 
 if __name__ == "__main__":

@@ -26,10 +26,18 @@ def write_output(filename, output):
 
 def main():
     devices_rates = read_input()
+    #devices_rates.append("L:Q13")
     unique_devices = list(set(devices_rates))
+    for dev in unique_devices:
+	    if dev.find(':') == 1 and dev.find('.') < 0:
+		    unique_devices.append(dev.replace(':','_'))
+    
+    unique_devices.sort()
     print(len(unique_devices))
 
-    write_output('linac_logger_unique_devices.txt', unique_devices)
-
+    #write_output('linac_logger_unique_devices.txt', unique_devices)
+    write_output('test_devices.txt', unique_devices)
+	
+	
 if __name__ == "__main__":
     main()
