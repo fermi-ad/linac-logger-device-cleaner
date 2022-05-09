@@ -44,13 +44,13 @@ def drf(input):
             # If we haven't seen the device, add it to the dict.
             fastest[device] = rate
 
-    periodic_requests = [f'{k}@{v}' for (k,v) in fastest.items()]
+    periodic_requests = [f'{k}@{v}' for (k, v) in fastest.items()]
     output = event_requests + periodic_requests
 
     # Create a setting request ("_") for every reading request (":")
     for req in output:
         if req[1] == ':':
-            output.append(req.replace(':','_', 1).partition('@')[0])
+            output.append(req.replace(':', '_', 1).partition('@')[0])
 
     # Pass the output through a set to remove duplicates
     unique_output = list(set(output))

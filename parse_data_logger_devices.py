@@ -12,6 +12,7 @@ project_dir = Path('.')
 input_dir = os.path.join(project_dir, 'output')
 output_dir = os.path.join(project_dir, 'output')
 
+
 def read_input():
     output = []
     for filepath in glob.glob(os.path.join(input_dir, 'linac_logger_devices.txt')):
@@ -19,10 +20,12 @@ def read_input():
             output = f.read().splitlines()
     return output
 
+
 def write_output(filename, output):
     with open(os.path.join(output_dir, filename), 'w+') as f:
         for line in output:
             f.write(line + '\n')
+
 
 def main():
     devices_rates = read_input()
@@ -30,6 +33,7 @@ def main():
     print(len(unique_devices))
 
     write_output('linac_logger_unique_devices.txt', unique_devices)
+
 
 if __name__ == "__main__":
     main()
