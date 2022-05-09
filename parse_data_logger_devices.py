@@ -4,8 +4,8 @@
 
 import glob
 import os
-from pathlib import Path
 import re
+from pathlib import Path
 
 re_loggers = re.compile(r'\s+Lina[c234]\s+')
 re_device = re.compile(r'^\w[:|_]\w{1,14}\[*\d*\]*$')

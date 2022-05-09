@@ -3,8 +3,8 @@
 """Transform acl logger rates to drf requests"""
 
 import os
-from pathlib import Path
 import re
+from pathlib import Path
 
 re_device_rate = re.compile(
     r'(\w[:|_]\w{1,14}\[*\d*\]*)\s+Lina[c234]\s+.*\s+\d+\s(.*)')
