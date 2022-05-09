@@ -9,7 +9,7 @@ re_device_rate = re.compile(
 project_dir = Path('.')
 input_file = os.path.join(project_dir, 'output', 'linac_logger_rates.txt')
 output_dir = os.path.join(project_dir, 'output')
-seting = []
+
 
 def read_input(filename):
     with open(filename) as f:
@@ -46,13 +46,17 @@ def drf(input):
 
     periodic_requests = [f'{k}@{v}' for (k,v) in fastest.items()]
     output = event_requests + periodic_requests
+
+    # Create a setting request ("_") for every reading request (":")
     for req in output:
-	    if req.find(':') > 0:
-		    output.append(req.replace(':','_').partition('@')[0])
-    
-    #output.sort()
+        if req[1] == ':':
+            output.append(req.replace(':','_', 1).partition('@')[0])
+
+    # Pass the output through a set to remove duplicates
     unique_output = list(set(output))
+    # Sort the output by device name for easier reading and comparison
     unique_output.sort()
+
     return unique_output
 
 
