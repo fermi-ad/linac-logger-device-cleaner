@@ -1,12 +1,7 @@
-import pandas as pd
-import urllib
-import time
-import datetime
-from dateutil import parser as dtpars
-from urllib.request import urlopen
+#!/usr/bin/env python3
 import argparse
+import pandas as pd
 from pathlib import Path
-from io import StringIO
 
 ### Make a CLI argument parser
 parser = argparse.ArgumentParser(description="usage: %prog [options] <haystack.txt> --needlefile \n")
@@ -20,7 +15,7 @@ parser.add_argument ('--maxcount',  dest='maxcount', default=-1,
 parser.add_argument ('--outdir',  dest='outdir', default='',
                      help="Directory to write final output file. (default: pwd)")
 parser.add_argument ('--needlefile',  dest='needle_filename', default='',
-                     help="[Path and] file name of needles to be found in DRF requests (default: '')")
+                     help="[Path and] file name of known-problematic DRF requests (default: '')")
 parser.add_argument ('--logfile',  dest='log_filename', default='',
                      help="[Path and] file name of logs to be found in DRF requests (default: '')")
 
@@ -44,8 +39,9 @@ print (f'\n__Analysis of DRF file {DRF_file}__')
 haystack_devices = []
 # Get the list of parameter names 
 with open(DRF_file, 'r') as DRF_lines:
-    for linecount, drf_line in enumerate(DRF_lines):
-        if maxcount > 0 and linecount > maxcount: break
+    for lineindex, drf_line in enumerate(DRF_lines):
+        if debug: print (f'Looping lines of {DRF_file}.  Lineindex: {lineindex} and maxcount:{maxcount}')
+        if maxcount >= 0 and (lineindex+1) > maxcount: break
         drf_line = drf_line.strip()
         devicename = drf_line.split('@')[0] # The part before the @
         haystack_devices.append(devicename)
@@ -62,9 +58,8 @@ needles_notfound = []
 needles_notsettings = []
 if needle_filename != '':
     needle_cols = ['device_name','description','location','station','comment','ignore']
-    needle_df = pd.read_csv(needle_filename, skiprows=0, names=needle_cols)
+    needle_df = pd.read_csv(needle_filename, skiprows=0, names=needle_cols, dtype={'device_name': str})
     if debug: print (needle_df)
-    needles_found = []
     for needle_i, needle_row in needle_df.loc[needle_df['ignore'] == '1'].iterrows():
         needle_name = needle_row[0]
         if len(needle_name)<1: continue
@@ -79,10 +74,10 @@ if needle_filename != '':
         else: needles_notfound.append(needle_name)
     print (f'\n__Analysis of proposed list to ignore from {needle_filename}:__')
     print (f'{len(needles_found)} devices marked "ignore" found.')
-    Zcount_needles = sum(1 for devicename in needle_df.device_name if isinstance(devicename,str) and devicename.startswith('Z'))
+    Zcount_needles = sum(1 for devicename in needle_df.device_name if devicename.startswith('Z'))
     print (f'({Zcount_needles} starting with Z)')
     print (f'\--> {len(needles_notsettings)} devices marked "ignore" and which have "set" in their row somewhere')
-    Zcount_NonSetneedles = sum(1 for devicename in needles_notsettings if isinstance(devicename,str) and devicename.startswith('Z'))
+    Zcount_NonSetneedles = sum(1 for devicename in needles_notsettings if devicename.startswith('Z'))
     print (f'({Zcount_NonSetneedles} starting with Z)')
 
 # Process the log file, if specified.
@@ -91,10 +86,10 @@ device_error_tallies = {}
 device_error_tally_Z = 0
 
 if log_filename != '':
-    ACNET_error_file = open('ACNET_no_such_property.txt', 'w')
-    with open(log_filename, 'r') as logfile:
+    with open('ACNET_no_such_property.txt', 'w', encoding='utf8') as ACNET_error_file, open(log_filename, 'r', encoding='utf8') as logfile:
         for logline_i, log_line in enumerate(logfile):
-            if maxcount > 0 and logline_i > maxcount: break
+            if debug: print (f'Looping lines of ACNET_no_such_property.txt.  logline_i: {logline_i} and maxcount:{maxcount}')
+            if maxcount >= 0 and (logline_i+1) > maxcount: break
             logline = log_line.strip()
             if logline.count(ACNET_NOT_FOUND) > 0:
                 # Extract the last word, hopefully a device name
@@ -105,7 +100,6 @@ if log_filename != '':
                     if logdevice.startswith('Z'): device_error_tally_Z += 1
                 else: device_error_tallies[logdevice] += 1
     # Summarize some analysis of the devices garnering these error codes
-    ACNET_error_file.close()
     print (f'\n__Analysis of nanny log file__ :')
     # Sort by tallies, highest to lowest
     device_error_tallies = dict(sorted(device_error_tallies.items(), key=lambda item: item[1], reverse=True))
@@ -139,8 +133,9 @@ ZDevices___________ANDNonSettingsToIgnoreANDNoSuchProperty16_13 = []
 devicestodrop = []
 uncounted = 0
 with open(DRF_file, 'r') as DRF_lines, open(DRF_file+'NEW', 'w') as newfile:
-    for linecount, drf_line in enumerate(DRF_lines):
-        if maxcount > 0 and linecount > maxcount: break
+    for lineindex, drf_line in enumerate(DRF_lines):
+        if debug: print (f'Summarizing analyses.  lineindex: {lineindex} and maxcount:{maxcount}')
+        if maxcount >= 0 and (lineindex+1) > maxcount: break
         drf_line = drf_line.strip()
         devicename = drf_line.split('@')[0] # The part before the @
         if devicename.startswith('Z') or devicename in needles_notsettings or devicename in device_error_tallies.keys():
@@ -167,7 +162,6 @@ with open(DRF_file, 'r') as DRF_lines, open(DRF_file+'NEW', 'w') as newfile:
             ZDevices___________ANDNonSettingsToIgnoreANDNoSuchProperty16_13.append(devicename)
         else: uncounted += 1
     # Close the loop over DRF file lines.
-    newfile.close()
 
 print ('__Summary__')
 print ('\n DeviceCount  | ZDevices___________ | NonSettingsToIgnore | NoSuchProperty16_13 |')
