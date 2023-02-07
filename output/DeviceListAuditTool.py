@@ -18,6 +18,9 @@ parser.add_argument ('--needlefile',  dest='needle_filename', default='',
                      help="[Path and] file name of known-problematic DRF requests (default: '')")
 parser.add_argument ('--logfile',  dest='log_filename', default='',
                      help="[Path and] file name of logs to be found in DRF requests (default: '')")
+parser.add_argument ('--save-removed',  dest='save_removed', action="store_true", default=False,
+                     help="Option to save files of devices removed, one file for each independent removal decision (default: False)")
+
 
 ### Get the options and argument values from the parser....
 options = parser.parse_args()
@@ -27,12 +30,14 @@ maxcount  = int(options.maxcount)
 outdir    = options.outdir
 needle_filename = options.needle_filename
 log_filename = options.log_filename
+save_removed = bool(options.save_removed)
 
 # Get the current directory of execution
 abspath = Path().absolute()
 current_dir = str(abspath)
 
 if outdir == '': outdir = current_dir
+if save_removed: ZdeviceFile = open('Z_Devices.txt', 'w')
 
 print (f'\n__Analysis of DRF file {DRF_file}__')
 # Mine the haystack file for the list of devices
@@ -45,11 +50,13 @@ with open(DRF_file, 'r') as DRF_lines:
         drf_line = drf_line.strip()
         devicename = drf_line.split('@')[0] # The part before the @
         haystack_devices.append(devicename)
+        if save_removed and devicename.startswith('Z'): ZdeviceFile.write(drf_line+'\n')
 
 if debug: print ('List of DRF device names: ',haystack_devices)
 print (f'There are {len(haystack_devices)} entries in device reference file.')
 Zcount_haystack = sum(1 for devicename in haystack_devices if devicename.startswith('Z'))
 print (f'({Zcount_haystack} starting with Z)')
+if save_removed: ZdeviceFile.close()
 
 # Process all the needles, even if it means finding each in the haystack
 needle_df = {}
@@ -58,8 +65,9 @@ needles_notfound = []
 needles_notsettings = []
 if needle_filename != '':
     needle_cols = ['device_name','description','location','station','comment','ignore']
-    needle_df = pd.read_csv(needle_filename, skiprows=0, names=needle_cols, dtype={'device_name': str})
+    needle_df = pd.read_csv(needle_filename, skiprows=0, names=needle_cols, converters={'device_name': str})
     if debug: print (needle_df)
+    if save_removed: RemovedNeedlesFile = open('ProblematicDevicesRemoved.txt','w')
     for needle_i, needle_row in needle_df.loc[needle_df['ignore'] == '1'].iterrows():
         needle_name = needle_row[0]
         if len(needle_name)<1: continue
@@ -69,6 +77,8 @@ if needle_filename != '':
             for row_i, col in enumerate(needle_row):
                 smush += ' '+str(col).casefold()
             if debug: print (smush)
+            if save_removed: RemovedNeedlesFile.write(f'{needle_name}\n')
+                        
             if smush.count('set') >= 0: 
                 needles_notsettings.append(needle_name)
         else: needles_notfound.append(needle_name)
@@ -79,6 +89,7 @@ if needle_filename != '':
     print (f'\--> {len(needles_notsettings)} devices marked "ignore" and which have "set" in their row somewhere')
     Zcount_NonSetneedles = sum(1 for devicename in needles_notsettings if devicename.startswith('Z'))
     print (f'({Zcount_NonSetneedles} starting with Z)')
+    if save_removed: RemovedNeedlesFile.close()
 
 # Process the log file, if specified.
 ACNET_NOT_FOUND = 'Status reply [16 -13]'
@@ -180,3 +191,4 @@ print (f' {len(ZDevices___________)+len(ZDevices___________ANDNonSettingsToIgnor
 print (f' {len(needles_notsettings)} devices we think we should ignore anyway, and')
 print (f' {len(device_error_tallies.keys())} devices which reliably give {ACNET_NOT_FOUND} in the nanny log.')
 print (f'The resulting {DRF_file} would be {len(AllGood)} devices')
+
