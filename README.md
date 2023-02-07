@@ -58,6 +58,14 @@ The machine field strategy results in 8532 devices.
 
 The area field strategy results in 9057 devices.
 
+### Remove Z devices; Remove devices from a list to be ignored; Remove devices giving [16 -13] errors.
+
+The script `output/DeviceListAuditTool.py` produces a proposed new copy of a given device list file with at least the `Z*` devices removed.
+- Optionally takes a file such as `nanny.log`, identifies (and counts occurrences) of `[16 -13]` "No such property" error codes, and removes those devices in the proposed new list.
+- Optionally takes a csv file of devices to ignore, and removes those devices in the proposed new list.
+- Produces a numeric breakdown of the counts of devices removed for any one, two, or three of these reasons.
+  - Optionally produce files listing devices removed by each of these list refinements.
+
 ## TODOs
 
 - Only use the highest periodic rate for a device.
